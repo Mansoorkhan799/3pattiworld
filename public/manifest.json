@@ -1,0 +1,23 @@
+{
+  "name": "3 Patti World",
+  "short_name": "3 Patti World",
+  "description": "Pakistan's premier Teen Patti gaming platform. Earn real cash with JazzCash & EasyPaisa. Earn real cash rewards!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06091F",
+  "theme_color": "#06091F",
+  "icons": [
+    {
+      "src": "/3-patti-world-logo.webp",
+      "sizes": "192x192 512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/3-patti-world.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ]
+} 
