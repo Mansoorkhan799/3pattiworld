@@ -1,0 +1,114 @@
+import { Metadata } from 'next';
+import Link from 'next/link';
+import { DOWNLOAD_APP_URL } from '@/lib/constants';
+import BlogPostSchema from '@/components/BlogPostSchema';
+
+export const metadata: Metadata = {
+  title: '3 Patti World Latest Version New Features and 2026 Updates',
+  description: 'Discover the latest 3 Patti World version v1.152 - new features, 2026 updates, UI improvements, performance fixes, and what\'s new for Pakistan players.',
+  keywords: ['3 Patti World latest version', '3 Patti World 2026 updates', '3 Patti World new features', '3 Patti World APK update', 'Teen Patti World 2026'],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://3pattiworldapp.com.pk/blog/3patti-world-latest-version-new-features-2026-updates',
+  },
+  openGraph: {
+    title: '3 Patti World Latest Version New Features and 2026 Updates',
+    description: 'Discover the latest 3 Patti World version - new features, 2026 updates, and improvements for Pakistan players.',
+    type: 'article',
+    publishedTime: '2026-02-20T00:00:00Z',
+    authors: ['3 Patti World Team'],
+  },
+};
+
+export default function LatestVersionPage() {
+  return (
+    <>
+      <BlogPostSchema
+        title="3 Patti World Latest Version New Features and 2026 Updates"
+        description="Discover the latest 3 Patti World version v1.152 - new features, 2026 updates, UI improvements, and what's new for Pakistan players."
+        slug="3patti-world-latest-version-new-features-2026-updates"
+        datePublished="2026-02-20"
+      />
+      <div className="min-h-screen bg-[#060A20]">
+        <div className="container mx-auto px-4 py-12">
+          <div className="mb-6">
+            <Link href="/blog" className="text-accent hover:text-accent font-semibold inline-flex items-center">
+              <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              </svg>
+              Back to Blog
+            </Link>
+          </div>
+
+          <div className="max-w-4xl mx-auto">
+            <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white">
+              3 Patti World Latest Version: New Features and 2026 Updates
+            </h1>
+
+            <div className="prose prose-lg max-w-none">
+              <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
+                <p className="text-lg text-gray-300 leading-relaxed mb-0">
+                  <Link href="/" className="text-accent hover:underline font-semibold">3 Patti World</Link> continues to evolve in 2026 with the latest version v1.152(1). This update brings new features, performance improvements, and enhanced gameplay for Pakistan players. Here&apos;s everything you need to know about the latest 3 Patti World version.
+                </p>
+              </div>
+
+              <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
+                <h2 className="text-3xl font-bold mb-8 text-white">What&apos;s New in 3 Patti World v1.152</h2>
+                <div className="space-y-6">
+                  <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
+                    <h3 className="text-xl font-bold mb-3 text-accent">Enhanced Game Performance</h3>
+                    <p className="text-gray-300 leading-relaxed">Faster loading times and smoother gameplay. The app now runs more efficiently on mid-range Android devices, ensuring a lag-free experience during Teen Patti and Rummy sessions.</p>
+                  </div>
+                  <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
+                    <h3 className="text-xl font-bold mb-3 text-accent">Improved Withdrawal Speed</h3>
+                    <p className="text-gray-300 leading-relaxed">JazzCash and EasyPaisa withdrawals are now processed faster. Players report receiving payouts within minutes during peak hours.</p>
+                  </div>
+                  <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
+                    <h3 className="text-xl font-bold mb-3 text-accent">Updated UI and Navigation</h3>
+                    <p className="text-gray-300 leading-relaxed">A refreshed interface makes it easier to switch between Teen Patti, Dragon vs Tiger, Rummy, and other games. New visual indicators for bonuses and rewards.</p>
+                  </div>
+                  <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
+                    <h3 className="text-xl font-bold mb-3 text-accent">Security Enhancements</h3>
+                    <p className="text-gray-300 leading-relaxed">Stronger encryption and better account protection. Two-factor authentication improvements for safer logins.</p>
+                  </div>
+                  <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
+                    <h3 className="text-xl font-bold mb-3 text-accent">New Bonus Structures</h3>
+                    <p className="text-gray-300 leading-relaxed">Updated welcome bonus and recharge rebates. VIP levels now offer better rewards for loyal players.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
+                <h2 className="text-3xl font-bold mb-8 text-white">How to Update 3 Patti World</h2>
+                <p className="text-gray-300 leading-relaxed mb-6">To get the latest version with all new features, <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">download the latest 3 Patti World APK</a> from our official website. If you already have the app, reinstall using the new APK to update. Your account and balance remain safe.</p>
+                <ul className="list-disc pl-6 space-y-3 text-gray-300">
+                  <li>Visit 3pattiworldapp.com.pk and tap Download</li>
+                  <li>Install the new APK over your existing app</li>
+                  <li>Login with your existing account credentials</li>
+                  <li>Enjoy all new features instantly</li>
+                </ul>
+              </div>
+
+              <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 text-center">
+                <h2 className="text-3xl font-bold mb-4 text-white">Get the Latest Version Today</h2>
+                <p className="text-white text-lg mb-8 max-w-2xl mx-auto">Update to 3 Patti World v1.152 and experience the newest features. Download now for free!</p>
+                <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#0A1029] transition-all shadow-2xl">
+                  DOWNLOAD LATEST VERSION
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

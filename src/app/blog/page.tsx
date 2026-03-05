@@ -236,6 +236,62 @@ export default function Blog() {
             Read More →
           </Link>
         </div>
+
+        {/* Latest Version New Features */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
+          <h2 className="text-2xl font-bold mb-4 text-white">3 Patti World Latest Version: New Features and 2026 Updates</h2>
+          <p className="text-gray-300 mb-4">Discover the latest 3 Patti World v1.152 – new features, performance improvements, and 2026 updates for Pakistan players.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 February 2026</span>
+            <span>•</span>
+            <span>6 min read</span>
+          </div>
+          <Link href="/blog/3patti-world-latest-version-new-features-2026-updates" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
+
+        {/* Login Problems and Solutions */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
+          <h2 className="text-2xl font-bold mb-4 text-white">3 Patti World Login Problems and Solutions (2026 Guide)</h2>
+          <p className="text-gray-300 mb-4">Fix login issues: wrong password, OTP not received, account locked, IPS exceed. Step-by-step solutions for Pakistan.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 February 2026</span>
+            <span>•</span>
+            <span>7 min read</span>
+          </div>
+          <Link href="/blog/3patti-world-login-problems-solutions-2026-guide" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
+
+        {/* IPS Exceed How to Fix */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
+          <h2 className="text-2xl font-bold mb-4 text-white">IPS Exceed Issue 3 Patti World: How to Fix</h2>
+          <p className="text-gray-300 mb-4">Fix IPS exceed or IP limit exceeded error. Quick solutions: wait, use mobile data, restart router. Get back to playing fast.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 February 2026</span>
+            <span>•</span>
+            <span>5 min read</span>
+          </div>
+          <Link href="/blog/ips-exceed-issue-3-patti-world-how-to-fix" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
+
+        {/* Ways to Earn Money */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
+          <h2 className="text-2xl font-bold mb-4 text-white">Ways to Earn Money with 3 Patti World in 2026</h2>
+          <p className="text-gray-300 mb-4">All ways to earn: playing Teen Patti, Rummy, referrals, daily bonuses, VIP rewards. Complete earning guide for Pakistan.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 February 2026</span>
+            <span>•</span>
+            <span>8 min read</span>
+          </div>
+          <Link href="/blog/ways-to-earn-money-with-3-patti-world-2026" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
       </div>
     </div>
   );

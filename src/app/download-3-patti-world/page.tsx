@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Download 3 Patti World Game Free APK For Android | Latest Version 2026',
+  title: { absolute: '3 Patti World Pakistan v1.152 Free Download Official APK' },
   description: 'Download 3 Patti World APK free for Android. Play Teen Patti, Rummy, Dragon Tiger & more. Earn real cash with JazzCash & EasyPaisa. Latest version V1.152(1) - 49MB.',
   keywords: [
     'Download 3 Patti World',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     canonical: "https://3pattiworldapp.com.pk/download-3-patti-world",
   },
   openGraph: {
-    title: 'Download 3 Patti World Game Free APK For Android',
+    title: '3 Patti World Pakistan v1.152 Free Download Official APK',
     description: 'Download 3 Patti World APK free. Play Teen Patti, Rummy & more. Earn real cash with secure payments. 500K+ downloads!',
     url: "https://3pattiworldapp.com.pk/download-3-patti-world",
     siteName: "3 Patti World",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: 'Download 3 Patti World Game Free APK For Android',
+    title: '3 Patti World Pakistan v1.152 Free Download Official APK',
     description: 'Download 3 Patti World APK free. Play Teen Patti, Rummy & more. Earn real cash with secure payments. 500K+ downloads!',
     images: ["https://3pattiworldapp.com.pk/3-patti-world-logo.webp"],
   },
