@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: "3 Patti World Download APK (Earning Game) v1.152(1) For Android 2026",
+    default: "3 Patti World Pakistan v1.152 Free Download Official APK",
     template: "%s | 3 Patti World"
   },
   description: "3 Patti World 2026 - Download Teen Patti World APK for Android. Play with friends, earn real cash, enjoy smooth gameplay. Millions of players love 3Patti World for daily rewards. JazzCash & EasyPaisa withdrawals.",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "EasyPaisa gaming"
   ],
   openGraph: {
-    title: '3 Patti World Download APK (Earning Game) v1.152(1) For Android 2026',
+    title: '3 Patti World Pakistan v1.152 Free Download Official APK',
     description: 'Enjoy the fun of 3 Patti World APK. Play Teen Patti, earn real cash, daily rewards. Download for Android. JazzCash & EasyPaisa withdrawals.',
     images: [
       { url: 'https://3pattiworldapp.com.pk/feature/og-image.webp', width: 1200, height: 630, alt: '3 Patti World - Teen Patti Earning Game' },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '3 Patti World Download APK (Earning Game) v1.152(1) For Android 2026',
+    title: '3 Patti World Pakistan v1.152 Free Download Official APK',
     description: 'Enjoy the fun of 3 Patti World APK. Play Teen Patti, earn real cash, daily rewards. Download for Android.',
     images: ['https://3pattiworldapp.com.pk/feature/og-image.webp']
   }
@@ -58,8 +58,7 @@ export default function Home() {
         "url": "https://3pattiworldapp.com.pk/",
         "name": "3 Patti World",
         "description": "Pakistan's premier Teen Patti gaming platform with real cash rewards",
-        "inLanguage": "en-US",
-        "potentialAction": { "@type": "SearchAction", "target": "https://3pattiworldapp.com.pk/?s={search_term_string}", "query-input": "required name=search_term_string" }
+        "inLanguage": "en-US"
       },
       {
         "@type": "Organization",
@@ -90,7 +89,7 @@ export default function Home() {
           { "@type": "Question", "name": "How do I register for an account?", "acceptedAnswer": { "@type": "Answer", "text": "Open the app, tap on the Register option, fill in your details like username, password, and mobile number, then verify with the OTP sent to your phone or email." } },
           { "@type": "Question", "name": "How can I deposit money in the 3Patti World app?", "acceptedAnswer": { "@type": "Answer", "text": "Go to the deposit section in the main menu, choose a payment method (JazzCash, Easypaisa, or Bank Transfer), enter the amount, and submit." } },
           { "@type": "Question", "name": "How do I withdraw my earnings?", "acceptedAnswer": { "@type": "Answer", "text": "Open the withdrawal section, select your preferred payment option, enter the amount, and click submit. The money will be sent to your selected account once verified." } },
-          { "@type": "Question", "name": "What is the welcome bonus?", "acceptedAnswer": { "@type": "Answer", "text": "New users receive a 100 PKR welcome bonus after installing and registering on the app." } },
+          { "@type": "Question", "name": "What is the welcome bonus?", "acceptedAnswer": { "@type": "Answer", "text": "New users receive a 120 PKR welcome recharge bonus after their first deposit in the app." } },
           { "@type": "Question", "name": "Can I earn by referring friends?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, you can share your referral link on platforms like Facebook, Instagram, or Telegram to earn up to 30% commission when your friends join and play." } },
           { "@type": "Question", "name": "What games are available in 3 Patti World?", "acceptedAnswer": { "@type": "Answer", "text": "You can enjoy popular games such as 10 Cards, Ludo, Tiger vs Dragon, Mines, Zoo Roulette, and BlackJack." } },
           { "@type": "Question", "name": "How can I contact customer support?", "acceptedAnswer": { "@type": "Answer", "text": "You can reach out through the in-app support option or by visiting the contact page on the official 3 Patti World website for quick assistance." } }
@@ -213,7 +212,7 @@ export default function Home() {
       {/* About Us */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">About Us?</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">About Us</h2>
           <div className="space-y-6">
             <p className="text-gray-300 leading-relaxed">We are a fast-growing and easy-to-use online gaming platform that gives players many chances to win real rewards. People from all parts of Pakistan can join and try their luck in different games. The app has a big collection of popular games, and new ones are added regularly. It also gives great bonuses and rewards, so players can play more games without spending much. These bonuses help increase your chances of winning. Teen Patti World offers daily check-in rewards, deposit bonuses, referral prizes, and more. The developers keep improving the game to make it smoother, more fun, and better for mobile users.</p>
             <p className="text-gray-300 leading-relaxed">Teen Patti World has become very popular in online gaming because it offers many casino-style games and live gameplay. Many users enjoy it because of its simple design, colorful display, and big rewards. The best part of the game is how enjoyable it is once you start playing; it&apos;s hard to stop!</p>
@@ -538,6 +537,42 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Helpful Guides */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Helpful Guides for 3 Patti World Players</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <Link href="/blog/is-3-patti-world-real-or-fake" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
+              <h3 className="text-white font-semibold mb-2">Is 3 Patti World Real or Fake?</h3>
+              <p className="text-gray-400 text-sm">Find out the truth about legitimacy and payments.</p>
+            </Link>
+            <Link href="/blog/ways-to-earn-money-with-3-patti-world-2026" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
+              <h3 className="text-white font-semibold mb-2">Ways to Earn Money in 2026</h3>
+              <p className="text-gray-400 text-sm">Games, referrals, bonuses, VIP – all earning methods.</p>
+            </Link>
+            <Link href="/blog/tips-to-win-big-in-3-patti-world" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
+              <h3 className="text-white font-semibold mb-2">Tips to Win Big</h3>
+              <p className="text-gray-400 text-sm">Expert strategies for Teen Patti, Rummy, and more.</p>
+            </Link>
+            <Link href="/blog/3patti-world-login-problems-solutions-2026-guide" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
+              <h3 className="text-white font-semibold mb-2">Login Problems & Solutions</h3>
+              <p className="text-gray-400 text-sm">Fix wrong password, OTP, and IPS exceed errors.</p>
+            </Link>
+            <Link href="/blog/ips-exceed-issue-3-patti-world-how-to-fix" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
+              <h3 className="text-white font-semibold mb-2">IPS Exceed Issue – How to Fix</h3>
+              <p className="text-gray-400 text-sm">Quick fixes for IP limit exceeded error.</p>
+            </Link>
+            <Link href="/blog/3patti-world-latest-version-new-features-2026-updates" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
+              <h3 className="text-white font-semibold mb-2">Latest Version & 2026 Updates</h3>
+              <p className="text-gray-400 text-sm">New features in v1.152 and what changed.</p>
+            </Link>
+          </div>
+          <div className="text-center mt-6">
+            <Link href="/blog" className="text-accent hover:underline font-semibold">View All Blog Posts →</Link>
+          </div>
+        </div>
+      </section>
+
       {/* FAQs & Support */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
@@ -551,7 +586,7 @@ export default function Home() {
               { q: "How do I register for an account?", a: "Open the app, tap on the Register option, fill in your details like username, password, and mobile number, then verify with the OTP sent to your phone or email." },
               { q: "How can I deposit money in the 3Patti World app?", a: "Go to the deposit section in the main menu, choose a payment method (JazzCash, Easypaisa, or Bank Transfer), enter the amount, and submit." },
               { q: "How do I withdraw my earnings?", a: "Open the withdrawal section, select your preferred payment option, enter the amount, and click submit. The money will be sent to your selected account once verified." },
-              { q: "What is the welcome bonus?", a: "New users receive a 100 PKR welcome bonus after installing and registering on the app." },
+              { q: "What is the welcome bonus?", a: "New users receive a 120 PKR welcome recharge bonus after their first deposit in the app." },
               { q: "Can I earn by referring friends?", a: "Yes, you can share your referral link on platforms like Facebook, Instagram, or Telegram to earn up to 30% commission when your friends join and play." },
               { q: "What games are available in 3 Patti World?", a: "You can enjoy popular games such as 10 Cards, Ludo, Tiger vs Dragon, Mines, Zoo Roulette, and BlackJack." },
               { q: "How can I contact customer support?", a: "You can reach out through the in-app support option or by visiting the contact page on the official 3 Patti World website for quick assistance." },

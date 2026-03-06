@@ -20,7 +20,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://3pattiworldapp.com.pk'),
   title: {
-    default: "3 Patti World Download APK (Earning Game) v1.152(1) For Android 2026",
+    default: "3 Patti World Pakistan v1.152 Free Download Official APK",
     template: "%s | 3 Patti World"
   },
   description: "3 Patti World 2026 - Download Teen Patti World APK for Android. Play with friends, earn real cash, daily rewards. JazzCash & EasyPaisa withdrawals.",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     canonical: "https://3pattiworldapp.com.pk",
   },
   openGraph: {
-    title: "3 Patti World Download APK (Earning Game) v1.152(1) For Android 2026",
+    title: "3 Patti World Pakistan v1.152 Free Download Official APK",
     description: "3 Patti World 2026 - Download Teen Patti World APK. Play with friends, earn real cash, daily rewards. JazzCash & EasyPaisa withdrawals.",
     url: "https://3pattiworldapp.com.pk",
     siteName: "3 Patti World",
@@ -92,7 +92,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "3 Patti World Download APK (Earning Game) v1.152(1) For Android 2026",
+    title: "3 Patti World Pakistan v1.152 Free Download Official APK",
     description: "3 Patti World 2026 - Download Teen Patti World APK. Play with friends, earn real cash, daily rewards.",
     creator: "@3pattiworld",
     images: [
