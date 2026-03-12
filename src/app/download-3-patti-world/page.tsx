@@ -4,8 +4,8 @@ import Link from 'next/link';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: { absolute: '3 Patti World Pakistan v1.152 Free Download Official APK' },
-  description: 'Download 3 Patti World APK free for Android. Play Teen Patti, Rummy, Dragon Tiger & more. Earn real cash with JazzCash & EasyPaisa. Latest version V1.152(1) - 49MB.',
+  title: { absolute: '3 Patti World Pakistan v1.199 Free Download Official APK' },
+  description: 'Download 3 Patti World APK free for Android. Play Teen Patti, Rummy, Dragon Tiger & more. Earn real cash with JazzCash & EasyPaisa. Latest version V1.199(1) - 49MB.',
   keywords: [
     'Download 3 Patti World',
     '3 Patti World APK download',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     canonical: "https://3pattiworldapp.com.pk/download-3-patti-world",
   },
   openGraph: {
-    title: '3 Patti World Pakistan v1.152 Free Download Official APK',
+    title: '3 Patti World Pakistan v1.199 Free Download Official APK',
     description: 'Download 3 Patti World APK free. Play Teen Patti, Rummy & more. Earn real cash with secure payments. 500K+ downloads!',
     url: "https://3pattiworldapp.com.pk/download-3-patti-world",
     siteName: "3 Patti World",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: '3 Patti World Pakistan v1.152 Free Download Official APK',
+    title: '3 Patti World Pakistan v1.199 Free Download Official APK',
     description: 'Download 3 Patti World APK free. Play Teen Patti, Rummy & more. Earn real cash with secure payments. 500K+ downloads!',
     images: ["https://3pattiworldapp.com.pk/3-patti-world-logo.webp"],
   },
@@ -73,7 +73,7 @@ export default function DownloadPage() {
       "bestRating": "5"
     },
     "downloadUrl": "https://3pattiworldapp.com.pk/download-3-patti-world",
-    "softwareVersion": "V1.152(1)",
+    "softwareVersion": "V1.199(1)",
     "fileSize": "49MB",
     "datePublished": "2026-01-03",
     "description": "Download 3 Patti World APK free for Android. Play Teen Patti, Rummy, Dragon Tiger & more. Earn real cash with JazzCash & EasyPaisa.",
@@ -169,7 +169,7 @@ export default function DownloadPage() {
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Version</td>
-                  <td className="py-4 px-6 text-left text-white">V1.152(1)</td>
+                  <td className="py-4 px-6 text-left text-white">V1.199(1)</td>
                 </tr>
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Size</td>
@@ -181,7 +181,7 @@ export default function DownloadPage() {
                 </tr>
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Update</td>
-                  <td className="py-4 px-6 text-left text-white">1st January 2026</td>
+                  <td className="py-4 px-6 text-left text-white">5th January 2026</td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Price</td>

@@ -6,34 +6,24 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: "3 Patti World Pakistan v1.152 Free Download Official APK",
+    default: "3 Patti World Pakistan v1.199 Free Download Official APK",
     template: "%s | 3 Patti World"
   },
-  description: "3 Patti World 2026 - Download Teen Patti World APK for Android. Play with friends, earn real cash, enjoy smooth gameplay. Millions of players love 3Patti World for daily rewards. JazzCash & EasyPaisa withdrawals.",
+  description: "3 Patti World 2026 - Pakistan's Most Trusted 3 Patti Gaming Platform. Download Teen Patti World APK for Android. Play with friends, earn real cash, daily rewards. JazzCash & EasyPaisa withdrawals.",
   keywords: [
     "3 Patti World",
     "Teen Patti World",
     "3 Patti World APK",
     "3 Patti World download",
-    "Teen Patti World APK",
     "3 Patti World Pakistan",
     "3Patti World game",
     "Teen Patti Pakistan",
     "3 Patti earning game",
-    "Teen Patti World download",
-    "3 Patti World 2026",
-    "Teen Patti APK",
-    "3 Patti No 1",
-    "3PattiWorld",
-    "TeenPatti World",
-    "card game Pakistan",
-    "earn money 3 Patti",
-    "JazzCash gaming",
-    "EasyPaisa gaming"
+    "3 Patti World 2026"
   ],
   openGraph: {
-    title: '3 Patti World Pakistan v1.152 Free Download Official APK',
-    description: 'Enjoy the fun of 3 Patti World APK. Play Teen Patti, earn real cash, daily rewards. Download for Android. JazzCash & EasyPaisa withdrawals.',
+    title: '3 Patti World Pakistan v1.199 Free Download Official APK',
+    description: "Pakistan's Most Trusted 3 Patti Gaming Platform 2026. Download APK, earn real cash, daily rewards. JazzCash & EasyPaisa withdrawals.",
     images: [
       { url: 'https://3pattiworldapp.com.pk/feature/og-image.webp', width: 1200, height: 630, alt: '3 Patti World - Teen Patti Earning Game' },
       { url: 'https://3pattiworldapp.com.pk/feature/og-image-square.webp', width: 800, height: 800, alt: '3 Patti World - Teen Patti Earning Game' }
@@ -42,8 +32,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '3 Patti World Pakistan v1.152 Free Download Official APK',
-    description: 'Enjoy the fun of 3 Patti World APK. Play Teen Patti, earn real cash, daily rewards. Download for Android.',
+    title: '3 Patti World Pakistan v1.199 Free Download Official APK',
+    description: "Pakistan's Most Trusted 3 Patti Gaming Platform 2026.",
     images: ['https://3pattiworldapp.com.pk/feature/og-image.webp']
   }
 };
@@ -57,7 +47,7 @@ export default function Home() {
         "@id": "https://3pattiworldapp.com.pk/#website",
         "url": "https://3pattiworldapp.com.pk/",
         "name": "3 Patti World",
-        "description": "Pakistan's premier Teen Patti gaming platform with real cash rewards",
+        "description": "Pakistan's Most Trusted 3 Patti Gaming Platform with real cash rewards",
         "inLanguage": "en-US"
       },
       {
@@ -71,28 +61,27 @@ export default function Home() {
       {
         "@type": "SoftwareApplication",
         "name": "3 Patti World",
-        "operatingSystem": "Android 5.0+",
+        "operatingSystem": "Android 4.1+",
         "applicationCategory": "GameApplication",
         "image": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "ratingCount": "500000" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "ratingCount": "300000" },
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "PKR" },
         "downloadUrl": "https://3pattiworldapp.com.pk/download-3-patti-world",
-        "softwareVersion": "V1.152(1)",
+        "softwareVersion": "V1.199(1)",
         "fileSize": "49MB",
-        "description": "Play Teen Patti, 10 Cards, Ludo, Tiger vs Dragon, Mines and more. Earn real money with JazzCash & EasyPaisa."
+        "description": "Play Teen Patti, Dragon vs Tiger, Rummy, Poker, Slots, and more. Earn real money with JazzCash & EasyPaisa."
       },
       {
         "@type": "FAQPage",
         "mainEntity": [
-          { "@type": "Question", "name": "How can I download the 3 Patti World app?", "acceptedAnswer": { "@type": "Answer", "text": "You can download the app directly from the official website 3pattiworldapp.com.pk. It is currently available only for Android devices." } },
-          { "@type": "Question", "name": "Is 3 Patti World safe to use?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, it's safe as long as you download it from the official source and use secure payment options like JazzCash, Easypaisa, or bank transfer." } },
-          { "@type": "Question", "name": "How do I register for an account?", "acceptedAnswer": { "@type": "Answer", "text": "Open the app, tap on the Register option, fill in your details like username, password, and mobile number, then verify with the OTP sent to your phone or email." } },
-          { "@type": "Question", "name": "How can I deposit money in the 3Patti World app?", "acceptedAnswer": { "@type": "Answer", "text": "Go to the deposit section in the main menu, choose a payment method (JazzCash, Easypaisa, or Bank Transfer), enter the amount, and submit." } },
-          { "@type": "Question", "name": "How do I withdraw my earnings?", "acceptedAnswer": { "@type": "Answer", "text": "Open the withdrawal section, select your preferred payment option, enter the amount, and click submit. The money will be sent to your selected account once verified." } },
-          { "@type": "Question", "name": "What is the welcome bonus?", "acceptedAnswer": { "@type": "Answer", "text": "New users receive a 120 PKR welcome recharge bonus after their first deposit in the app." } },
-          { "@type": "Question", "name": "Can I earn by referring friends?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, you can share your referral link on platforms like Facebook, Instagram, or Telegram to earn up to 30% commission when your friends join and play." } },
-          { "@type": "Question", "name": "What games are available in 3 Patti World?", "acceptedAnswer": { "@type": "Answer", "text": "You can enjoy popular games such as 10 Cards, Ludo, Tiger vs Dragon, Mines, Zoo Roulette, and BlackJack." } },
-          { "@type": "Question", "name": "How can I contact customer support?", "acceptedAnswer": { "@type": "Answer", "text": "You can reach out through the in-app support option or by visiting the contact page on the official 3 Patti World website for quick assistance." } }
+          { "@type": "Question", "name": "Can users play 3 Patti World without depositing money?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, you can play as a guest or use free chips and daily login bonuses to start without depositing." } },
+          { "@type": "Question", "name": "How do users contact customer support?", "acceptedAnswer": { "@type": "Answer", "text": "Through in-app live chat, WhatsApp, or the FAQs section on the official 3 Patti World website." } },
+          { "@type": "Question", "name": "What makes 3 Patti World different from other card games?", "acceptedAnswer": { "@type": "Answer", "text": "It offers multiple game modes, local payment methods (JazzCash, EasyPaisa), daily bonuses, referral rewards, and a user-friendly interface designed for Pakistan players." } },
+          { "@type": "Question", "name": "Is 3 Patti World safe and legal to use?", "acceptedAnswer": { "@type": "Answer", "text": "The app uses encryption and secure payment methods. Always download from official sources. Legal status may vary by region." } },
+          { "@type": "Question", "name": "Can users lose money while playing?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, as with any real-money gaming, there is a risk of loss. Play responsibly and only with money you can afford to lose." } },
+          { "@type": "Question", "name": "Is it possible to change the language of 3 Patti World?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, the app supports English and Urdu." } },
+          { "@type": "Question", "name": "How do referral rewards work?", "acceptedAnswer": { "@type": "Answer", "text": "Share your referral link with friends. When they join and play, you earn commission automatically." } },
+          { "@type": "Question", "name": "Is 3 Patti World available on iPhone (iOS)?", "acceptedAnswer": { "@type": "Answer", "text": "No, the APK is for Android only. iOS users can play via the browser." } }
         ]
       }
     ]
@@ -111,13 +100,12 @@ export default function Home() {
                 <span className="text-white">3 Patti World</span>
               </h1>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
-                <span className="text-[#FFA500]">Download APK & Play</span>{' '}
-                <span className="text-white">Real Money Games in Pakistan 2026</span>
+                <span className="text-[#FFA500]">Pakistan&apos;s Most Trusted 3 Patti Gaming Platform 2026</span>
               </h2>
             </div>
             
             <p className="text-lg text-gray-300 leading-relaxed">
-              <Link href="/" className="text-accent hover:underline font-semibold">3 Patti World</Link> is Pakistan&apos;s premier online card game platform, where you can play more than 30+ exciting casino games. 3 Patti World offers the best card gaming experience with attractive graphics, smooth gameplay, and real cash rewards. So download now, start playing, and win real money with fast withdrawals via JazzCash and Easy Paisa.
+              3Patti World is an exciting online card game where you can enjoy a wide collection of casino games with its attractive design, fun background music, and engaging look. Click on the following download button to get this wonderful app.
             </p>
 
             <div className="flex justify-center my-8">
@@ -132,12 +120,12 @@ export default function Home() {
             <div className="flex flex-row gap-4 justify-center mt-8 mb-4" style={{ minHeight: '120px' }}>
               <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
                 <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
-                <div className="text-white text-2xl font-bold mb-1">500K+</div>
+                <div className="text-white text-2xl font-bold mb-1">600K+</div>
                 <div className="text-gray-400 text-sm">Downloads</div>
               </div>
               <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
                 <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24"><path d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H3V4h18v12z"/></svg>
-                <div className="text-white text-2xl font-bold mb-1">200K+</div>
+                <div className="text-white text-2xl font-bold mb-1">300K+</div>
                 <div className="text-gray-400 text-sm">Ratings</div>
               </div>
               <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
@@ -151,12 +139,12 @@ export default function Home() {
 
           <div className="hidden md:block md:w-1/2 md:mt-8">
             <div className="relative ml-auto" style={{ width: '320px', height: '320px', maxWidth: '100%' }}>
-              <Image src="/3-patti-world-logo.webp" alt="3 Patti World Logo" width={320} height={320} className="object-contain drop-shadow-2xl" priority={true} fetchPriority="high" quality={90} sizes="320px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              <Image src="/3-patti-world-logo.webp" alt="3Patti World Logo" width={320} height={320} className="object-contain drop-shadow-2xl" priority={true} fetchPriority="high" quality={90} sizes="320px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
           </div>
           <div className="mt-8 md:hidden">
             <div className="relative mx-auto" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
-              <Image src="/3-patti-world-logo.webp" alt="3 Patti World Logo" width={280} height={280} className="object-contain drop-shadow-2xl" priority={true} fetchPriority="high" quality={90} sizes="280px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              <Image src="/3-patti-world-logo.webp" alt="3Patti World Logo" width={280} height={280} className="object-contain drop-shadow-2xl" priority={true} fetchPriority="high" quality={90} sizes="280px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
           </div>
         </div>
@@ -169,16 +157,16 @@ export default function Home() {
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-800">
               <tbody className="divide-y divide-gray-800">
-                <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 text-left font-medium text-white">App Name</td><td className="py-4 px-6 text-left text-white">3 Patti World</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-4 px-6 text-left font-medium text-white">Developer</td><td className="py-4 px-6 text-left text-white">3 Patti World dev</td></tr>
+                <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 text-left font-medium text-white">App Name</td><td className="py-4 px-6 text-left text-white">3Patti World</td></tr>
+                <tr className="bg-[#06091F]/50"><td className="py-4 px-6 text-left font-medium text-white">Developer</td><td className="py-4 px-6 text-left text-white">3Patti World dev</td></tr>
                 <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 text-left font-medium text-white">Category</td><td className="py-4 px-6 text-left text-white">Cards, Game</td></tr>
                 <tr className="bg-[#06091F]/50"><td className="py-4 px-6 text-left font-medium text-white">Size</td><td className="py-4 px-6 text-left text-white">49MB</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 text-left font-medium text-white">Latest Version</td><td className="py-4 px-6 text-left text-white">V1.152(1)</td></tr>
+                <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 text-left font-medium text-white">Latest Version</td><td className="py-4 px-6 text-left text-white">V1.199(1)</td></tr>
                 <tr className="bg-[#06091F]/50"><td className="py-4 px-6 text-left font-medium text-white">Required OS</td><td className="py-4 px-6 text-left text-white">Android 5.0+</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 text-left font-medium text-white">Update</td><td className="py-4 px-6 text-left text-white">20th-FEB-2026</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-4 px-6 text-left font-medium text-white">Downloads</td><td className="py-4 px-6 text-left text-white">500k+</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 text-left font-medium text-white">Rating Count</td><td className="py-4 px-6 text-left text-white">200000+</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-4 px-6 text-left font-medium text-white">Language</td><td className="py-4 px-6 text-left text-white">English, Urdu</td></tr>
+                <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 text-left font-medium text-white">Update</td><td className="py-4 px-6 text-left text-white">5th January 2026</td></tr>
+                <tr className="bg-[#06091F]/50"><td className="py-4 px-6 text-left font-medium text-white">Downloads</td><td className="py-4 px-6 text-left text-white">600k+</td></tr>
+                <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 text-left font-medium text-white">Rating Count</td><td className="py-4 px-6 text-left text-white">300000+</td></tr>
+                <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 text-left font-medium text-white">Language</td><td className="py-4 px-6 text-left text-white">English, Urdu</td></tr>
                 <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 text-left font-medium text-white">Price</td><td className="py-4 px-6 text-left text-white">Free (0$)</td></tr>
               </tbody>
             </table>
@@ -190,106 +178,157 @@ export default function Home() {
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Overview</h2>
-          <div className="space-y-6">
-            <p className="text-gray-300 leading-relaxed">Welcome to the Official 3 Patti World, your trusted place to download, play, and Win. Enjoy a variety of exclusive game modes offering high stakes and greater rewards. With daily bonuses, free chips, and exciting opportunities to win real rewards, 3Patti World has become one of the most trending casino-style games. Even if you play for fun or to test your skills, 3Patti game delivers a good and engaging experience with multiple game options and real-time challenges.</p>
-            <p className="text-gray-300 leading-relaxed">Teen Patti World APK is an Android application widely recognized for its seamless performance and real-time reward opportunities. It provides a complete Teen Patti experience through smooth gameplay, attractive graphics, and diverse game modes. Players can explore exciting features such as VIP lounges, elite tables, live winning feeds, and more.</p>
-            <p className="text-gray-300 leading-relaxed">The app also includes special offers like daily TeenPatti World login bonuses, referral rewards, and secure withdrawals through convenient local payment methods. With its regularly updated system, easy-to-use interface, and reliable functionality, 3Patti game APK is the official destination for players who seek both entertainment and genuine reward opportunities.</p>
-          </div>
+          <p className="text-gray-300 leading-relaxed">This app is divided into various sections, including card games, slots, poker, and many others, making it easy to find games that you want to play. 3Patti World is designed with modern graphics, smooth gameplay, and an easy interface that makes this platform more suitable for both beginners and experienced players. This app also offers you great and interesting services, allowing you to earn significant money even by investing a small amount. You can also win real cash rewards or bonuses for free. So, download the game, and start playing your favorite games to earn real cash for free.</p>
         </div>
       </section>
 
-      {/* What is 3 Patti World */}
+      {/* What is 3Patti World Game */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">What is 3 Patti World?</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">What is 3Patti World Game?</h2>
           <div className="space-y-6">
-            <p className="text-gray-300 leading-relaxed">3 Patti World is a popular gaming application in Pakistan that offers both entertainment and the chance to earn real rewards. The app provides several earning options, including a referral system where users can share their invite link with friends and family through Facebook, Instagram, or Telegram. By doing so, players can earn up to a 30% commission. Additionally, new users receive a welcome bonus of 100 rupees after installing the app. Currently, 3 Patti World is available only for Android devices and is not yet supported on iOS.</p>
-            <p className="text-gray-300 leading-relaxed">The 3Patti World features a wide collection of exciting games that players can enjoy and earn from, such as 10 Cards, Ludo, Tiger vs Dragon, Mines, Zoo Roulette, and BlackJack. You don&apos;t need a large investment to get started. By depositing as little as 100 rupees, players can start earning daily or weekly rewards. Those who invest higher amounts can unlock VIP bonuses and additional perks. With each deposit, users can spin the reward wheel to increase their balance. Deposits and withdrawals can be made easily through JazzCash, Easypaisa, or bank transfer, making it convenient and user-friendly for everyone.</p>
+            <p className="text-gray-300 leading-relaxed">3Patti World Game is an online card game that is based on the classic Teen Patti card game. You can play different games to earn money. It is a safe and easy platform where you can play card games and make good money in a short time. It has become a great opportunity, especially for those people who want to earn money by playing different and interesting games. This game became very popular, and people prefer it because of its beautiful design, simple settings, classic themes, and easy options.</p>
+            <p className="text-gray-300 leading-relaxed">You can withdraw your winnings or deposit money anytime by using the local and easy payment methods. When you complete your deposit then you can receive a deposit bonus as well. With its attractive visuals, user-friendly design, and exciting offers, this app is one of the most enjoyable and engaging casino-style card games.</p>
           </div>
         </div>
       </section>
 
-      {/* About Us */}
+      {/* Why 3Patti World Game so Popular */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">About Us</h2>
-          <div className="space-y-6">
-            <p className="text-gray-300 leading-relaxed">We are a fast-growing and easy-to-use online gaming platform that gives players many chances to win real rewards. People from all parts of Pakistan can join and try their luck in different games. The app has a big collection of popular games, and new ones are added regularly. It also gives great bonuses and rewards, so players can play more games without spending much. These bonuses help increase your chances of winning. Teen Patti World offers daily check-in rewards, deposit bonuses, referral prizes, and more. The developers keep improving the game to make it smoother, more fun, and better for mobile users.</p>
-            <p className="text-gray-300 leading-relaxed">Teen Patti World has become very popular in online gaming because it offers many casino-style games and live gameplay. Many users enjoy it because of its simple design, colorful display, and big rewards. The best part of the game is how enjoyable it is once you start playing; it&apos;s hard to stop!</p>
-            <p className="text-gray-300 leading-relaxed">The app keeps the traditional Teen Patti style, which adds more fun and quality to the experience. It&apos;s loved by players across the country and is one of the most played online card games.</p>
-            <p className="text-gray-300 leading-relaxed">The benefits are great, you can learn, have fun, and win rewards from home with just an internet connection. 3Patti World also gives special prizes and lets you connect with new friends online. It&apos;s a perfect place for both new and regular players to enjoy card gaming, win rewards, and experience exciting social play.</p>
-          </div>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Why 3Patti World Game so Popular?</h2>
+          <p className="text-gray-300 leading-relaxed">The 3 Patti World game is very popular because it allows you to earn real money while having fun. It is easy to play because it provides you with simple rules that are very easy to understand, especially for beginners. The design of this app is very beautiful and colorful, which gives you a real casino experience on your device. Players love this app because you can withdraw and deposit money easily through EasyPaisa and JazzCash without facing any delays.</p>
+          <p className="text-gray-300 leading-relaxed mt-4">It also includes many exciting games such as Teen Patti, Dragon vs Tiger, Poker, Rummy, and Slots, so that you never feel bored. The other main reason for the popularity of 3 Patti World is its daily bonus and rewards that help you earn coins and extra cash. It is very safe and secure and can protect your personal details or money, and work smoothly even on low-storage devices.</p>
         </div>
       </section>
 
-      {/* 3 Patti World APP Screenshots */}
+      {/* How Can We Start with 3Patti World */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">How Can We Start with 3Patti World?</h2>
+          <p className="text-gray-300 mb-6">To start the 3 Patti World game, follow the given steps:</p>
+          <ol className="list-decimal pl-5 space-y-3 text-gray-300">
+            <li>Firstly, open the official website of 3 Patti World and download the APK file to your device.</li>
+            <li>Once downloaded then click on the downloaded APK file to start the installation by allowing the Unknown Sources.</li>
+            <li>Once installation is complete, click on it to open the 3 Patti World app.</li>
+            <li>When the app opens then log in with your mobile number or just play as a guest.</li>
+            <li>When you log in, you will get free chips or welcome bonuses to start playing the game.</li>
+            <li>Choose a table or game that you want to play, and start enjoying the game.</li>
+          </ol>
+        </div>
+      </section>
+
+      {/* 3Patti World App Screenshots */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-[#06091F] rounded-xl p-8">
-          <h2 className="text-4xl font-bold mb-12 text-[#FFA500] text-center">3 Patti World APP Screenshots</h2>
+          <h2 className="text-4xl font-bold mb-12 text-[#FFA500] text-center">3Patti World App Screenshots</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="rounded-lg overflow-hidden shadow-2xl">
-              <Image src="/3-patti-world-bonuses-and-rewards.webp" alt="3 Patti World Bonuses and Rewards" width={400} height={711} className="w-full h-auto" loading="lazy" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />
-              <p className="text-center text-gray-300 mt-3 font-medium">Bonuses & Rewards</p>
-            </div>
-            <div className="rounded-lg overflow-hidden shadow-2xl">
-              <Image src="/3-patti-world-game-pakistan.webp" alt="3 Patti World Game Pakistan" width={400} height={711} className="w-full h-auto" loading="lazy" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />
+              <Image src="/3-patti-world-game-pakistan.webp" alt="3Patti World Game Interface" width={400} height={711} className="w-full h-auto" loading="lazy" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />
               <p className="text-center text-gray-300 mt-3 font-medium">Game Interface</p>
             </div>
             <div className="rounded-lg overflow-hidden shadow-2xl">
-              <Image src="/3-patti-world-deposit-money.webp" alt="3 Patti World Deposit Money" width={400} height={711} className="w-full h-auto" loading="lazy" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />
+              <Image src="/3-patti-world-pakistan.webp" alt="3Patti World Games Collection" width={400} height={711} className="w-full h-auto" loading="lazy" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />
+              <p className="text-center text-gray-300 mt-3 font-medium">Dragon Tiger Game</p>
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-2xl">
+              <Image src="/3-patti-world-bonuses-and-rewards.webp" alt="3Patti World Bonuses & Rewards" width={400} height={711} className="w-full h-auto" loading="lazy" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />
+              <p className="text-center text-gray-300 mt-3 font-medium">Free Bonuses & Rewards</p>
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-2xl">
+              <Image src="/3-patti-world-deposit-money.webp" alt="3Patti World Deposit Money" width={400} height={711} className="w-full h-auto" loading="lazy" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />
               <p className="text-center text-gray-300 mt-3 font-medium">Deposit Money</p>
             </div>
             <div className="rounded-lg overflow-hidden shadow-2xl">
-              <Image src="/3-patti-world-withdraw-money.webp" alt="3 Patti World Withdraw Money" width={400} height={711} className="w-full h-auto" loading="lazy" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />
-              <p className="text-center text-gray-300 mt-3 font-medium">Withdraw Money</p>
+              <Image src="/3-patti-world-create-account.webp" alt="3Patti World App Overview" width={400} height={711} className="w-full h-auto" loading="lazy" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />
+              <p className="text-center text-gray-300 mt-3 font-medium">App Overview</p>
             </div>
             <div className="rounded-lg overflow-hidden shadow-2xl">
-              <Image src="/3-patti-world-refer-and-earn.webp" alt="3 Patti World Refer and Earn" width={400} height={711} className="w-full h-auto" loading="lazy" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />
-              <p className="text-center text-gray-300 mt-3 font-medium">Refer & Earn</p>
-            </div>
-            <div className="rounded-lg overflow-hidden shadow-2xl">
-              <Image src="/3-patti-world-create-account.webp" alt="3 Patti World Create Account" width={400} height={711} className="w-full h-auto" loading="lazy" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />
-              <p className="text-center text-gray-300 mt-3 font-medium">Create Account</p>
-            </div>
-            <div className="rounded-lg overflow-hidden shadow-2xl">
-              <Image src="/3-patti-world-pakistan.webp" alt="3 Patti World Pakistan" width={400} height={711} className="w-full h-auto" loading="lazy" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />
-              <p className="text-center text-gray-300 mt-3 font-medium">3 Patti World Pakistan</p>
+              <Image src="/3-patti-world-refer-and-earn.webp" alt="3Patti World Referral Bonus" width={400} height={711} className="w-full h-auto" loading="lazy" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" />
+              <p className="text-center text-gray-300 mt-3 font-medium">Referral & Win Bonus</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 3Patti World – The Official 3 Patti Experience */}
+      {/* Top Features of 3Patti World */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">3Patti World – The Official 3 Patti Experience</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[#FFA500]">Top Features of 3Patti World</h2>
           <div className="space-y-6">
-            <p className="text-gray-300 leading-relaxed">Teen Patti World APK is becoming one of the most popular card games in Pakistan. It gives players a fun online place to enjoy casino-style games right from their homes. With smooth graphics and simple controls, it feels just like playing real 3 Patti, which makes it loved by both new and experienced players.</p>
-            <p className="text-gray-300 leading-relaxed">Anyone with an Android phone can easily download TeenPatti World APK Pakistan for free. The setup is quick, and new players get many bonuses that make the game even more enjoyable. From live tables to fast matches, everything is designed to keep players excited and entertained.</p>
-            <p className="text-gray-300 leading-relaxed">More than just a fun game, 3PattiWorld also lets players earn real rewards while playing. With offers like referral bonuses and first deposit gifts, users can use their skills to win prizes. This mix of fun and reward is why the game is becoming so popular across Pakistan.</p>
+            <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#FFA500]">
+              <h3 className="text-xl font-bold mb-3 text-[#FFA500]">1: Real Money Earning</h3>
+              <p className="text-gray-300">3 Patti World allows you to earn real cash rewards just by playing the game that you want to play or like. Whether you enjoy teen patti, poker, or rummy, every match provides you with a chance to win money. This app directly transfers your earnings through the local and easy payment methods safely. This app is not just for fun, but also becomes a great way to make extra income, which makes the 3 Patti World very entertaining and exciting.</p>
+            </div>
+            <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#4ade80]">
+              <h3 className="text-xl font-bold mb-3 text-[#4ade80]">2: Easy Withdraw & Deposit</h3>
+              <p className="text-gray-300">With 3 Patti World, you can manage your money in a super simple or fast way. With just a few steps, you can withdraw or deposit money anytime using local payment methods, such as JazzCash or EasyPaisa. It also ensures you have secure and quick transactions without any delays.</p>
+            </div>
+            <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#60a5fa]">
+              <h3 className="text-xl font-bold mb-3 text-[#60a5fa]">3: Attractive Interface</h3>
+              <p className="text-gray-300">This app is designed with a bright, colorful, and modern interface that can attract its users. The background music, smooth animations, and clear layout create an amazing or pleasant experience. Each section of this app is designed very well, so that you can find your favourite game easily.</p>
+            </div>
+            <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#f97316]">
+              <h3 className="text-xl font-bold mb-3 text-[#f97316]">4: Popular Games</h3>
+              <p className="text-gray-300">3 Patti World provides you with a wide variety of famous games in one app so that you can enjoy dragon vs tiger, poker, slots, and many other exciting options. Each game of this app has simple rules that make it perfect for both beginners and experienced players.</p>
+            </div>
+            <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#FFA500]">
+              <h3 className="text-xl font-bold mb-3 text-[#FFA500]">5: Daily Bonus</h3>
+              <p className="text-gray-300">This app rewards you every day with free login bonuses or chips. You can earn extra coins just by opening the app regularly. It also provides special rewards on weekly or festival occasions. These bonuses help you to keep playing even if you do not want to deposit money.</p>
+            </div>
+            <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#4ade80]">
+              <h3 className="text-xl font-bold mb-3 text-[#4ade80]">6: Referral Earning</h3>
+              <p className="text-gray-300">3 Patti World offers you a referral program where you can earn money without playing games. You just need to share your referral link with your friends and invite them to join. When they start playing games, you receive a commission automatically. The more you invite, the more income you can get.</p>
+            </div>
+            <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#60a5fa]">
+              <h3 className="text-xl font-bold mb-3 text-[#60a5fa]">7: Fast Performance</h3>
+              <p className="text-gray-300">This app runs smoothly on almost every Android device, even on older models. It does not hang, crash, or use too much storage space. The lightweight design of this app helps it to run faster and load to provide a smooth gameplay.</p>
+            </div>
+            <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#f97316]">
+              <h3 className="text-xl font-bold mb-3 text-[#f97316]">8: Safe & Secure Platform</h3>
+              <p className="text-gray-300">In 3 Patti World, your privacy and money are completely safe because it uses a secure payment method and data protection system that keeps everything private. This app is trusted by thousands of players for its reliability.</p>
+            </div>
+            <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#FFA500]">
+              <h3 className="text-xl font-bold mb-3 text-[#FFA500]">9: Free to Play</h3>
+              <p className="text-gray-300">3 Patti World is free to download and does not ask for any registration fees. Through this feature, you can start playing games quickly with free chips that are given by the app. This feature is a perfect choice, especially for beginners.</p>
+            </div>
+            <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#4ade80]">
+              <h3 className="text-xl font-bold mb-3 text-[#4ade80]">10: 24/7 Support</h3>
+              <p className="text-gray-300">This app also provides you with fast customer support, which helps you anytime. Whether you face a deposit issue or a technical error, this support team responds quickly. You can contact the team directly through the app for quick help.</p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Join Teen Patti World and Enjoy Our New User Offers */}
+      {/* Best Games to Play on 3Patti World */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Join Teen Patti World and Enjoy Our New User Offers</h2>
-          <div className="space-y-6">
-            <div><h3 className="text-xl font-semibold mb-2 text-[#FFA500]">Offer 1:</h3><p className="text-gray-300">New users receive a welcome recharge bonus of 120 PKR after their first deposit.</p></div>
-            <div><h3 className="text-xl font-semibold mb-2 text-[#FFA500]">Offer 2:</h3><p className="text-gray-300">Bind your mobile number and instantly get 10 free chips as a reward.</p></div>
-            <div><h3 className="text-xl font-semibold mb-2 text-[#FFA500]">Offer 3:</h3><p className="text-gray-300 mb-4">Enjoy daily first deposit bonuses based on your recharge amount:</p>
-              <ul className="list-disc pl-5 space-y-2 text-gray-300">
-                <li>Recharge between PKR 500–1,999 to get a 3% bonus</li>
-                <li>Recharge between PKR 2,000–4,999 to get a 4% bonus</li>
-                <li>Recharge between PKR 5,000–9,999 to get a 5% bonus</li>
-                <li>Recharge between PKR 10,000–29,999 to get a 6% bonus</li>
-                <li>Recharge between PKR 30,000–49,999 to get a 7% bonus</li>
-                <li>Recharge between PKR 50,000–99,999 to get an 8% bonus</li>
-                <li>Deposit PKR 100,000 or more to enjoy a 10% bonus</li>
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[#FFA500]">Best Games to Play on 3Patti World</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+              <h3 className="text-xl font-bold mb-4 text-accent">1: Multiplayer Games</h3>
+              <ul className="space-y-2 text-gray-300">
+                {['Tiger Dragon (Hot)', '7 UP Down (Hot)', 'Zoo Roulette (Hot)', 'Crash', 'Car Roulette', 'Andar Bahar', 'Teenpatti 20-20', 'Best of Five'].map((game, i) => (
+                  <li key={i}>• {game}</li>
+                ))}
               </ul>
             </div>
-            <div><h3 className="text-xl font-semibold mb-2 text-[#FFA500]">Offer 4:</h3><p className="text-gray-300">Players who experience continuous losses in a day can receive loss compensation, which depends on the total betting amount.</p></div>
+            <div>
+              <h3 className="text-xl font-bold mb-4 text-accent">2: Skill Base Games</h3>
+              <ul className="space-y-2 text-gray-300">
+                {['Domino (Hot)', 'Rummy (Hot)', 'Teen Patti', 'Fishing Rush', '10 Cards', 'Poker', 'Ludo', 'Black Jack'].map((game, i) => (
+                  <li key={i}>• {game}</li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-4 text-accent">3: Slots</h3>
+              <ul className="space-y-2 text-gray-300">
+                {['Mines (Hot)', 'Fruit Line', '777 Bingo', 'Rattling GEMS', 'Video Poker 1, 2', 'Wild Energy', 'WoW Slot', 'God of Fortune'].map((game, i) => (
+                  <li key={i}>• {game}</li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -297,58 +336,45 @@ export default function Home() {
       {/* Benefits for New Players */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Benefits for New Players by Joining 3 Patti World</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">Benefits for New Players by Joining 3Patti World</h2>
           <div className="mb-8">
-            <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">1: New Player Welcome Bonus</h3>
-            <p className="text-gray-300 mb-4">3Patti offers a 100% recharge bonus for all new, fresh users on their first deposit in this game.</p>
+            <h3 className="text-xl font-semibold mb-4 text-accent">1: New Player Welcome Bonus</h3>
+            <p className="text-gray-300 mb-4">3Patti World offers 100% recharge bonus for all new fresh users on their first deposit in this game.</p>
             <div className="overflow-x-auto">
               <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
                 <thead className="bg-[#0a1029]"><tr><th className="py-3 px-6 text-left text-white font-semibold">Deposit Amount (PKR)</th><th className="py-3 px-6 text-left text-white font-semibold">Bonus Amount (PKR)</th></tr></thead>
                 <tbody className="divide-y divide-gray-800">
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">100</td><td className="py-3 px-6 text-gray-300">100</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">1000</td><td className="py-3 px-6 text-gray-300">1000</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">5000</td><td className="py-3 px-6 text-gray-300">5000</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">10,000</td><td className="py-3 px-6 text-gray-300">10,000</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">20,000</td><td className="py-3 px-6 text-gray-300">20,000</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">100,000</td><td className="py-3 px-6 text-gray-300">100,000</td></tr>
+                  {[[100,100],[1000,1000],[5000,5000],[10000,10000],[20000,20000],[100000,100000]].map(([dep,bonus],i) => (
+                    <tr key={i} className={i%2?'bg-[#0a1029]/50':'bg-[#06091F]/50'}><td className="py-3 px-6 text-gray-300">{dep.toLocaleString()}</td><td className="py-3 px-6 text-gray-300">{bonus.toLocaleString()}</td></tr>
+                  ))}
                 </tbody>
               </table>
             </div>
           </div>
           <div className="mb-8">
-            <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">2: Recharge Rebate</h3>
-            <p className="text-gray-300 mb-4">3 Patti World game is also offering huge recharge rebate bonuses for every player when they deposit an amount.</p>
+            <h3 className="text-xl font-semibold mb-4 text-accent">2: Recharge Rebate</h3>
+            <p className="text-gray-300 mb-4">3Patti World game is also offering huge recharge rebate bonuses for every player when they deposit amount.</p>
             <div className="overflow-x-auto">
               <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-                <thead className="bg-[#0a1029]"><tr><th className="py-3 px-6 text-left text-white font-semibold">Rebate</th><th className="py-3 px-6 text-left text-white font-semibold">Recharge Required</th><th className="py-3 px-6 text-left text-white font-semibold">Wager</th></tr></thead>
+                <thead className="bg-[#0a1029]"><tr><th className="py-3 px-6 text-left text-white font-semibold">Rebate</th><th className="py-3 px-6 text-left text-white font-semibold">Recharge Required</th><th className="py-3 px-6 text-left text-white font-semibold">Required Wager</th></tr></thead>
                 <tbody className="divide-y divide-gray-800">
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">5%</td><td className="py-3 px-6 text-gray-300">3000 PKR</td><td className="py-3 px-6 text-gray-300">2x</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">10%</td><td className="py-3 px-6 text-gray-300">5000</td><td className="py-3 px-6 text-gray-300">3x</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">15%</td><td className="py-3 px-6 text-gray-300">8000</td><td className="py-3 px-6 text-gray-300">4x</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">20%</td><td className="py-3 px-6 text-gray-300">10,000</td><td className="py-3 px-6 text-gray-300">5x</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">25%</td><td className="py-3 px-6 text-gray-300">20,000</td><td className="py-3 px-6 text-gray-300">6x</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">30%</td><td className="py-3 px-6 text-gray-300">50,000</td><td className="py-3 px-6 text-gray-300">7x</td></tr>
+                  {[['5%','3000 PKR','2x'],['10%','5000','3x'],['15%','8000','4x'],['20%','10,000','5x'],['25%','20,000','6x'],['30%','50,000','7x']].map((row,i) => (
+                    <tr key={i} className={i%2?'bg-[#0a1029]/50':'bg-[#06091F]/50'}><td className="py-3 px-6 text-gray-300">{row[0]}</td><td className="py-3 px-6 text-gray-300">{row[1]}</td><td className="py-3 px-6 text-gray-300">{row[2]}</td></tr>
+                  ))}
                 </tbody>
               </table>
             </div>
           </div>
           <div>
-            <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">3: Big Rebate on Recharge</h3>
-            <p className="text-gray-300 mb-4">This type of reward is only available for deposit of a minimum of 3000PKR or more. It also depends upon VIP Level with increasing rebate bonus. It can be claimed every day.</p>
+            <h3 className="text-xl font-semibold mb-4 text-accent">3: Big Rebate on Recharge</h3>
+            <p className="text-gray-300 mb-4">This type of reward is only available for deposit of minimum 3000PKR or more than it. It also depends upon VIP Level with increasing rebate bonus. It can be claimed every day.</p>
             <div className="overflow-x-auto">
               <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
                 <thead className="bg-[#0a1029]"><tr><th className="py-3 px-6 text-left text-white font-semibold">VIP Level</th><th className="py-3 px-6 text-left text-white font-semibold">Rebate</th></tr></thead>
                 <tbody className="divide-y divide-gray-800">
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V1-V2</td><td className="py-3 px-6 text-gray-300">1% rebate</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V3-V4</td><td className="py-3 px-6 text-gray-300">2% rebate</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V5-V6</td><td className="py-3 px-6 text-gray-300">3% rebate</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V7-V8</td><td className="py-3 px-6 text-gray-300">4% rebate</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V9-V10</td><td className="py-3 px-6 text-gray-300">5% rebate</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V11-V12</td><td className="py-3 px-6 text-gray-300">6% rebate</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V13-V14</td><td className="py-3 px-6 text-gray-300">7% rebate</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V15-V16</td><td className="py-3 px-6 text-gray-300">8% rebate</td></tr>
-                  <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V17-V18</td><td className="py-3 px-6 text-gray-300">9% rebate</td></tr>
-                  <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V19-V20</td><td className="py-3 px-6 text-gray-300">10% rebate</td></tr>
+                  {[['V1-V2','1% rebate'],['V3-V4','2% rebate'],['V5-V6','3% rebate'],['V7-V8','4% rebate'],['V9-V10','5% rebate'],['V11-V12','6% rebate'],['V13-V14','7% rebate'],['V15-V16','8% rebate'],['V17-V18','9% rebate'],['V19-V20','10% rebate']].map((row,i) => (
+                    <tr key={i} className={i%2?'bg-[#0a1029]/50':'bg-[#06091F]/50'}><td className="py-3 px-6 text-gray-300">{row[0]}</td><td className="py-3 px-6 text-gray-300">{row[1]}</td></tr>
+                  ))}
                 </tbody>
               </table>
             </div>
@@ -356,215 +382,191 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3 Patti World Agent Network Growth Bonus */}
+      {/* Download & Installation Guide */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">3 Patti World Agent Network Growth Bonus</h2>
-          <div className="space-y-4">
-            <p className="text-gray-300 leading-relaxed">In 3 Patti World Apk, active members can unlock exciting bonuses based on their total engagement. When you have 5 active members, you receive a 3,000 PKR bonus. With 10 active members, the bonus increases to 6,500 PKR, while 30 active members bring a reward of 18,500 PKR. Growing your network further earns you even more 31,000 PKR for 50 members, 62,000 PKR for 100 members, and 186,000 PKR for 300 active users.</p>
-            <p className="text-gray-300 leading-relaxed">As your community expands, the bonuses continue to rise: 310,000 PKR for 500 members, 620,000 PKR for 1,000 members, 1,250,000 PKR for 2,000 members, and an impressive 6,250,000 PKR when you reach 10,000 active members. The more active users you bring in, the greater your rewards, making 3 Patti 1 a truly rewarding platform for dedicated players.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Features That Define Teen Patti World */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-accent">3Patti World Apk Latest Version - Features That Define Teen Patti World</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-secondary px-8 py-8 rounded-lg card-glow"><h3 className="text-xl font-semibold mb-3 text-accent">Easy-to-Use Design</h3><p className="text-gray-300">The 3PattiWorld Game has a simple and clear design that&apos;s easy for everyone to use. Whether you&apos;re new or already experienced, the smooth layout helps you find and play your favorite games without confusion. Everything is organized so you can enjoy the fun right away.</p></div>
-            <div className="bg-secondary px-8 py-8 rounded-lg card-glow"><h3 className="text-xl font-semibold mb-3 text-accent">Safe and Trustworthy Platform</h3><p className="text-gray-300">3Patti World APK puts your safety first. It uses strong security systems and encrypted technology to keep your personal and financial details protected. The app also includes fair play tools and anti-cheat measures, making sure every player gets an equal and honest chance to win.</p></div>
-            <div className="bg-secondary px-8 py-8 rounded-lg card-glow"><h3 className="text-xl font-semibold mb-3 text-accent">Variety of Game Modes</h3><p className="text-gray-300">The app offers many exciting game types to keep the fun going. You can play classic Teen Patti, Joker, Muflis, AK47, Hukam, and several others. Each mode comes with its own style and rules, giving you new challenges and keeping the gameplay fresh and entertaining.</p></div>
-            <div className="bg-secondary px-8 py-8 rounded-lg card-glow"><h3 className="text-xl font-semibold mb-3 text-accent">VIP Access and Special Tables</h3><p className="text-gray-300">When you reach advanced levels in Teenpatti game, you can unlock VIP areas and elite tables. These high-level rooms are made for skilled players who want to play with bigger stakes and win exclusive rewards. This adds a premium and thrilling touch to the overall gaming experience.</p></div>
-            <div className="bg-secondary px-8 py-8 rounded-lg card-glow"><h3 className="text-xl font-semibold mb-3 text-accent">Real-Time Multiplayer Play</h3><p className="text-gray-300">3Patti World Download lets you play live with your friends and other players. You can compete in real time, chat, and enjoy the same excitement as sitting at a real Teen Patti table. It&apos;s a great way to have fun and connect with people while showing off your card skills.</p></div>
-            <div className="bg-secondary px-8 py-8 rounded-lg card-glow"><h3 className="text-xl font-semibold mb-3 text-accent">Daily Rewards and Bonuses</h3><p className="text-gray-300">To make the experience even more fun, Teen Patti World APK offers regular bonuses and prizes. New users get a welcome gift when they sign up, while regular players can earn rewards through daily logins, referrals, and deposits. These offers make every day more exciting and give you more chances to win.</p></div>
-            <div className="bg-secondary px-8 py-8 rounded-lg card-glow md:col-span-2 lg:col-span-1"><h3 className="text-xl font-semibold mb-3 text-accent">Easy Withdrawals with JazzCash & EasyPaisa</h3><p className="text-gray-300">Collecting your winnings is fast and convenient. You can withdraw your money through trusted local payment methods like JazzCash and EasyPaisa, ensuring smooth and secure transactions directly to your mobile wallet or bank account.</p></div>
-          </div>
-        </div>
-      </section>
-
-      {/* Our Top Trending Games */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Our Top Trending Games</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {['Royal Patti: A premium version with higher stakes and royal themes.', 'Golden Joker: A variation where gold jokers double your winning power.', 'Low Card Battle: Similar to Muflis, but focused on strategic low-hand wins.', 'Power Ace Mode: Where all Aces act as wildcards.', 'Lucky Draw Mode: A random card becomes your wildcard each round (replacement for Hukam).', 'Pro Player Table: For skilled users, similar to VIP tables but more competitive.', 'Diamond Patti: Deluxe tables with bigger chips and elite players.'].map((game, i) => (
-              <div key={i} className="bg-[#0A1029] p-4 rounded-lg"><p className="text-white font-medium">{game.split(':')[0]}</p><p className="text-gray-400 text-sm mt-1">{game.split(':')[1]}</p></div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* How to Download 3Patti World APK */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">3 Patti World game Pakistan - How to Download 3Patti World APK Latest Version?</h2>
-          <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>To download Teen Patti World APK, open your browser and visit <Link href="/" className="text-accent hover:underline">3pattiworldapp.com.pk</Link>.</li>
-            <li>Find and tap the APK Download button. Wait for it to finish.</li>
-            <li>Go to Settings, then Security, then Install Unknown Apps and allow unknown sources.</li>
-            <li>Open your File Manager, find the downloaded file, and install it.</li>
-            <li>Once done, the app icon will appear on your screen.</li>
-            <li>Open it, sign up, and start playing your favorite games!</li>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">Download 3Patti World APK Latest Version For Android</h2>
+          <p className="text-gray-300 mb-4">To download the latest version of 3 Patti World APK for Android devices, follow the given steps:</p>
+          <ol className="list-decimal pl-5 space-y-2 text-gray-300 mb-8">
+            <li>First, you open the browser on your Android device and click on the search bar.</li>
+            <li>In the search bar, type the latest version of 3 Patti World and visit the trusted website.</li>
+            <li>On the trusted website, click on the Download button to start downloading.</li>
+            <li>Now wait a few seconds to complete the downloading process.</li>
+            <li>Once complete, that file will be saved in the Download Folder of the device.</li>
           </ol>
-        </div>
-      </section>
-
-      {/* How to Download for iOS */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Download & Install 3Patti World Game APK for iOS?</h2>
-          <p className="text-gray-300 mb-4">No APK available for iOS (only for Android).</p>
-          <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>Open Safari on your iPhone.</li>
-            <li>Visit the official 3 Patti World website.</li>
-            <li>Tap Play Now or Play in Browser.</li>
-            <li>(Optional) Tap Share and Add to Home screen.</li>
-            <li>Open the shortcut and start playing directly.</li>
+          <h3 className="text-xl font-bold mb-4 text-accent">Installation Guide for 3Patti World APK</h3>
+          <p className="text-gray-300 mb-4">After downloading to installing the 3 Patti World APK, follow the given steps:</p>
+          <ol className="list-decimal pl-5 space-y-2 text-gray-300 mb-8">
+            <li>To start installation, your device grants permission to install unknown sources.</li>
+            <li>Open the Settings &lt; Security and enable the Install Unknown Apps.</li>
+            <li>After this, open the File Manager and go to the Download Folder.</li>
+            <li>Click on the download APK file, and the installation process will start.</li>
+            <li>Wait until the installation completes successfully on your device.</li>
+            <li>Once complete then the app icon will show on your device.</li>
+            <li>Click on it to launch the app and start playing the games that you want.</li>
           </ol>
+          <div className="flex justify-center">
+            <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-8 py-4 bg-[#0ea5e9] hover:bg-[#0ea5e9]/90 text-white font-bold rounded-full transition-all">
+              DOWNLOAD NOW
+            </a>
+          </div>
         </div>
       </section>
 
-      {/* 3PattiWorld Game Buzz */}
+      {/* System Requirements */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Exciting Teen Patti World gameplay on mobile - 3PattiWorld Game Buzz</h2>
-          <p className="text-gray-300 mb-4">Here are some key game buzz details that new players should know:</p>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">System Requirement to Download & install 3Patti World App</h2>
+          <div className="overflow-x-auto">
+            <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
+              <thead className="bg-[#0a1029]">
+                <tr><th className="py-3 px-6 text-left text-white font-semibold">System</th><th className="py-3 px-6 text-left text-white font-semibold">Minimum</th><th className="py-3 px-6 text-left text-white font-semibold">Recommended</th></tr>
+              </thead>
+              <tbody className="divide-y divide-gray-800">
+                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-white font-medium">Operating System</td><td className="py-3 px-6 text-gray-300">Android 4.1</td><td className="py-3 px-6 text-gray-300">Android 8.0 or above</td></tr>
+                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-white font-medium">RAM</td><td className="py-3 px-6 text-gray-300">2GB or more</td><td className="py-3 px-6 text-gray-300">4GB or more</td></tr>
+                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-white font-medium">Storage Space</td><td className="py-3 px-6 text-gray-300">At least 500 MB free</td><td className="py-3 px-6 text-gray-300">1GB free space</td></tr>
+                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-white font-medium">Processor</td><td className="py-3 px-6 text-gray-300">Quad-core 1.5 GHz</td><td className="py-3 px-6 text-gray-300">Octa-core 2.0 GHz</td></tr>
+                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-white font-medium">Internet</td><td className="py-3 px-6 text-gray-300">Stable 3G or WiFi</td><td className="py-3 px-6 text-gray-300">Fast &amp; stable 4G or WiFi</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* What's New in the Latest Version */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">What&apos;s New in the Latest Version of the 3Patti World?</h2>
           <ul className="list-disc pl-5 space-y-2 text-gray-300">
-            <li>It&apos;s a mobile gaming app where users can place bets and earn rewards.</li>
-            <li>3Patti World is built with fairness in mind, giving every player an equal opportunity to win.</li>
-            <li>Along with luck, smart decisions and accurate predictions play an important role in success.</li>
-            <li>Every bet carries the same chance of winning or losing.</li>
-            <li>Players who bet more than 1000 PKR may increase their chances of getting better results in the game.</li>
+            <li>In the latest version, the game looks better with improved graphics and smooth animations.</li>
+            <li>Provide fast performance so that the app opens quickly and runs smoothly without lag.</li>
+            <li>Its menu and layout are simple, which makes it very easy, especially for new users.</li>
+            <li>In the latest versions, more games are added, such as Dragon vs Tiger, Rummy, and others.</li>
+            <li>The withdrawal or deposit options work faster and smoothly in the latest version.</li>
+            <li>In the latest version, better security measures can be used that can protect your account and money.</li>
+            <li>New bonuses and referral rewards provide you with more chances to earn money.</li>
+            <li>Old Errors or app issues are removed to offer a smooth gaming experience.</li>
+            <li>The background music or game sounds improve the app and provide more fun.</li>
+            <li>The new VIP system gives you extra prizes and benefits that help you stay active.</li>
           </ul>
         </div>
       </section>
 
-      {/* How to Transfer and Withdraw Funds */}
+      {/* How to Register & Login */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Transfer and Withdraw Funds?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">How to Register &amp; Login on 3Patti World?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">Deposit Method:</h3>
+              <h3 className="text-xl font-semibold mb-4 text-accent">1: Register Method</h3>
               <ol className="list-decimal pl-5 space-y-2 text-gray-300">
-                <li>Open the 3Patti World app on your device and go to the main menu.</li>
-                <li>From the menu, select the deposit option.</li>
-                <li>You will find several payment choices such as JazzCash, Easypaisa, or bank transfer.</li>
-                <li>Choose the method that suits you best and click to continue.</li>
-                <li>Enter the amount you wish to deposit and tap on submit to confirm.</li>
-                <li>The deposited amount will appear in your Teen Patti World account within the given time.</li>
+                <li>Firstly, open the 3 Patti World app on your device.</li>
+                <li>On the homescreen, click on the Register or Sign Up option.</li>
+                <li>Now, enter your valid mobile number or email address.</li>
+                <li>Set a strong password that can never be accessed easily.</li>
+                <li>Enter the OTP that you can receive through phone or email for verification.</li>
+                <li>Once verification is complete then your account will be created successfully.</li>
               </ol>
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">Withdrawal Method:</h3>
+              <h3 className="text-xl font-semibold mb-4 text-accent">2: Login Method</h3>
               <ol className="list-decimal pl-5 space-y-2 text-gray-300">
-                <li>Launch the 3Patti World app and open the main menu.</li>
-                <li>Select the withdrawal section to begin the process.</li>
-                <li>Pick your preferred payment option and make sure you meet the withdrawal requirements.</li>
-                <li>Type the amount you want to withdraw and review all the information carefully.</li>
-                <li>Click submit to complete the request.</li>
-                <li>After verification, the money will be sent to your selected payment account.</li>
+                <li>Open the 3 Patti World app on your device.</li>
+                <li>Click on the Login button on the homescreen.</li>
+                <li>Enter your registered mobile number, email, or password.</li>
+                <li>Make sure that your entered details are correct.</li>
+                <li>Once confirmed, tap on the Sign in or Login option.</li>
+                <li>If you forget your password, then use Forgot Password to reset it.</li>
+                <li>Once logging is complete then you can start playing games.</li>
               </ol>
             </div>
           </div>
         </div>
       </section>
 
-      {/* What's New in the 2026 Version */}
+      {/* Ways to Deposit & Withdraw */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Teen Patti Pakistan - What&apos;s New in the 2026 Version?</h2>
-          <div className="space-y-4">
-            <p className="text-gray-300 leading-relaxed">As you all know, in any game, if updates are not released regularly, the game can start falling behind. Updates are essential to fix bugs, introduce new features, and ensure that users continue to have a fun and smooth experience. Similarly, the 2026 version of 3Patti World Game brings exciting updates and improvements to make your gameplay even better.</p>
-            <p className="text-gray-300 leading-relaxed">Players will now enjoy faster loading times, enhanced security to keep personal information safe, and better compatibility across all Android devices. Minor updates to the Rewards system have also been made, offering more opportunities to earn real cash while playing. Additionally, the user interface has been optimized for a cleaner, more intuitive experience, making it easier than ever to navigate tables, join games, and enjoy seamless gameplay.</p>
-            <p className="text-gray-300 leading-relaxed">Even if you are a beginner or an experienced player, the 2026 version of Teen Patti World APK ensures an upgraded, fun, and safe card game experience for everyone.</p>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">Ways to Deposit &amp; Withdraw Money in 3Patti World</h2>
+          <div className="space-y-6 mb-8">
+            <div className="bg-[#0A1029] rounded-xl p-6">
+              <h3 className="text-xl font-bold mb-3 text-accent">1: JazzCash</h3>
+              <p className="text-gray-300">JazzCash is one of the most trusted and secure mobile banking services that allows you to deposit money quickly into your gaming account and start playing games quickly. It&apos;s a fast and safe transaction system that allows you to withdraw your winnings directly into your account wallet. The best part of this method is that you do not wait a long time because the transactions are completed within seconds.</p>
+            </div>
+            <div className="bg-[#0A1029] rounded-xl p-6">
+              <h3 className="text-xl font-bold mb-3 text-accent">2: EasyPaisa</h3>
+              <p className="text-gray-300">EasyPaisa is another secure and most commonly used payment method that is similar to the JazzCash method. It allows you to deposit or withdraw money without any difficulty. Through this method, you can add funds to your game account and transfer winnings to your EasyPaisa wallet in just a few steps. The process of this method is very safe, reliable, and suitable for all types of users.</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-xl font-semibold mb-4 text-accent">How to Deposit Money in the 3Patti World App?</h3>
+              <ol className="list-decimal pl-5 space-y-2 text-gray-300">
+                <li>First, open the 3 Patti World app on your device and log in.</li>
+                <li>Now, click on the Wallet option that is available on the homescreen.</li>
+                <li>In this wallet section, click on the Deposit option.</li>
+                <li>Choose a payment method that you want to use.</li>
+                <li>Enter the amount that you want to deposit.</li>
+                <li>Click on the confirm option and wait to complete it.</li>
+                <li>Once complete, the balance will show in your game wallet.</li>
+              </ol>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold mb-4 text-accent">How to Withdraw Money in 3Patti World?</h3>
+              <ol className="list-decimal pl-5 space-y-2 text-gray-300">
+                <li>Open the 3 Patti World app and log in to your account.</li>
+                <li>Click on the Wallet option that is available on the main screen.</li>
+                <li>In the wallet section, click on the Withdrawal option.</li>
+                <li>Choose your payment method, like JazzCash or EasyPaisa.</li>
+                <li>Now enter the amount that you want to withdraw.</li>
+                <li>Enter some required details, like the account number.</li>
+                <li>Double-check all entered details and click on Confirm.</li>
+                <li>Wait a few seconds to complete the withdrawal process.</li>
+                <li>Once complete, that money will be shown in your selected payment method.</li>
+              </ol>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* How to Login on 3Patti game */}
+      {/* Safety & Security */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Login on 3Patti game?</h2>
-          <p className="text-gray-300 mb-4">To create an account on 3 Patti World, follow these simple steps:</p>
-          <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>Open the app and tap on Sign Up or Register.</li>
-            <li>After clicking Register, a form will appear asking for your information.</li>
-            <li>Fill in your username, password, email, and mobile number in the required fields.</li>
-            <li>Double-check that all your details are correct, then tap Submit.</li>
-            <li>Verify your account by entering the OTP sent to your registered phone number or email.</li>
-            <li>Once verified, your account will be activated, and you can start playing and earning rewards.</li>
-          </ol>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">About the Safety &amp; Security of the 3Patti World</h2>
+          <p className="text-gray-300 leading-relaxed">3 Patti World is an online gaming platform that provides you with a safe and secure environment. It uses basic security features such as data encryption or SSL certificates that can protect your information. This app also supports local payment options such as JazzCash or Easy Paisa, which can make the transactions safer and secure. However, this app is not officially available on the Google Play Store and may come with some risks, such as malware or scams. So, it is important to make sure that you can download it from official, safe, and secure sources. Always avoid sharing your sensitive personal information or banking details.</p>
         </div>
       </section>
 
-      {/* Is 3Patti World Game Safe */}
+      {/* Latest Guides & Blog */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Is 3Patti World Game Safe?</h2>
-          <div className="space-y-4">
-            <p className="text-gray-300 leading-relaxed">If you are new to this game, you might be wondering if 3Patti World Game is safe to play. The answer is yes, the game is designed to provide a secure and fair environment for all players. Your personal information is protected with strong security measures, and all gameplay is monitored for fairness to ensure no cheating occurs.</p>
-            <p className="text-gray-300 leading-relaxed">For beginners, the game is very easy to start: the interface is simple, the menus are clear, and the instructions are easy to follow. You can play safely on your Android device without worrying about technical issues. The app also supports responsible gaming, so you can enjoy real cash games while staying in control of your spending.</p>
-            <p className="text-gray-300 leading-relaxed">It doesn&apos;t matter that you are playing for fun or trying to earn small rewards, 3 Patti World ensures a safe, beginner-friendly experience for everyone.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Responsible Game Reminder */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Responsible Game Reminder</h2>
-          <p className="text-gray-300 mb-4">Follow these tips to play wisely and stay away from negative effects:</p>
-          <ul className="list-disc pl-5 space-y-2 text-gray-300">
-            <li>Set a fixed number of hours for gameplay, as spending too much time on such games can reduce your social interactions. Keep a healthy balance between gaming and real-life activities.</li>
-            <li>Always read the app&apos;s details and user reviews carefully before downloading it.</li>
-            <li>Seek advice from experienced players or family members before investing, since there&apos;s always a risk of loss.</li>
-            <li>Provide correct personal details and use trusted payment options for quick and secure withdrawals.</li>
-            <li>To prevent addiction, take breaks, stay active, and maintain a balanced daily routine.</li>
-          </ul>
-        </div>
-      </section>
-
-      {/* End Note */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">End Note: Don&apos;t Miss Out – Join Now</h2>
-          <div className="space-y-4">
-            <p className="text-gray-300 leading-relaxed">3Patti World Apk is a thrilling card game app that lets you enjoy multiple versions of the classic Teen Patti experience. It comes with exciting features like daily rewards, live multiplayer matches, VIP rooms, and special bonuses. While playing, it&apos;s important to set a spending limit and focus on having fun to avoid unnecessary losses. Always download the app from its official source to keep your account secure.</p>
-            <p className="text-gray-300 leading-relaxed">In Pakistan, 3 Patti World also serves as a platform where players can enjoy games like Ludo, Mines, and Roulette while earning real rewards. You can earn bonuses by inviting friends or by depositing a small amount, starting from 200 PKR, which can grow as you play. Withdrawals are quick and easy through Easypaisa, JazzCash, or a bank account. So, <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">Download Teen Patti World App</a> today, invite your friends, and start enjoying the fun-filled world of 3 Patti World.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Helpful Guides */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Helpful Guides for 3 Patti World Players</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">Latest Guides &amp; Blog</h2>
+          <p className="text-gray-300 mb-8">Explore our comprehensive guides to learn everything about 3Patti World:</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <Link href="/blog/is-3-patti-world-real-or-fake" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
-              <h3 className="text-white font-semibold mb-2">Is 3 Patti World Real or Fake?</h3>
-              <p className="text-gray-400 text-sm">Find out the truth about legitimacy and payments.</p>
+              <h3 className="text-white font-semibold mb-2">Is 3Patti World Real or Fake?</h3>
+              <p className="text-gray-400 text-sm">Discover the truth about legitimacy and payment methods</p>
+            </Link>
+            <Link href="/blog/how-to-use-3-patti-world-app-pakistan-guide-2026" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
+              <h3 className="text-white font-semibold mb-2">How to Play 3Patti World</h3>
+              <p className="text-gray-400 text-sm">Complete beginner guide with rules and tips</p>
             </Link>
             <Link href="/blog/ways-to-earn-money-with-3-patti-world-2026" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
-              <h3 className="text-white font-semibold mb-2">Ways to Earn Money in 2026</h3>
-              <p className="text-gray-400 text-sm">Games, referrals, bonuses, VIP – all earning methods.</p>
+              <h3 className="text-white font-semibold mb-2">How to Earn Money in 3Patti World</h3>
+              <p className="text-gray-400 text-sm">Earning methods, bonuses, and withdrawal guide</p>
+            </Link>
+            <Link href="/blog/create-3-patti-world-account-and-login" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
+              <h3 className="text-white font-semibold mb-2">How to Create Account and Login</h3>
+              <p className="text-gray-400 text-sm">Step-by-step registration and login guide</p>
+            </Link>
+            <Link href="/blog/deposit-money-in-3-patti-world" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
+              <h3 className="text-white font-semibold mb-2">Payment Methods - JazzCash &amp; EasyPaisa</h3>
+              <p className="text-gray-400 text-sm">Complete guide on deposits and withdrawals</p>
             </Link>
             <Link href="/blog/tips-to-win-big-in-3-patti-world" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
-              <h3 className="text-white font-semibold mb-2">Tips to Win Big</h3>
-              <p className="text-gray-400 text-sm">Expert strategies for Teen Patti, Rummy, and more.</p>
-            </Link>
-            <Link href="/blog/3patti-world-login-problems-solutions-2026-guide" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
-              <h3 className="text-white font-semibold mb-2">Login Problems & Solutions</h3>
-              <p className="text-gray-400 text-sm">Fix wrong password, OTP, and IPS exceed errors.</p>
-            </Link>
-            <Link href="/blog/ips-exceed-issue-3-patti-world-how-to-fix" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
-              <h3 className="text-white font-semibold mb-2">IPS Exceed Issue – How to Fix</h3>
-              <p className="text-gray-400 text-sm">Quick fixes for IP limit exceeded error.</p>
-            </Link>
-            <Link href="/blog/3patti-world-latest-version-new-features-2026-updates" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
-              <h3 className="text-white font-semibold mb-2">Latest Version & 2026 Updates</h3>
-              <p className="text-gray-400 text-sm">New features in v1.152 and what changed.</p>
+              <h3 className="text-white font-semibold mb-2">Tips to Win in 3Patti World</h3>
+              <p className="text-gray-400 text-sm">Expert strategies and winning techniques</p>
             </Link>
           </div>
           <div className="text-center mt-6">
@@ -573,24 +575,82 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FAQs & Support */}
+      {/* Contact */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Learn More: FAQs & Support</h2>
-          <p className="text-gray-300 mb-8">If you&apos;re new to 3 Patti World or just need some quick help, this section covers the most common questions players ask. From account setup to deposits, withdrawals, and bonuses, you&apos;ll find all the key details here. Use this guide to get quick answers and enjoy a smooth gaming experience with 3 Patti World.</p>
-          
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">How Can We Contact the 3Patti World?</h2>
+          <p className="text-gray-300 mb-6">To contact the customer support team of 3 Patti World, you can use the given methods:</p>
+          <div className="space-y-6">
+            <div className="bg-[#0A1029] rounded-xl p-6">
+              <h3 className="text-xl font-bold mb-3 text-accent">Live Chat</h3>
+              <p className="text-gray-300">3 Patti World provides you with a live chat feature inside the app so that you can directly talk to the support team if you face any problems. Whether you face any issue like playing or using the app, this team responds to you quickly and helps you to solve your issues in real time. Live chat is the fastest way to get support without leaving the app.</p>
+            </div>
+            <div className="bg-[#0A1029] rounded-xl p-6">
+              <h3 className="text-xl font-bold mb-3 text-accent">WhatsApp</h3>
+              <p className="text-gray-300">You can also contact the support team through WhatsApp. You can simply use the number that is provided in the app to send your problem. This support team replies to you with instructions or solutions that make it easy to fix any problem. This WhatsApp support is very convenient because this is a simple and easy way to get help.</p>
+            </div>
+            <div className="bg-[#0A1029] rounded-xl p-6">
+              <h3 className="text-xl font-bold mb-3 text-accent">FAQs</h3>
+              <p className="text-gray-300">This app also dedicates a FAQs section where common questions are given with their answers. You can check this section before contacting the customer support team to save time. These FAQs mostly cover all topics such as registration, deposit, withdrawals, bonuses, and game rules. So, this is quick and easy to find the solution without waiting long.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Tips & Tricks */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">Tips &amp; Tricks to Earn Maximum on 3Patti World Game</h2>
+          <ul className="list-disc pl-5 space-y-2 text-gray-300">
+            <li><strong>Start with Small Bets:</strong> Always start a game with a small investment because it will help you to understand the game rules and overcome the risk of losing money. When you become confident, then increase your bet.</li>
+            <li><strong>Use Bonuses Wisely:</strong> 3 Patti World offers you daily login bonuses, referral bonuses, or deposit rewards. It helps you to play more games without spending your own money or earning extra money.</li>
+            <li><strong>Play Popular Games:</strong> Focus on high-earning games such as Dragon vs Tiger or Teen Patti Classic that provide you with higher winning chances, and also attract players with better opportunities to earn.</li>
+            <li><strong>Invite Friends:</strong> Use the referral link system to invite friends every time your friends join, and then you can earn commission. The more friends you invite, the higher you can become.</li>
+            <li><strong>Stay Active Daily:</strong> Regularly log in to the app to collect the daily rewards or spin bonuses. Always stay active because it will increase your bonus balance or improve your chances of winning big.</li>
+            <li><strong>Withdraw on Time:</strong> When you earn a good amount then do not delay withdrawal. Always transfer your winnings as soon as possible through JazzCash or EasyPaisa to keep your money safe.</li>
+            <li><strong>Learn from Practice Mode:</strong> Before playing games with real money, try the free or demo mode as practice. This helps you to understand the gameplay easily and develop the winning strategies without any risk.</li>
+            <li><strong>Keep the Emotions in Control:</strong> Never play games with frustration or greed. Always stay calm or make smart decisions during the game because it helps you to avoid unnecessary losses.</li>
+            <li><strong>Watch Expert Players:</strong> Observe how other players make the moves. Through this, you can learn new techniques or strategies and timing from them to improve your skills.</li>
+            <li><strong>Avoid Fake Apps:</strong> Always download the original 3 Patti World app through official or trusted sources because fake links or websites can steal your personal data or money.</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Pros & Cons */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">Pros &amp; Cons of using 3Patti World</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-xl font-bold mb-4 text-[#4ade80]">Pros</h3>
+              <ul className="space-y-2 text-gray-300">
+                {['Very simple and fun to play','Earn money with a small investment','JazzCash and EasyPaisa make payment easy','Many different games for enjoyment','Fast withdrawal of your money','Very easy to use and quick to start','Daily rewards and bonuses'].map((item,i)=>(<li key={i}>✓ {item}</li>))}
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-4 text-[#f87171]">Cons</h3>
+              <ul className="space-y-2 text-gray-300">
+                {['Risk of losing money','Sometimes withdrawals take time','Gameplay can be addictive','Run slow on weak phones','No legal Support','No Financial Freedom','Gameplay can be complicated'].map((item,i)=>(<li key={i}>✗ {item}</li>))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQs */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {[
-              { q: "How can I download the 3 Patti World app?", a: "You can download the app directly from the official website. It is currently available only for Android devices and not for iOS users." },
-              { q: "Is 3 Patti World safe to use?", a: "Yes, it's safe as long as you download it from the official source and use secure payment options like JazzCash, Easypaisa, or bank transfer." },
-              { q: "How do I register for an account?", a: "Open the app, tap on the Register option, fill in your details like username, password, and mobile number, then verify with the OTP sent to your phone or email." },
-              { q: "How can I deposit money in the 3Patti World app?", a: "Go to the deposit section in the main menu, choose a payment method (JazzCash, Easypaisa, or Bank Transfer), enter the amount, and submit." },
-              { q: "How do I withdraw my earnings?", a: "Open the withdrawal section, select your preferred payment option, enter the amount, and click submit. The money will be sent to your selected account once verified." },
-              { q: "What is the welcome bonus?", a: "New users receive a 120 PKR welcome recharge bonus after their first deposit in the app." },
-              { q: "Can I earn by referring friends?", a: "Yes, you can share your referral link on platforms like Facebook, Instagram, or Telegram to earn up to 30% commission when your friends join and play." },
-              { q: "What games are available in 3 Patti World?", a: "You can enjoy popular games such as 10 Cards, Ludo, Tiger vs Dragon, Mines, Zoo Roulette, and BlackJack." },
-              { q: "How can I contact customer support?", a: "You can reach out through the in-app support option or by visiting the contact page on the official 3 Patti World website for quick assistance." },
-              { q: "Is there any limit on withdrawals?", a: "Yes, withdrawal limits may vary depending on your account level or the payment method you choose. Always check the app for updated withdrawal policies." }
+              { q: "Can users play 3 Patti World without depositing money?", a: "Yes, you can play as a guest or use free chips and daily login bonuses to start without depositing." },
+              { q: "How do users contact customer support?", a: "Through in-app live chat, WhatsApp, or the FAQs section on the official 3 Patti World website." },
+              { q: "What makes 3 Patti World different from other card games?", a: "It offers multiple game modes, local payment methods (JazzCash, EasyPaisa), daily bonuses, referral rewards, and a user-friendly interface designed for Pakistan players." },
+              { q: "Is 3 Patti World safe and legal to use?", a: "The app uses encryption and secure payment methods. Always download from official sources. Legal status may vary by region." },
+              { q: "Can users lose money while playing?", a: "Yes, as with any real-money gaming, there is a risk of loss. Play responsibly and only with money you can afford to lose." },
+              { q: "Is it possible to change the language of 3 Patti World?", a: "Yes, the app supports English and Urdu." },
+              { q: "How do referral rewards work?", a: "Share your referral link with friends. When they join and play, you earn commission automatically." },
+              { q: "Is 3 Patti World available on iPhone (iOS)?", a: "No, the APK is for Android only. iOS users can play via the browser." }
             ].map((faq, i) => (
               <details key={i} className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
                 <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">{faq.q}
@@ -600,6 +660,15 @@ export default function Home() {
               </details>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Final Thoughts */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">Final Thoughts</h2>
+          <p className="text-gray-300 leading-relaxed mb-4">3 Patti World is one of the most popular online card games in the world. It not only provides you with fun or entertainment but also provides you with a great chance to earn money if you play games wisely. This app provides you with a simple and user-friendly interface that can make it easy, especially for beginners, to play games. The deposit or withdrawal system through JazzCash or EasyPaisa is very convenient, which makes this platform very easy to use.</p>
+          <p className="text-gray-300 leading-relaxed">If you play responsibly, make plans with smart strategies, and focus on your skill rather than luck, 3 Patti World can become a more exciting or rewarding gaming experience. <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">Download 3 Patti World</a> today and start playing!</p>
         </div>
       </section>
     </>
