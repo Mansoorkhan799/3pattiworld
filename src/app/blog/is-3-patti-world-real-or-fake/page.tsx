@@ -131,10 +131,10 @@ export default function CardRummyRealOrFakePage() {
       <div className="prose prose-lg max-w-none">
         <div className="bg-secondary rounded-xl p-6 md:p-8 mb-8">
           <p className="text-gray-300 leading-relaxed mb-4">
-            <Link href="/" className="text-accent hover:underline font-semibold">3 Patti World</Link> App is a popular online gaming platform where you can play card games for entertainment and earn real money. The app is very popular in Pakistan and has a large community where you can play classic 3Patti card games, Andar Bahar, Dragon Tiger, and 7 Up Down games, all worth trying. The 3 Patti World app offers extra earning opportunities through rewards and bonuses, tournaments, and promotional events, depending on gameplay.
+            <Link href="/" className="text-accent hover:underline font-semibold">3 Patti World</Link> is a Pakistan-focused card and casino app where you can play Teen Patti, Andar Bahar, Dragon Tiger, 7 Up Down, and similar games for real money. Many players use it for both fun and extra income via gameplay, bonuses, and referrals.
           </p>
           <p className="text-gray-300 leading-relaxed">
-            If you are confused and looking for side income opportunities that require little effort, a question keeps popping up: <strong className="text-white">Is 3 Patti World real or fake for earning money?</strong> Whether it is safe to download and whether your personal information is secure, this guide will provide clarity on your questions.
+            A common concern is: <strong className="text-white">Is 3 Patti World real or fake when it comes to paying out?</strong> This guide looks at how the app works, which payment methods it uses, and how to tell the official app from fake copies so you can decide with confidence.
           </p>
         </div>
 
@@ -182,7 +182,7 @@ export default function CardRummyRealOrFakePage() {
           <div className="bg-secondary rounded-xl p-6 md:p-8">
             <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Is 3 Patti World legit in Pakistan?</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Yes, the 3 Patti World app is legit and widely used by many players. The platform has a massive community and has gained popularity for its smooth gameplay, faster, easier withdrawal processes, and multiple earning options.
+              Yes. The official 3 Patti World app is widely used in Pakistan. Users report straightforward gameplay, relatively fast withdrawals via JazzCash and EasyPaisa, and several ways to earn (playing, daily bonuses, referrals).
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
               <div className="bg-[#0A1029] p-4 rounded-lg text-center">
@@ -205,7 +205,7 @@ export default function CardRummyRealOrFakePage() {
           <div className="bg-secondary rounded-xl p-6 md:p-8">
             <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Supported Payment Methods for the Withdrawal Process</h2>
             <p className="text-gray-300 leading-relaxed mb-6">
-              The 3 Patti World App claims to encourage withdrawals via different payment options, including Easy Paisa, Jazz Cash, and local bank transfer. 3Patti 3 Patti World offers smooth withdrawals, so you cannot face any issues. The withdrawals typically have:
+              The app supports withdrawals through EasyPaisa, JazzCash, and local bank transfer. The official 3 Patti World platform processes withdrawals smoothly, so users rarely run into issues. The withdrawals typically have:
             </p>
             
             <div className="space-y-4">
@@ -310,10 +310,10 @@ export default function CardRummyRealOrFakePage() {
           <div className="bg-gradient-to-r from-[#0ea5e9]/20 to-[#6366f1]/20 rounded-xl p-6 md:p-8 border-2 border-[#0ea5e9]">
             <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Final Thought</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              3 Patti World is one of the most famous online earning game apps that claim you can use it and withdraw money using local payment methods. The app is easy to use, and you can also earn with referral bonuses of PKR 1000 per referral, welcome bonuses, and registration bonuses.
+              The official 3 Patti World app lets you play and withdraw using JazzCash and EasyPaisa. On top of winnings, you can use welcome bonuses, registration rewards, and referral payouts (e.g. PKR 1000 per referral when terms are met). Ease of use and local payments are why many players stick with it.
             </p>
             <p className="text-white font-semibold text-lg">
-              So, if you want to earn real money, you can use the 3Patti 3 Patti World app hassle-free. ✅
+              So, if you want to earn real money, you can use the official 3 Patti World app hassle-free. ✅
             </p>
             
             {/* CTA Button */}

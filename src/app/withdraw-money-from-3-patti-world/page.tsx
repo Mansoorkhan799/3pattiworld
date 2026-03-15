@@ -76,7 +76,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 1 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     1
                   </div>
                   <div className="flex-1">
@@ -91,7 +91,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 2 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     2
                   </div>
                   <div className="flex-1">
@@ -106,7 +106,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 3 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     3
                   </div>
                   <div className="flex-1">
@@ -121,7 +121,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 4 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     4
                   </div>
                   <div className="flex-1">
@@ -136,7 +136,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 5 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     5
                   </div>
                   <div className="flex-1">
@@ -151,7 +151,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 6 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     6
                   </div>
                   <div className="flex-1">
@@ -166,7 +166,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 7 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     7
                   </div>
                   <div className="flex-1">
@@ -181,7 +181,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 8 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     8
                   </div>
                   <div className="flex-1">
@@ -196,7 +196,7 @@ export default function WithdrawMoneyPage() {
               {/* Step 9 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     9
                   </div>
                   <div className="flex-1">
@@ -335,63 +335,45 @@ export default function WithdrawMoneyPage() {
         </div>
       </section>
 
-      {/* Structured Data */}
+      {/* Structured Data: HowTo + WebPage for GEO/AEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "HowTo",
-            "name": "How to Withdraw Money from 3 Patti World",
-            "description": "Step-by-step guide to withdraw money from 3 Patti World using JazzCash, EasyPaisa, and Bank Transfer",
-            "step": [
+            "@graph": [
               {
-                "@type": "HowToStep",
-                "name": "Open 3 Patti World App",
-                "text": "Open the 3 Patti World app on your phone and log in to your account."
+                "@type": "WebPage",
+                "@id": "https://3pattiworldapp.com.pk/withdraw-money-from-3-patti-world#webpage",
+                "url": "https://3pattiworldapp.com.pk/withdraw-money-from-3-patti-world",
+                "name": "How to Withdraw Money from 3 Patti World | JazzCash, EasyPaisa & Bank 2026",
+                "description": "Step-by-step guide to withdraw money from 3 Patti World using JazzCash, EasyPaisa, and Bank Transfer in Pakistan.",
+                "inLanguage": "en-US",
+                "about": { "@type": "Thing", "name": "3 Patti World", "url": "https://3pattiworldapp.com.pk" },
+                "mainEntity": { "@id": "https://3pattiworldapp.com.pk/withdraw-money-from-3-patti-world#howto" },
+                "primaryImageOfPage": { "@type": "ImageObject", "url": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp" }
               },
               {
-                "@type": "HowToStep",
-                "name": "Click on Wallet Option",
-                "text": "Click on the wallet option to see your balance and withdrawal options."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Choose Withdraw Button",
-                "text": "Choose the withdraw button to start the withdrawal process."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Type Amount",
-                "text": "Type the amount you want to cash out within withdrawal limits."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Select Payment Method",
-                "text": "Select your payment method: Easypaisa, Jazzcash, or Bank Transfer."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Enter Payment Details",
-                "text": "Enter your account information including account number and name."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Confirm Payout",
-                "text": "Re-check all details and confirm your withdrawal."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Wait for Processing",
-                "text": "Wait for 3 Patti World to process your withdrawal (usually within 24 hours)."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Check Your Account",
-                "text": "Check your personal account to confirm you've received the payment."
+                "@id": "https://3pattiworldapp.com.pk/withdraw-money-from-3-patti-world#howto",
+                "@type": "HowTo",
+                "name": "How to Withdraw Money from 3 Patti World",
+                "description": "Step-by-step guide to withdraw money from 3 Patti World using JazzCash, EasyPaisa, and Bank Transfer in Pakistan.",
+                "totalTime": "PT5M",
+                "url": "https://3pattiworldapp.com.pk/withdraw-money-from-3-patti-world",
+                "step": [
+                  { "@type": "HowToStep", "position": 1, "name": "Open 3 Patti World App", "text": "Open the 3 Patti World app and log in with your registered mobile number and password." },
+                  { "@type": "HowToStep", "position": 2, "name": "Click on Wallet Option", "text": "Tap the Wallet option to see your balance and withdraw or deposit buttons." },
+                  { "@type": "HowToStep", "position": 3, "name": "Choose Withdraw Button", "text": "Tap Withdraw to start the withdrawal process and see payment methods and amounts." },
+                  { "@type": "HowToStep", "position": 4, "name": "Type Amount", "text": "Enter the amount you want to cash out, within the withdrawal limits." },
+                  { "@type": "HowToStep", "position": 5, "name": "Select Payment Method", "text": "Select EasyPaisa, JazzCash, or Bank Transfer." },
+                  { "@type": "HowToStep", "position": 6, "name": "Enter Payment Details", "text": "Enter your account number and name. Use correct details to avoid failed payouts." },
+                  { "@type": "HowToStep", "position": 7, "name": "Confirm Payout", "text": "Review all details and confirm the withdrawal." },
+                  { "@type": "HowToStep", "position": 8, "name": "Wait for Processing", "text": "Processing usually completes within 24 hours; JazzCash and EasyPaisa are often faster." },
+                  { "@type": "HowToStep", "position": 9, "name": "Check Your Account", "text": "Check your wallet or bank account to confirm the payment has been received." }
+                ]
               }
             ]
-          })
+          }).replace(/</g, "\\u003c")
         }}
       />
     </div>

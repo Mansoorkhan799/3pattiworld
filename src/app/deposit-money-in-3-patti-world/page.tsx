@@ -54,10 +54,10 @@ export default function DepositMoneyPage() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                <Link href="/" className="text-accent hover:underline font-semibold">3 Patti World</Link> is an exciting online game where users can play many amazing games daily. If you haven't already, <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">download 3 Patti World</a> to get started. You need to deposit money to enjoy it without any problems. Adding funds to the 3 Patti World Game is very easy, as it offers quick and safe payment methods, including JazzCash and Easy Paisa.
+                To play real-money tables in <Link href="/" className="text-accent hover:underline font-semibold">3 Patti World</Link>, you add funds via JazzCash or EasyPaisa. If you haven’t yet, <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">download the app</a> first. This page explains how to deposit step by step so your balance is ready in minutes.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                3 Patti World offers a simple deposit method that all new players can use without any confusion. It takes only a few minutes, and your money will be added immediately. Once you've earned money through gameplay, you can easily <Link href="/withdraw-money-from-3-patti-world" className="text-accent hover:underline font-semibold">withdraw money from 3 Patti World</Link> using the same secure payment methods.
+                The same channels (JazzCash, EasyPaisa) are used for withdrawals. After you’ve earned through gameplay, you can <Link href="/withdraw-money-from-3-patti-world" className="text-accent hover:underline font-semibold">withdraw from 3 Patti World</Link> using our dedicated withdrawal guide.
               </p>
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function DepositMoneyPage() {
               {/* Step 1 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     1
                   </div>
                   <div className="flex-1">
@@ -91,7 +91,7 @@ export default function DepositMoneyPage() {
               {/* Step 2 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     2
                   </div>
                   <div className="flex-1">
@@ -106,7 +106,7 @@ export default function DepositMoneyPage() {
               {/* Step 3 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     3
                   </div>
                   <div className="flex-1">
@@ -121,7 +121,7 @@ export default function DepositMoneyPage() {
               {/* Step 4 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     4
                   </div>
                   <div className="flex-1">
@@ -136,7 +136,7 @@ export default function DepositMoneyPage() {
               {/* Step 5 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     5
                   </div>
                   <div className="flex-1">
@@ -151,7 +151,7 @@ export default function DepositMoneyPage() {
               {/* Step 6 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     6
                   </div>
                   <div className="flex-1">
@@ -166,7 +166,7 @@ export default function DepositMoneyPage() {
               {/* Step 7 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     7
                   </div>
                   <div className="flex-1">
@@ -305,53 +305,43 @@ export default function DepositMoneyPage() {
         </div>
       </section>
 
-      {/* Structured Data */}
+      {/* Structured Data: HowTo + WebPage for GEO/AEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "HowTo",
-            "name": "How to Deposit Money in 3 Patti World",
-            "description": "Step-by-step guide to deposit money in 3 Patti World using JazzCash and EasyPaisa",
-            "step": [
+            "@graph": [
               {
-                "@type": "HowToStep",
-                "name": "Open 3 Patti World App",
-                "text": "Open the 3 Patti World app on your Android device and log in to your account."
+                "@type": "WebPage",
+                "@id": "https://3pattiworldapp.com.pk/deposit-money-in-3-patti-world#webpage",
+                "url": "https://3pattiworldapp.com.pk/deposit-money-in-3-patti-world",
+                "name": "How to Deposit Money in 3 Patti World | JazzCash & EasyPaisa Guide 2026",
+                "description": "Step-by-step guide to deposit money in 3 Patti World using JazzCash and EasyPaisa in Pakistan.",
+                "inLanguage": "en-US",
+                "about": { "@type": "Thing", "name": "3 Patti World", "url": "https://3pattiworldapp.com.pk" },
+                "mainEntity": { "@id": "https://3pattiworldapp.com.pk/deposit-money-in-3-patti-world#howto" },
+                "primaryImageOfPage": { "@type": "ImageObject", "url": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp" }
               },
               {
-                "@type": "HowToStep",
-                "name": "Click on Shop Option",
-                "text": "After logging in, click on the shop button to start the depositing process."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Select Payment Method",
-                "text": "Choose a payment method like JazzCash or EasyPaisa."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Choose Amount",
-                "text": "Select the amount you want to deposit (Rs 200, Rs 500, Rs 1000, or Rs 2000)."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Click on Add Chips",
-                "text": "Click the Add Chips option and enter your account number."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Approve Payment",
-                "text": "Log in to your mobile wallet and approve the payment request."
-              },
-              {
-                "@type": "HowToStep",
-                "name": "Wait for Complete Payment",
-                "text": "Wait for the deposit to be added to your 3 Patti World account."
+                "@id": "https://3pattiworldapp.com.pk/deposit-money-in-3-patti-world#howto",
+                "@type": "HowTo",
+                "name": "How to Deposit Money in 3 Patti World",
+                "description": "Step-by-step guide to deposit money in 3 Patti World using JazzCash and EasyPaisa in Pakistan.",
+                "totalTime": "PT3M",
+                "url": "https://3pattiworldapp.com.pk/deposit-money-in-3-patti-world",
+                "step": [
+                  { "@type": "HowToStep", "position": 1, "name": "Open 3 Patti World App", "text": "Open the 3 Patti World app on your Android device and log in with your registered phone number and password." },
+                  { "@type": "HowToStep", "position": 2, "name": "Click on Shop Option", "text": "On the dashboard, tap the Shop button to start the deposit process." },
+                  { "@type": "HowToStep", "position": 3, "name": "Select Payment Method", "text": "Choose JazzCash or EasyPaisa as your payment method." },
+                  { "@type": "HowToStep", "position": 4, "name": "Choose Amount", "text": "Select the amount to deposit (e.g. Rs 200, Rs 500, Rs 1000, or Rs 2000)." },
+                  { "@type": "HowToStep", "position": 5, "name": "Click on Add Chips", "text": "Tap Add Chips, enter the account number for payment, and submit." },
+                  { "@type": "HowToStep", "position": 6, "name": "Approve Payment", "text": "Approve the payment request in your JazzCash or EasyPaisa app." },
+                  { "@type": "HowToStep", "position": 7, "name": "Wait for Complete Payment", "text": "The deposit is usually added to your 3 Patti World account within minutes." }
+                ]
               }
             ]
-          })
+          }).replace(/</g, "\\u003c")
         }}
       />
     </div>

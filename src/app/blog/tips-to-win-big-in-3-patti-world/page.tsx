@@ -56,7 +56,7 @@ export default function TipsToWinBig() {
             <div className="prose prose-lg max-w-none">
               <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
                 <p className="text-lg text-gray-300 leading-relaxed mb-0">
-                  Want to maximize your winnings in 3 Patti World? If you haven't already, <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">download 3 Patti World</a> to get started. Whether you're playing Teen Patti, Rummy, Dragon vs Tiger, or other card games, these expert strategies and tips will help you play smarter and earn more real cash. Follow these proven techniques to boost your success rate and become a winning player.
+                  These strategies can help you play better and protect your bankroll in 3 Patti World. If you’re new, <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">download the app</a> first, then apply these ideas to Teen Patti, Rummy, Dragon vs Tiger, and other games so you can play smarter and improve your results over time.
                 </p>
               </div>
 

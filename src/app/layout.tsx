@@ -119,6 +119,9 @@ export default function RootLayout({
       <head>
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        {/* GEO: geographic targeting for Pakistan (AEO/GEO) */}
+        <meta name="geo.region" content="PK" />
+        <meta name="geo.placename" content="Pakistan" />
         <link rel="icon" href="/3-patti-world-logo.webp" type="image/webp" sizes="192x192" />
         <link rel="icon" href="/3-patti-world.webp" type="image/webp" sizes="512x512" />
         <link rel="shortcut icon" href="/3-patti-world-logo.webp" type="image/webp" />
@@ -176,7 +179,7 @@ export default function RootLayout({
         <ScrollToTopWrapper />
         <WebVitalsTracker />
         
-        {/* Structured data for Organization */}
+        {/* Structured data for Organization (GEO/AEO: geo + areaServed) */}
         <Script
           id="organization-schema"
           type="application/ld+json"
@@ -187,7 +190,15 @@ export default function RootLayout({
               "name": "3 Patti World",
               "url": "https://3pattiworldapp.com.pk",
               "logo": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp",
-              "description": "3 Patti World is Pakistan's premier Teen Patti gaming platform with real cash rewards.",
+              "description": "3 Patti World is Pakistan's premier Teen Patti gaming platform with real cash rewards. Download APK, play Teen Patti, Rummy, Dragon vs Tiger. JazzCash and EasyPaisa deposits and withdrawals.",
+              "areaServed": { "@type": "Country", "name": "Pakistan", "alternateName": "PK" },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "Customer Support",
+                "email": "support@3pattiworldapp.com.pk",
+                "areaServed": "PK",
+                "availableLanguage": ["English", "Urdu"]
+              },
               "sameAs": [
                 "https://facebook.com/3pattiworldapp",
                 "https://twitter.com/3pattiworldapp"

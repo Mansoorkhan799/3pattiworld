@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Script from 'next/script';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 import BlogPostSchema from '@/components/BlogPostSchema';
 
@@ -57,7 +58,7 @@ export default function BlogHowToUseCardRummyGuide() {
 
         <div className="prose prose-invert prose-lg max-w-none">
           <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-            New to <Link href="/" className="text-[#FFA500] hover:underline font-semibold">3 Patti World</Link>? This complete beginner's guide will walk you through everything from downloading the app to making your first withdrawal. By the end of this guide, you'll know exactly how to use 3 Patti World to start earning real cash in Pakistan.
+            New to <Link href="/" className="text-[#FFA500] hover:underline font-semibold">3 Patti World</Link>? This guide covers download, sign-up, first deposit, game basics, and your first withdrawal. Follow the steps below to get from install to cashing out in Pakistan.
           </p>
 
           <div className="bg-gradient-to-r from-purple-800/50 to-orange-600/50 rounded-lg p-8 my-8">
@@ -635,6 +636,31 @@ export default function BlogHowToUseCardRummyGuide() {
             </Link>
           </div>
         </aside>
+
+        {/* HowTo schema for GEO/AEO and rich results */}
+        <Script
+          id="howto-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "HowTo",
+              "name": "How to Use 3 Patti World App in Pakistan",
+              "description": "Complete beginner guide: download 3 Patti World APK, create account, make first deposit, play games, and withdraw winnings in Pakistan using JazzCash and EasyPaisa.",
+              "totalTime": "PT15M",
+              "url": "https://3pattiworldapp.com.pk/blog/how-to-use-3-patti-world-app-pakistan-guide-2026",
+              "step": [
+                { "@type": "HowToStep", "position": 1, "name": "Download and Install APK", "text": "Visit 3pattiworldapp.com.pk, download the APK, enable Unknown Sources, and install the app." },
+                { "@type": "HowToStep", "position": 2, "name": "Create Your Account", "text": "Open the app, tap Register, enter your Pakistani mobile number, get OTP, set password, and complete registration." },
+                { "@type": "HowToStep", "position": 3, "name": "Make Your First Deposit", "text": "Tap Wallet or Deposit, choose JazzCash or EasyPaisa, enter amount (min ₨300), complete payment in your wallet app." },
+                { "@type": "HowToStep", "position": 4, "name": "Choose a Game", "text": "From the home screen select Teen Patti, Rummy, Dragon vs Tiger, or Andar Bahar and pick a table by entry amount." },
+                { "@type": "HowToStep", "position": 5, "name": "Play and Claim Bonuses", "text": "Play games, complete daily tasks in Promotions, and claim referral rewards from My Account." },
+                { "@type": "HowToStep", "position": 6, "name": "Withdraw Winnings", "text": "Tap Wallet, select Withdraw, choose JazzCash or EasyPaisa, enter amount and details, confirm. Processing usually within 30 minutes." }
+              ]
+            }).replace(/</g, "\\u003c")
+          }}
+        />
       </article>
     </main>
   );

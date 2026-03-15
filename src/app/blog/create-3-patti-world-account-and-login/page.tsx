@@ -56,7 +56,7 @@ export default function CreateAccountLogin() {
             <div className="prose prose-lg max-w-none">
               <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
                 <p className="text-lg text-gray-300 leading-relaxed mb-0">
-                  Getting started with 3 Patti World is quick and easy. This guide will walk you through the process of creating your account and logging in, so you can start playing Teen Patti, Rummy, and other card games to earn real money right away.
+                  Setting up 3 Patti World takes a few minutes: download the app, register with your mobile number, and log in. Once your account is active, you can join Teen Patti, Rummy, Dragon vs Tiger, and other tables to play for real money. Below is a step-by-step account creation and login guide.
                 </p>
               </div>
 
@@ -65,7 +65,7 @@ export default function CreateAccountLogin() {
                 
                 <div className="space-y-8">
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       1
                     </div>
                     <div className="flex-1">
@@ -75,7 +75,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       2
                     </div>
                     <div className="flex-1">
@@ -85,7 +85,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       3
                     </div>
                     <div className="flex-1">
@@ -101,7 +101,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       4
                     </div>
                     <div className="flex-1">
@@ -111,7 +111,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       5
                     </div>
                     <div className="flex-1">
@@ -127,7 +127,7 @@ export default function CreateAccountLogin() {
                 
                 <div className="space-y-8">
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       1
                     </div>
                     <div className="flex-1">
@@ -137,7 +137,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       2
                     </div>
                     <div className="flex-1">
@@ -147,7 +147,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       3
                     </div>
                     <div className="flex-1">
@@ -157,7 +157,7 @@ export default function CreateAccountLogin() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
+                    <div className="flex-shrink-0 w-10 h-10 bg-[#0A1029] text-white rounded-full flex items-center justify-center text-lg font-bold mr-4">
                       4
                     </div>
                     <div className="flex-1">
@@ -250,29 +250,38 @@ export default function CreateAccountLogin() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            "headline": "How to Create Account and Login? - 3 Patti World",
-            "description": "Learn how to create an account and login to 3 Patti World. Step by step guide for registration and accessing your account.",
-            "datePublished": "2026-01-20T00:00:00Z",
-            "dateModified": new Date().toISOString(),
-            "author": {
-              "@type": "Organization",
-              "name": "3 Patti World Team",
-              "url": "https://3pattiworldapp.com.pk"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "3 Patti World",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp"
+            "@graph": [
+              {
+                "@type": "BlogPosting",
+                "headline": "How to Create Account and Login? - 3 Patti World",
+                "description": "Learn how to create an account and login to 3 Patti World. Step by step guide for registration and accessing your account in Pakistan.",
+                "datePublished": "2026-01-20T00:00:00Z",
+                "dateModified": new Date().toISOString(),
+                "author": { "@type": "Organization", "name": "3 Patti World Team", "url": "https://3pattiworldapp.com.pk" },
+                "publisher": { "@type": "Organization", "name": "3 Patti World", "logo": { "@type": "ImageObject", "url": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp" } },
+                "mainEntityOfPage": { "@type": "WebPage", "@id": "https://3pattiworldapp.com.pk/blog/create-3-patti-world-account-and-login" },
+                "inLanguage": "en-US",
+                "about": { "@type": "Thing", "name": "3 Patti World", "url": "https://3pattiworldapp.com.pk" }
+              },
+              {
+                "@type": "HowTo",
+                "name": "How to Create a 3 Patti World Account and Login",
+                "description": "Step-by-step guide to create an account and log in to 3 Patti World on Android in Pakistan.",
+                "totalTime": "PT2M",
+                "url": "https://3pattiworldapp.com.pk/blog/create-3-patti-world-account-and-login",
+                "step": [
+                  { "@type": "HowToStep", "position": 1, "name": "Download the 3 Patti World App", "text": "Download and install the 3 Patti World app from the official website." },
+                  { "@type": "HowToStep", "position": 2, "name": "Open the App and Tap Register", "text": "Launch the app and tap the Register or Sign Up button on the welcome screen." },
+                  { "@type": "HowToStep", "position": 3, "name": "Fill Out the Registration Form", "text": "Enter your mobile number, create a strong password, confirm it, and enter the OTP sent to your phone." },
+                  { "@type": "HowToStep", "position": 4, "name": "Complete Registration", "text": "Tap Register. Your account is created once all details are correct." },
+                  { "@type": "HowToStep", "position": 5, "name": "Claim Your Welcome Bonus", "text": "After registration, you receive a welcome bonus to start playing." },
+                  { "@type": "HowToStep", "position": 6, "name": "Open the App to Login", "text": "Open the 3 Patti World app when returning." },
+                  { "@type": "HowToStep", "position": 7, "name": "Enter Your Credentials", "text": "Enter your registered mobile number and password." },
+                  { "@type": "HowToStep", "position": 8, "name": "Tap Login", "text": "Tap the Login button to access your account. Use Forgot Password if needed." }
+                ]
               }
-            },
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://3pattiworldapp.com.pk/blog/create-3-patti-world-account-and-login"
-            }
-          })
+            ]
+          }).replace(/</g, "\\u003c")
         }}
       />
     </>

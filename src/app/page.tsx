@@ -48,7 +48,8 @@ export default function Home() {
         "url": "https://3pattiworldapp.com.pk/",
         "name": "3 Patti World",
         "description": "Pakistan's Most Trusted 3 Patti Gaming Platform with real cash rewards",
-        "inLanguage": "en-US"
+        "inLanguage": "en-US",
+        "areaServed": { "@type": "Country", "name": "Pakistan", "alternateName": "PK" }
       },
       {
         "@type": "Organization",
@@ -56,7 +57,8 @@ export default function Home() {
         "name": "3 Patti World",
         "url": "https://3pattiworldapp.com.pk/",
         "logo": { "@type": "ImageObject", "url": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp", "width": 512, "height": 512 },
-        "contactPoint": { "@type": "ContactPoint", "email": "support@3pattiworldapp.com.pk", "contactType": "Customer Support", "areaServed": "PK" }
+        "contactPoint": { "@type": "ContactPoint", "email": "support@3pattiworldapp.com.pk", "contactType": "Customer Support", "areaServed": { "@type": "Country", "name": "Pakistan" } },
+        "areaServed": { "@type": "Country", "name": "Pakistan", "alternateName": "PK" }
       },
       {
         "@type": "SoftwareApplication",
@@ -83,6 +85,20 @@ export default function Home() {
           { "@type": "Question", "name": "How do referral rewards work?", "acceptedAnswer": { "@type": "Answer", "text": "Share your referral link with friends. When they join and play, you earn commission automatically." } },
           { "@type": "Question", "name": "Is 3 Patti World available on iPhone (iOS)?", "acceptedAnswer": { "@type": "Answer", "text": "No, the APK is for Android only. iOS users can play via the browser." } }
         ]
+      },
+      {
+        "@type": "HowTo",
+        "name": "How to Download and Install 3 Patti World APK on Android",
+        "description": "Step-by-step guide to download and install the official 3 Patti World APK for Android in Pakistan. Uses JazzCash and EasyPaisa for deposits and withdrawals.",
+        "totalTime": "PT5M",
+        "url": "https://3pattiworldapp.com.pk/#download",
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Open browser and visit official site", "text": "Open the browser on your Android device, go to the official 3 Patti World website (3pattiworldapp.com.pk), and click the Download button." },
+          { "@type": "HowToStep", "position": 2, "name": "Download the APK file", "text": "Wait for the APK file to finish downloading. It will be saved in your device's Download folder." },
+          { "@type": "HowToStep", "position": 3, "name": "Allow install from unknown sources", "text": "Go to Settings, then Security, and enable Install from Unknown Sources (or Install Unknown Apps) for your browser or file manager." },
+          { "@type": "HowToStep", "position": 4, "name": "Open the APK and install", "text": "Open File Manager, go to the Download folder, tap the downloaded 3 Patti World APK file, and follow the installation prompts." },
+          { "@type": "HowToStep", "position": 5, "name": "Launch the app", "text": "Once installation completes, tap Open or find the 3 Patti World icon on your home screen and open the app to register or log in." }
+        ]
       }
     ]
   };
@@ -105,7 +121,7 @@ export default function Home() {
             </div>
             
             <p className="text-lg text-gray-300 leading-relaxed">
-              3Patti World is an exciting online card game where you can enjoy a wide collection of casino games with its attractive design, fun background music, and engaging look. Click on the following download button to get this wonderful app.
+              ​3 Patti World brings Teen Patti, Dragon vs Tiger, Rummy, and more to your phone with a clean layout and quick payouts via JazzCash and EasyPaisa. Use the button below to get the official APK and start playing.
             </p>
 
             <div className="flex justify-center my-8">
@@ -178,7 +194,7 @@ export default function Home() {
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Overview</h2>
-          <p className="text-gray-300 leading-relaxed">This app is divided into various sections, including card games, slots, poker, and many others, making it easy to find games that you want to play. 3Patti World is designed with modern graphics, smooth gameplay, and an easy interface that makes this platform more suitable for both beginners and experienced players. This app also offers you great and interesting services, allowing you to earn significant money even by investing a small amount. You can also win real cash rewards or bonuses for free. So, download the game, and start playing your favorite games to earn real cash for free.</p>
+          <p className="text-gray-300 leading-relaxed">The app groups games into card tables, slots, and poker so you can jump straight into what you like. Graphics and controls are straightforward, so new and regular players can focus on the game. You can top up with a small amount and still access real-money tables, and free chips plus daily bonuses let you try games without depositing. Download and pick your first table to get started.</p>
         </div>
       </section>
 
@@ -187,8 +203,8 @@ export default function Home() {
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">What is 3Patti World Game?</h2>
           <div className="space-y-6">
-            <p className="text-gray-300 leading-relaxed">3Patti World Game is an online card game that is based on the classic Teen Patti card game. You can play different games to earn money. It is a safe and easy platform where you can play card games and make good money in a short time. It has become a great opportunity, especially for those people who want to earn money by playing different and interesting games. This game became very popular, and people prefer it because of its beautiful design, simple settings, classic themes, and easy options.</p>
-            <p className="text-gray-300 leading-relaxed">You can withdraw your winnings or deposit money anytime by using the local and easy payment methods. When you complete your deposit then you can receive a deposit bonus as well. With its attractive visuals, user-friendly design, and exciting offers, this app is one of the most enjoyable and engaging casino-style card games.</p>
+            <p className="text-gray-300 leading-relaxed">3 Patti World is a mobile card and casino app built around Teen Patti and other popular titles. You choose from multiple games, add funds with JazzCash or EasyPaisa, and cash out winnings to the same methods. New players get a deposit bonus; daily login and referral rewards add extra value.</p>
+            <p className="text-gray-300 leading-relaxed">The interface keeps things simple: clear menus, familiar themes, and quick access to tables. Whether you prefer skill-based Teen Patti and Rummy or faster games like Dragon vs Tiger, the app is built for both casual play and real-money action.</p>
           </div>
         </div>
       </section>
@@ -197,8 +213,8 @@ export default function Home() {
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Why 3Patti World Game so Popular?</h2>
-          <p className="text-gray-300 leading-relaxed">The 3 Patti World game is very popular because it allows you to earn real money while having fun. It is easy to play because it provides you with simple rules that are very easy to understand, especially for beginners. The design of this app is very beautiful and colorful, which gives you a real casino experience on your device. Players love this app because you can withdraw and deposit money easily through EasyPaisa and JazzCash without facing any delays.</p>
-          <p className="text-gray-300 leading-relaxed mt-4">It also includes many exciting games such as Teen Patti, Dragon vs Tiger, Poker, Rummy, and Slots, so that you never feel bored. The other main reason for the popularity of 3 Patti World is its daily bonus and rewards that help you earn coins and extra cash. It is very safe and secure and can protect your personal details or money, and work smoothly even on low-storage devices.</p>
+          <p className="text-gray-300 leading-relaxed">Players in Pakistan like 3 Patti World for real-money payouts, local payments (JazzCash, EasyPaisa), and straightforward rules. The app feels like a focused card room rather than a cluttered casino, so beginners can learn quickly.</p>
+          <p className="text-gray-300 leading-relaxed mt-4">Teen Patti, Dragon vs Tiger, Rummy, Poker, and slots are all in one place. Daily bonuses and referral rewards keep the action going, and the app stays light so it runs well on most Android phones. Withdrawals and deposits are handled through familiar local methods.</p>
         </div>
       </section>
 
@@ -258,43 +274,43 @@ export default function Home() {
           <div className="space-y-6">
             <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#FFA500]">
               <h3 className="text-xl font-bold mb-3 text-[#FFA500]">1: Real Money Earning</h3>
-              <p className="text-gray-300">3 Patti World allows you to earn real cash rewards just by playing the game that you want to play or like. Whether you enjoy teen patti, poker, or rummy, every match provides you with a chance to win money. This app directly transfers your earnings through the local and easy payment methods safely. This app is not just for fun, but also becomes a great way to make extra income, which makes the 3 Patti World very entertaining and exciting.</p>
+              <p className="text-gray-300">Winnings from Teen Patti, poker, rummy, and other games are paid out as real cash. You choose the game and table; the app handles payouts through JazzCash and EasyPaisa so you get your money without extra steps. For many users it’s both entertainment and a side income.</p>
             </div>
             <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#4ade80]">
               <h3 className="text-xl font-bold mb-3 text-[#4ade80]">2: Easy Withdraw & Deposit</h3>
-              <p className="text-gray-300">With 3 Patti World, you can manage your money in a super simple or fast way. With just a few steps, you can withdraw or deposit money anytime using local payment methods, such as JazzCash or EasyPaisa. It also ensures you have secure and quick transactions without any delays.</p>
+              <p className="text-gray-300">Top-ups and withdrawals use JazzCash or EasyPaisa in a few taps. The flow is simple: choose amount, confirm, and complete the step in your wallet app. Transactions are processed quickly so you can get back to playing or cash out when you want.</p>
             </div>
             <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#60a5fa]">
               <h3 className="text-xl font-bold mb-3 text-[#60a5fa]">3: Attractive Interface</h3>
-              <p className="text-gray-300">This app is designed with a bright, colorful, and modern interface that can attract its users. The background music, smooth animations, and clear layout create an amazing or pleasant experience. Each section of this app is designed very well, so that you can find your favourite game easily.</p>
+              <p className="text-gray-300">The UI is bright and easy to scan: game categories, wallet, and promotions are clearly laid out. Sound and animations add atmosphere without getting in the way, and you can reach your favourite game in one or two taps.</p>
             </div>
             <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#f97316]">
               <h3 className="text-xl font-bold mb-3 text-[#f97316]">4: Popular Games</h3>
-              <p className="text-gray-300">3 Patti World provides you with a wide variety of famous games in one app so that you can enjoy dragon vs tiger, poker, slots, and many other exciting options. Each game of this app has simple rules that make it perfect for both beginners and experienced players.</p>
+              <p className="text-gray-300">Dragon vs Tiger, poker, slots, Teen Patti, and Rummy sit in one app with clear rules and table limits. Whether you want a quick round or a longer session, there’s a game and stake level that fits.</p>
             </div>
             <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#FFA500]">
               <h3 className="text-xl font-bold mb-3 text-[#FFA500]">5: Daily Bonus</h3>
-              <p className="text-gray-300">This app rewards you every day with free login bonuses or chips. You can earn extra coins just by opening the app regularly. It also provides special rewards on weekly or festival occasions. These bonuses help you to keep playing even if you do not want to deposit money.</p>
+              <p className="text-gray-300">Daily login gives you free chips or spins; weekly and seasonal promos add more. If you’d rather not deposit right away, these rewards still let you join tables and learn the games.</p>
             </div>
             <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#4ade80]">
               <h3 className="text-xl font-bold mb-3 text-[#4ade80]">6: Referral Earning</h3>
-              <p className="text-gray-300">3 Patti World offers you a referral program where you can earn money without playing games. You just need to share your referral link with your friends and invite them to join. When they start playing games, you receive a commission automatically. The more you invite, the more income you can get.</p>
+              <p className="text-gray-300">Share your referral link; when friends sign up and play, you earn a cut of their activity. No extra gameplay required—your commission is credited automatically as they use the app.</p>
             </div>
             <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#60a5fa]">
               <h3 className="text-xl font-bold mb-3 text-[#60a5fa]">7: Fast Performance</h3>
-              <p className="text-gray-300">This app runs smoothly on almost every Android device, even on older models. It does not hang, crash, or use too much storage space. The lightweight design of this app helps it to run faster and load to provide a smooth gameplay.</p>
+              <p className="text-gray-300">The APK is optimised for a wide range of Android devices. Load times are short, and the app uses limited storage so it stays responsive even on older or lower-spec phones.</p>
             </div>
             <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#f97316]">
               <h3 className="text-xl font-bold mb-3 text-[#f97316]">8: Safe & Secure Platform</h3>
-              <p className="text-gray-300">In 3 Patti World, your privacy and money are completely safe because it uses a secure payment method and data protection system that keeps everything private. This app is trusted by thousands of players for its reliability.</p>
+              <p className="text-gray-300">Payments go through established channels (JazzCash, EasyPaisa), and account data is protected. Always download from the official site to avoid fake copies and keep your details safe.</p>
             </div>
             <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#FFA500]">
               <h3 className="text-xl font-bold mb-3 text-[#FFA500]">9: Free to Play</h3>
-              <p className="text-gray-300">3 Patti World is free to download and does not ask for any registration fees. Through this feature, you can start playing games quickly with free chips that are given by the app. This feature is a perfect choice, especially for beginners.</p>
+              <p className="text-gray-300">No download or sign-up fee. New users get free chips to try games before adding real money—ideal if you’re testing the app or learning the rules.</p>
             </div>
             <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-[#4ade80]">
               <h3 className="text-xl font-bold mb-3 text-[#4ade80]">10: 24/7 Support</h3>
-              <p className="text-gray-300">This app also provides you with fast customer support, which helps you anytime. Whether you face a deposit issue or a technical error, this support team responds quickly. You can contact the team directly through the app for quick help.</p>
+              <p className="text-gray-300">Support is available in-app (live chat) and via WhatsApp. For deposit, withdrawal, or technical issues, the team can walk you through the fix so you’re not stuck.</p>
             </div>
           </div>
         </div>
@@ -560,7 +576,7 @@ export default function Home() {
               <h3 className="text-white font-semibold mb-2">How to Create Account and Login</h3>
               <p className="text-gray-400 text-sm">Step-by-step registration and login guide</p>
             </Link>
-            <Link href="/blog/deposit-money-in-3-patti-world" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
+            <Link href="/deposit-money-in-3-patti-world" className="bg-[#0A1029] p-5 rounded-lg hover:border-accent border border-gray-700 transition-colors">
               <h3 className="text-white font-semibold mb-2">Payment Methods - JazzCash &amp; EasyPaisa</h3>
               <p className="text-gray-400 text-sm">Complete guide on deposits and withdrawals</p>
             </Link>

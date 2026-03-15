@@ -57,7 +57,7 @@ export default function WaysToEarnMoneyPage() {
             <div className="prose prose-lg max-w-none">
               <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
                 <p className="text-lg text-gray-300 leading-relaxed mb-0">
-                  <Link href="/" className="text-accent hover:underline font-semibold">3 Patti World</Link> offers multiple ways to earn real money in Pakistan. From winning at Teen Patti and Rummy to referral bonuses and VIP rewards – here&apos;s your complete guide to maximizing earnings in 2026.
+                  <Link href="/" className="text-accent hover:underline font-semibold">3 Patti World</Link> gives you several routes to real cash: game winnings, referrals, daily and VIP rewards. This guide walks through each option and how to get the most out of them in 2026.
                 </p>
               </div>
 
@@ -66,7 +66,7 @@ export default function WaysToEarnMoneyPage() {
                 <div className="space-y-8">
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-xl font-bold mb-3 text-accent">1. Play Teen Patti and Win</h3>
-                    <p className="text-gray-300 leading-relaxed">The main way to earn – play Teen Patti Classic, Teen Patti variations, and win real cash. Skilled players can consistently earn by learning strategies, managing bankroll, and choosing the right tables. Start with low stakes, build confidence, then move up.</p>
+                    <p className="text-gray-300 leading-relaxed">Playing Teen Patti (Classic and other variants) is the core way to earn. Learn basic strategy, manage your bankroll, and pick tables that match your level. Starting at lower stakes helps you build confidence before moving to higher limits.</p>
                   </div>
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-xl font-bold mb-3 text-accent">2. Play Rummy, Dragon vs Tiger, Andar Bahar</h3>
@@ -74,7 +74,7 @@ export default function WaysToEarnMoneyPage() {
                   </div>
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-xl font-bold mb-3 text-accent">3. Referral Program – Refer and Earn</h3>
-                    <p className="text-gray-300 leading-relaxed">Invite friends using your unique referral link. When they register, deposit, and play, you earn commission. The more active referrals you have, the higher your passive income. Share your link on WhatsApp, social media, or in person.</p>
+                    <p className="text-gray-300 leading-relaxed">Use your unique referral link to invite friends. Once they sign up, add funds, and play, you receive a commission. Growing your referral list increases this passive stream; sharing via WhatsApp or social media works well.</p>
                   </div>
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-xl font-bold mb-3 text-accent">4. Welcome Bonus and Recharge Rebate</h3>
