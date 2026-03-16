@@ -16,8 +16,8 @@
     </image:image>
     <image:image>
       <image:loc>https://3pattiworldapp.com.pk/3-patti-world.webp</image:loc>
-      <image:title>3 Patti World App Icon Pakistan</image:title>
-      <image:caption>3 Patti World app icon - Free Teen Patti game for Android. Real cash rewards, JazzCash, EasyPaisa.</image:caption>
+      <image:title>3 Patti World App Icon – Download Teen Patti APK Pakistan</image:title>
+      <image:caption>Official 3 Patti World app icon. Free Teen Patti APK for Android in Pakistan. Real cash rewards, JazzCash and EasyPaisa payouts.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://3pattiworldapp.com.pk/3-patti-world-game-pakistan.webp</image:loc>
@@ -53,6 +53,34 @@
       <image:loc>https://3pattiworldapp.com.pk/3-patti-world-create-account.webp</image:loc>
       <image:title>3 Patti World Create Account - Sign Up Pakistan</image:title>
       <image:caption>3 Patti World account creation and login. Quick sign up for Teen Patti gaming in Pakistan.</image:caption>
+    </image:image>
+  </url>
+  <!-- Deposit page -->
+  <url>
+    <loc>https://3pattiworldapp.com.pk/deposit-money-in-3-patti-world</loc>
+    <image:image>
+      <image:loc>https://3pattiworldapp.com.pk/3-patti-world.webp</image:loc>
+      <image:title>3 Patti World – Deposit Money via JazzCash and EasyPaisa</image:title>
+      <image:caption>How to deposit money in 3 Patti World using JazzCash or EasyPaisa. Quick and secure deposits for Pakistan players.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://3pattiworldapp.com.pk/3-patti-world-deposit-money.webp</image:loc>
+      <image:title>3 Patti World Deposit Screen – JazzCash EasyPaisa Pakistan</image:title>
+      <image:caption>Step-by-step deposit screen in 3 Patti World app. Add funds via JazzCash or EasyPaisa instantly.</image:caption>
+    </image:image>
+  </url>
+  <!-- Withdraw page -->
+  <url>
+    <loc>https://3pattiworldapp.com.pk/withdraw-money-from-3-patti-world</loc>
+    <image:image>
+      <image:loc>https://3pattiworldapp.com.pk/3-patti-world.webp</image:loc>
+      <image:title>3 Patti World – Withdraw Money via JazzCash, EasyPaisa & Bank</image:title>
+      <image:caption>How to withdraw money from 3 Patti World to JazzCash, EasyPaisa, or bank account in Pakistan.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://3pattiworldapp.com.pk/3-patti-world-withdraw-money.webp</image:loc>
+      <image:title>3 Patti World Withdrawal Screen – Fast Payout Pakistan</image:title>
+      <image:caption>Step-by-step withdrawal screen in 3 Patti World. Cash out winnings to JazzCash or EasyPaisa quickly.</image:caption>
     </image:image>
   </url>
   <!-- Download page - APK download -->

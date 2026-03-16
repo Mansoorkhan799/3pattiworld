@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 
@@ -30,6 +31,16 @@ export default function DepositMoneyPage() {
       <section className="relative py-12 md:py-20 bg-secondary border-b border-gray-800">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
+            <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto mb-6">
+              <Image
+                src="/3-patti-world.webp"
+                alt="3 Patti World - Deposit with JazzCash and EasyPaisa"
+                fill
+                className="object-contain"
+                priority
+                sizes="(max-width: 768px) 128px, 160px"
+              />
+            </div>
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
               How to Deposit Money in 3 Patti World?
             </h1>
