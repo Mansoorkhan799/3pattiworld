@@ -171,20 +171,12 @@ export default function Home() {
 
           <div className="hidden md:block md:w-1/2 md:mt-8">
             <div className="relative ml-auto" style={{ width: '320px', height: '320px', maxWidth: '100%' }}>
-              <Image src="/3-patti-world-logo.webp" alt="3 Patti World Logo – Official Teen Patti App Pakistan" width={320} height={320} className="object-contain drop-shadow-2xl" priority={true} fetchPriority="high" quality={90} sizes="320px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-            </div>
-            {/* Secondary image for Google Images indexing */}
-            <div className="relative mx-auto mt-4" style={{ width: '160px', height: '160px' }}>
-              <Image src="/3-patti-world.webp" alt="3 Patti World App Icon – Download Teen Patti APK Pakistan" width={160} height={160} className="object-contain drop-shadow-xl" loading="eager" quality={90} sizes="160px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              <Image src="/3-patti-world.webp" alt="3 Patti World App Icon – Download Teen Patti APK Pakistan" width={320} height={320} className="object-contain drop-shadow-2xl" priority={true} fetchPriority="high" quality={90} sizes="320px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
           </div>
           <div className="mt-8 md:hidden">
             <div className="relative mx-auto" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
-              <Image src="/3-patti-world-logo.webp" alt="3 Patti World Logo – Official Teen Patti App Pakistan" width={280} height={280} className="object-contain drop-shadow-2xl" priority={true} fetchPriority="high" quality={90} sizes="280px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-            </div>
-            {/* Secondary image for Google Images indexing */}
-            <div className="relative mx-auto mt-4" style={{ width: '140px', height: '140px' }}>
-              <Image src="/3-patti-world.webp" alt="3 Patti World App Icon – Download Teen Patti APK Pakistan" width={140} height={140} className="object-contain drop-shadow-xl" loading="eager" quality={90} sizes="140px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              <Image src="/3-patti-world.webp" alt="3 Patti World App Icon – Download Teen Patti APK Pakistan" width={280} height={280} className="object-contain drop-shadow-2xl" priority={true} fetchPriority="high" quality={90} sizes="280px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
           </div>
         </div>
