@@ -78,7 +78,12 @@ export default function Home() {
         "datePublished": "2026-01-01",
         "dateModified": "2026-03-25",
         "author": { "@id": "https://3pattiworldapp.com.pk/#organization" },
+        "creator": { "@id": "https://3pattiworldapp.com.pk/#organization" },
         "copyrightHolder": { "@id": "https://3pattiworldapp.com.pk/#organization" },
+        "copyrightNotice": "© 2026 3 Patti World. All rights reserved.",
+        "creditText": "3 Patti World – 3pattiworldapp.com.pk",
+        "license": "https://3pattiworldapp.com.pk/terms-and-conditions",
+        "acquireLicensePage": "https://3pattiworldapp.com.pk/contact-us",
         "isPartOf": { "@id": "https://3pattiworldapp.com.pk/#website" },
         "primaryImageOfPage": { "@id": "https://3pattiworldapp.com.pk/#webpage" }
       },
