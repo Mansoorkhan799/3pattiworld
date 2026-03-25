@@ -352,7 +352,7 @@ export default function Blog3PattiRoomVsCardRummy() {
           </p>
 
           <p className="text-gray-300 mb-4">
-            <strong>Remember:</strong> Both apps involve real money gambling and operate in a legal gray area. Only play with money you can afford to lose, set strict limits, and play responsibly. See our <Link href="/blog/responsible-gaming-guide-3-patti-world" className="text-[#FFA500] hover:underline font-semibold">responsible gaming guide</Link> for safety tips.
+            <strong>Remember:</strong> Both apps involve real money gambling and operate in a legal gray area. Only play with money you can afford to lose, set strict limits, and play responsibly. See our <Link href="/blog/responsible-gaming-guide-3-patti-world" className="text-[#FFA500] hover:underline font-semibold">responsible gaming guide</Link> for safety tips. New to 3 Patti World? The <Link href="/blog/how-to-use-3-patti-world-app-pakistan-guide-2026" className="text-[#FFA500] hover:underline font-semibold">complete beginner's guide</Link> has everything you need to get started.
           </p>
 
           <div className="mt-12 text-center">
@@ -377,6 +377,14 @@ export default function Blog3PattiRoomVsCardRummy() {
             <Link href="/blog/3-patti-world-app-review-2026" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
               <h4 className="text-xl font-semibold text-white mb-2">3 Patti World App Review 2026</h4>
               <p className="text-gray-400">Complete honest review of 3 Patti World app</p>
+            </Link>
+            <Link href="/blog/how-to-use-3-patti-world-app-pakistan-guide-2026" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+              <h4 className="text-xl font-semibold text-white mb-2">Complete Beginner's Guide</h4>
+              <p className="text-gray-400">Download, register, and play your first game on 3 Patti World</p>
+            </Link>
+            <Link href="/deposit-money-in-3-patti-world" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+              <h4 className="text-xl font-semibold text-white mb-2">How to Deposit Money</h4>
+              <p className="text-gray-400">JazzCash and EasyPaisa deposit guide for 3 Patti World</p>
             </Link>
           </div>
         </aside>

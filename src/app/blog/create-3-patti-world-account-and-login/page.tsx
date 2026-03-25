@@ -116,7 +116,7 @@ export default function CreateAccountLogin() {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-2xl font-bold mb-3 text-white">Claim Your Welcome Bonus</h3>
-                      <p className="text-gray-300 leading-relaxed">Once your account is created, you'll automatically receive a welcome bonus. This bonus can be used to play games on the platform and start earning real money.</p>
+                      <p className="text-gray-300 leading-relaxed">Once your account is created, you'll automatically receive a welcome bonus. This bonus can be used to play games on the platform and start earning real money. To understand all available bonuses and how to use them, read our <Link href="/blog/3-patti-world-bonuses-vip-guide" className="text-accent hover:underline font-semibold">complete bonuses and VIP guide</Link>.</p>
                     </div>
                   </div>
                 </div>
@@ -216,7 +216,7 @@ export default function CreateAccountLogin() {
                   
                   <div className="bg-[#0A1029] rounded-xl p-6">
                     <h3 className="text-xl font-bold mb-3 text-accent">Account Locked?</h3>
-                    <p className="text-gray-300 leading-relaxed">If your account gets locked due to multiple failed login attempts, wait for 30 minutes before trying again, or contact customer support for assistance.</p>
+                    <p className="text-gray-300 leading-relaxed">If your account gets locked due to multiple failed login attempts, wait for 30 minutes before trying again. For a full list of login errors and how to fix them, see our <Link href="/blog/3patti-world-login-problems-solutions-2026-guide" className="text-accent hover:underline font-semibold">login problems guide</Link>.</p>
                   </div>
                   
                   <div className="bg-[#0A1029] rounded-xl p-6">
@@ -225,6 +225,24 @@ export default function CreateAccountLogin() {
                   </div>
                 </div>
               </div>
+
+              <aside className="mt-4 mb-8 pt-8 border-t border-gray-700">
+                <h3 className="text-2xl font-bold text-white mb-6">Related Guides</h3>
+                <div className="grid md:grid-cols-3 gap-4">
+                  <Link href="/blog/how-to-use-3-patti-world-app-pakistan-guide-2026" className="block p-5 bg-[#0A1029] rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">Complete Beginner's Guide</h4>
+                    <p className="text-gray-400 text-sm">From download to first withdrawal, step by step</p>
+                  </Link>
+                  <Link href="/deposit-money-in-3-patti-world" className="block p-5 bg-[#0A1029] rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">How to Deposit Money</h4>
+                    <p className="text-gray-400 text-sm">Add funds via JazzCash or EasyPaisa</p>
+                  </Link>
+                  <Link href="/blog/3-patti-world-bonuses-vip-guide" className="block p-5 bg-[#0A1029] rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">Bonuses & VIP Guide</h4>
+                    <p className="text-gray-400 text-sm">Welcome bonus, recharge rebates, and VIP rewards</p>
+                  </Link>
+                </div>
+              </aside>
 
               <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 text-center">
                 <h2 className="text-3xl font-bold mb-4 text-white">Ready to Start Playing?</h2>

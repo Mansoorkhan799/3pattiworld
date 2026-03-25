@@ -104,12 +104,30 @@ export default function LoginProblemsPage() {
                     <p className="text-gray-300 leading-relaxed mb-4">If the app closes when you tap Login:</p>
                     <ul className="list-disc pl-6 space-y-2 text-gray-300">
                       <li>Clear app cache: Settings → Apps → 3 Patti World → Clear Cache</li>
-                      <li>Update to the latest version from our <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">official download page</a></li>
+                      <li>Update to the latest version – see <Link href="/blog/3patti-world-latest-version-new-features-2026-updates" className="text-accent hover:underline">what&apos;s new in v1.152</Link> or download from our <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">official page</a></li>
                       <li>Ensure you have at least 500MB free storage</li>
                     </ul>
                   </div>
                 </div>
               </div>
+
+              <aside className="mt-4 mb-8 pt-8 border-t border-gray-700">
+                <h3 className="text-2xl font-bold text-white mb-6">Related Guides</h3>
+                <div className="grid md:grid-cols-3 gap-4">
+                  <Link href="/blog/ips-exceed-issue-3-patti-world-how-to-fix" className="block p-5 bg-[#0A1029] rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">IPS Exceed Error – How to Fix</h4>
+                    <p className="text-gray-400 text-sm">4 quick solutions for the IP limit exceeded error</p>
+                  </Link>
+                  <Link href="/blog/create-3-patti-world-account-and-login" className="block p-5 bg-[#0A1029] rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">Create Account & Login Guide</h4>
+                    <p className="text-gray-400 text-sm">New to 3 Patti World? Start here</p>
+                  </Link>
+                  <Link href="/blog/3patti-world-latest-version-new-features-2026-updates" className="block p-5 bg-[#0A1029] rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">Latest Version & Updates</h4>
+                    <p className="text-gray-400 text-sm">Update the app to fix crashes and login bugs</p>
+                  </Link>
+                </div>
+              </aside>
 
               <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 text-center">
                 <h2 className="text-3xl font-bold mb-4 text-white">Still Having Issues?</h2>

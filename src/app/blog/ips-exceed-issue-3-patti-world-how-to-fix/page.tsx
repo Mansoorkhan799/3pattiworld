@@ -57,7 +57,7 @@ export default function IPSExceedPage() {
             <div className="prose prose-lg max-w-none">
               <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
                 <p className="text-lg text-gray-300 leading-relaxed mb-0">
-                  Seeing &quot;IPS exceed&quot; or &quot;IP limit exceeded&quot; when trying to login to <Link href="/" className="text-accent hover:underline font-semibold">3 Patti World</Link>? This error occurs when too many login attempts are made from the same IP address. The system temporarily blocks that IP to prevent abuse. Here&apos;s how to fix it.
+                  Seeing &quot;IPS exceed&quot; or &quot;IP limit exceeded&quot; when trying to login to <Link href="/" className="text-accent hover:underline font-semibold">3 Patti World</Link>? This error occurs when too many login attempts are made from the same IP address. The system temporarily blocks that IP to prevent abuse. This is just one of several login issues – for a full overview, see our <Link href="/blog/3patti-world-login-problems-solutions-2026-guide" className="text-accent hover:underline font-semibold">login problems guide</Link>. Here&apos;s how to fix the IPS exceed error specifically.
                 </p>
               </div>
 
@@ -115,6 +115,24 @@ export default function IPSExceedPage() {
                   </li>
                 </ul>
               </div>
+
+              <aside className="mt-4 mb-8 pt-8 border-t border-gray-700">
+                <h3 className="text-2xl font-bold text-white mb-6">Related Guides</h3>
+                <div className="grid md:grid-cols-3 gap-4">
+                  <Link href="/blog/3patti-world-login-problems-solutions-2026-guide" className="block p-5 bg-[#0A1029] rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">All Login Problems & Fixes</h4>
+                    <p className="text-gray-400 text-sm">Wrong password, OTP issues, account locked and more</p>
+                  </Link>
+                  <Link href="/blog/create-3-patti-world-account-and-login" className="block p-5 bg-[#0A1029] rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">Create Account & Login Guide</h4>
+                    <p className="text-gray-400 text-sm">Step-by-step registration and login walkthrough</p>
+                  </Link>
+                  <Link href="/blog/how-to-use-3-patti-world-app-pakistan-guide-2026" className="block p-5 bg-[#0A1029] rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">Complete Beginner's Guide</h4>
+                    <p className="text-gray-400 text-sm">Download, register, deposit, and play in 15 minutes</p>
+                  </Link>
+                </div>
+              </aside>
 
               <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 text-center">
                 <h2 className="text-3xl font-bold mb-4 text-white">Ready to Play Again?</h2>

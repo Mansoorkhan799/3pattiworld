@@ -140,7 +140,7 @@ export default function BlogCardRummyAppReview() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">2. Bonuses & Promotions - Rating: 5/5</h2>
           
           <p className="text-gray-300 mb-4">
-            3 Patti World has one of the <strong>most generous bonus systems</strong> in Pakistan:
+            3 Patti World has one of the <strong>most generous bonus systems</strong> in Pakistan. For an in-depth look at every bonus type and how to claim them, see the <Link href="/blog/3-patti-world-bonuses-vip-guide" className="text-[#FFA500] hover:underline font-semibold">complete bonuses and VIP guide</Link>.
           </p>
 
           <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Bonus Breakdown</h3>
@@ -164,7 +164,7 @@ export default function BlogCardRummyAppReview() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">3. Withdrawal Speed - Rating: 5/5</h2>
           
           <p className="text-gray-300 mb-4">
-            <strong>This is 3 Patti World's biggest strength.</strong> Withdrawal speed is unmatched:
+            <strong>This is 3 Patti World's biggest strength.</strong> Withdrawal speed is unmatched. For a full step-by-step walkthrough, read the <Link href="/withdraw-money-from-3-patti-world" className="text-[#FFA500] hover:underline font-semibold">withdrawal guide</Link>.
           </p>
 
           <h3 className="text-2xl font-semibold text-white mt-8 mb-4">Withdrawal Times</h3>
@@ -419,11 +419,19 @@ export default function BlogCardRummyAppReview() {
           <div className="grid md:grid-cols-2 gap-6">
             <Link href="/blog/is-3-patti-world-safe-legal-pakistan" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
               <h4 className="text-xl font-semibold text-white mb-2">Is 3 Patti World Safe and Legal?</h4>
-              <p className="text-gray-400">Complete safety and legal analysis</p>
+              <p className="text-gray-400">Complete safety and legal analysis for Pakistan players</p>
             </Link>
             <Link href="/blog/responsible-gaming-guide-3-patti-world" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
               <h4 className="text-xl font-semibold text-white mb-2">Responsible Gaming Guide</h4>
-              <p className="text-gray-400">How to play safely and responsibly</p>
+              <p className="text-gray-400">How to play safely and set smart limits</p>
+            </Link>
+            <Link href="/blog/how-to-use-3-patti-world-app-pakistan-guide-2026" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+              <h4 className="text-xl font-semibold text-white mb-2">Complete Beginner's Guide</h4>
+              <p className="text-gray-400">Download, register, deposit, and play your first game</p>
+            </Link>
+            <Link href="/blog/3-patti-world-tips-10-smart-tricks" className="block p-6 bg-purple-800/30 rounded-lg hover:bg-purple-800/50 transition-colors">
+              <h4 className="text-xl font-semibold text-white mb-2">10 Smart Tips to Win More</h4>
+              <p className="text-gray-400">Proven strategies to maximize earnings on 3 Patti World</p>
             </Link>
           </div>
         </aside>

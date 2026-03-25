@@ -70,7 +70,7 @@ export default function WaysToEarnMoneyPage() {
                   </div>
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-xl font-bold mb-3 text-accent">2. Play Rummy, Dragon vs Tiger, Andar Bahar</h3>
-                    <p className="text-gray-300 leading-relaxed">Diversify your games. Rummy requires skill and practice. Dragon vs Tiger and Andar Bahar offer quick rounds. Each game has different odds – find what suits you and maximize winnings across multiple games.</p>
+                    <p className="text-gray-300 leading-relaxed">Diversify your games. Rummy requires skill and practice. Dragon vs Tiger and Andar Bahar offer quick rounds with near 50/50 odds – great for steady income. Each game has different payout rates; see our <Link href="/blog/dragon-vs-tiger-andar-bahar-high-payout-games" className="text-accent hover:underline font-semibold">high-payout games guide</Link> to pick the right one for your style.</p>
                   </div>
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-xl font-bold mb-3 text-accent">3. Referral Program – Refer and Earn</h3>
@@ -78,7 +78,7 @@ export default function WaysToEarnMoneyPage() {
                   </div>
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-xl font-bold mb-3 text-accent">4. Welcome Bonus and Recharge Rebate</h3>
-                    <p className="text-gray-300 leading-relaxed">New users get a welcome bonus (e.g., 120 PKR after first deposit). Recharge rebates give 3–10% back on deposits based on amount. Always check promotions – these bonuses boost your balance and playing time.</p>
+                    <p className="text-gray-300 leading-relaxed">New users get a welcome bonus (e.g., 120 PKR after first deposit). Recharge rebates give 3–10% back on deposits based on amount. For every bonus type explained in detail, read the <Link href="/blog/3-patti-world-bonuses-vip-guide" className="text-accent hover:underline font-semibold">bonuses and VIP guide</Link>.</p>
                   </div>
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-xl font-bold mb-3 text-accent">5. Daily Login and Tasks</h3>
@@ -100,7 +100,7 @@ export default function WaysToEarnMoneyPage() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-orange-500 mr-2 font-bold">•</span>
-                    <span>Withdraw winnings regularly – don&apos;t leave large amounts in the app</span>
+                    <span>Withdraw winnings regularly – don&apos;t leave large amounts in the app (<Link href="/withdraw-money-from-3-patti-world" className="text-accent hover:underline">how to withdraw</Link>)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-orange-500 mr-2 font-bold">•</span>
@@ -116,6 +116,24 @@ export default function WaysToEarnMoneyPage() {
                   </li>
                 </ul>
               </div>
+
+              <aside className="mt-4 mb-8 pt-8 border-t border-gray-700">
+                <h3 className="text-2xl font-bold text-white mb-6">Related Guides</h3>
+                <div className="grid md:grid-cols-3 gap-4">
+                  <Link href="/blog/3-patti-world-tips-10-smart-tricks" className="block p-5 bg-[#0A1029] rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">10 Smart Tricks to Win More</h4>
+                    <p className="text-gray-400 text-sm">Proven strategies to boost your earnings</p>
+                  </Link>
+                  <Link href="/blog/3-patti-world-bonuses-vip-guide" className="block p-5 bg-[#0A1029] rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">Bonuses & VIP Rewards</h4>
+                    <p className="text-gray-400 text-sm">Maximize every PKR with welcome bonus and rebates</p>
+                  </Link>
+                  <Link href="/withdraw-money-from-3-patti-world" className="block p-5 bg-[#0A1029] rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">How to Withdraw Winnings</h4>
+                    <p className="text-gray-400 text-sm">JazzCash, EasyPaisa, and bank transfer guide</p>
+                  </Link>
+                </div>
+              </aside>
 
               <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 text-center">
                 <h2 className="text-3xl font-bold mb-4 text-white">Start Earning Today</h2>

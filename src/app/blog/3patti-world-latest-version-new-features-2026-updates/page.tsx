@@ -70,7 +70,7 @@ export default function LatestVersionPage() {
                   </div>
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-xl font-bold mb-3 text-accent">Improved Withdrawal Speed</h3>
-                    <p className="text-gray-300 leading-relaxed">JazzCash and EasyPaisa withdrawals are now processed faster. Players report receiving payouts within minutes during peak hours.</p>
+                    <p className="text-gray-300 leading-relaxed">JazzCash and EasyPaisa withdrawals are now processed faster. Players report receiving payouts within minutes during peak hours. See our full <Link href="/withdraw-money-from-3-patti-world" className="text-accent hover:underline font-semibold">withdrawal guide</Link> for step-by-step instructions.</p>
                   </div>
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-xl font-bold mb-3 text-accent">Updated UI and Navigation</h3>
@@ -82,7 +82,7 @@ export default function LatestVersionPage() {
                   </div>
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-xl font-bold mb-3 text-accent">New Bonus Structures</h3>
-                    <p className="text-gray-300 leading-relaxed">Updated welcome bonus and recharge rebates. VIP levels now offer better rewards for loyal players.</p>
+                    <p className="text-gray-300 leading-relaxed">Updated welcome bonus and recharge rebates. VIP levels now offer better rewards for loyal players. For the full breakdown, check the <Link href="/blog/3-patti-world-bonuses-vip-guide" className="text-accent hover:underline font-semibold">bonuses and VIP guide</Link>.</p>
                   </div>
                 </div>
               </div>
@@ -93,10 +93,28 @@ export default function LatestVersionPage() {
                 <ul className="list-disc pl-6 space-y-3 text-gray-300">
                   <li>Visit 3pattiworldapp.com.pk and tap Download</li>
                   <li>Install the new APK over your existing app</li>
-                  <li>Login with your existing account credentials</li>
-                  <li>Enjoy all new features instantly</li>
+                  <li>Login with your existing credentials – having trouble? See the <Link href="/blog/3patti-world-login-problems-solutions-2026-guide" className="text-accent hover:underline">login problems guide</Link></li>
+                  <li>Enjoy all new features instantly – new to the app? Start with the <Link href="/blog/how-to-use-3-patti-world-app-pakistan-guide-2026" className="text-accent hover:underline">complete beginner&apos;s guide</Link></li>
                 </ul>
               </div>
+
+              <aside className="mt-4 mb-8 pt-8 border-t border-gray-700">
+                <h3 className="text-2xl font-bold text-white mb-6">Related Guides</h3>
+                <div className="grid md:grid-cols-3 gap-4">
+                  <Link href="/blog/3-patti-world-app-review-2026" className="block p-5 bg-[#0A1029] rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">Full App Review 2026</h4>
+                    <p className="text-gray-400 text-sm">Honest pros, cons, and rating of 3 Patti World</p>
+                  </Link>
+                  <Link href="/blog/how-to-use-3-patti-world-app-pakistan-guide-2026" className="block p-5 bg-[#0A1029] rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">Complete Beginner's Guide</h4>
+                    <p className="text-gray-400 text-sm">From download to first game in 15 minutes</p>
+                  </Link>
+                  <Link href="/blog/3-patti-world-tips-10-smart-tricks" className="block p-5 bg-[#0A1029] rounded-lg hover:bg-[#0A1029]/70 transition-colors">
+                    <h4 className="text-white font-semibold mb-1">10 Smart Tips to Win</h4>
+                    <p className="text-gray-400 text-sm">Use the new version features to maximize earnings</p>
+                  </Link>
+                </div>
+              </aside>
 
               <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 text-center">
                 <h2 className="text-3xl font-bold mb-4 text-white">Get the Latest Version Today</h2>
