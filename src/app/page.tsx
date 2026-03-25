@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     images: [
       { url: 'https://3pattiworldapp.com.pk/feature/og-image.webp', width: 1200, height: 630, alt: '3 Patti World - Teen Patti Earning Game' },
       { url: 'https://3pattiworldapp.com.pk/feature/og-image-square.webp', width: 800, height: 800, alt: '3 Patti World - Teen Patti Earning Game' },
-      { url: 'https://3pattiworldapp.com.pk/3-patti-world.webp', width: 1000, height: 1000, alt: '3 Patti World App Icon – Download Teen Patti APK Pakistan' }
+      { url: 'https://3pattiworldapp.com.pk/3-patti-world.webp', width: 1000, height: 1000, alt: '3 Patti World – Official Teen Patti APK Download Pakistan 2026' }
     ],
     type: 'website'
   },
@@ -66,22 +66,40 @@ export default function Home() {
         "@id": "https://3pattiworldapp.com.pk/#app-icon",
         "url": "https://3pattiworldapp.com.pk/3-patti-world.webp",
         "contentUrl": "https://3pattiworldapp.com.pk/3-patti-world.webp",
-        "name": "3 Patti World App Icon – Download Teen Patti APK Pakistan",
-        "description": "Official app icon for 3 Patti World – Pakistan's top Teen Patti gaming platform. Download free APK for Android. Real cash rewards via JazzCash and EasyPaisa.",
-        "caption": "3 Patti World App Icon – Free Teen Patti APK for Pakistan",
+        "name": "3 Patti World – Official Teen Patti APK Download Pakistan 2026",
+        "description": "Official image of 3 Patti World – Pakistan's top Teen Patti gaming platform. Download free APK for Android. Play Teen Patti, Dragon vs Tiger, Rummy and earn real cash via JazzCash and EasyPaisa.",
+        "caption": "3 Patti World – Official Teen Patti APK for Pakistan. Free download, real cash rewards.",
+        "keywords": "3 Patti World, 3Patti World, Teen Patti APK Pakistan, 3 Patti World download, 3 Patti World APK",
         "width": 1000,
         "height": 1000,
         "encodingFormat": "image/webp",
         "inLanguage": "en-US",
         "representativeOfPage": true,
-        "isPartOf": { "@id": "https://3pattiworldapp.com.pk/#website" }
+        "datePublished": "2026-01-01",
+        "dateModified": "2026-03-25",
+        "author": { "@id": "https://3pattiworldapp.com.pk/#organization" },
+        "copyrightHolder": { "@id": "https://3pattiworldapp.com.pk/#organization" },
+        "isPartOf": { "@id": "https://3pattiworldapp.com.pk/#website" },
+        "primaryImageOfPage": { "@id": "https://3pattiworldapp.com.pk/#webpage" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://3pattiworldapp.com.pk/#webpage",
+        "url": "https://3pattiworldapp.com.pk/",
+        "name": "3 Patti World – Official Teen Patti APK Download Pakistan 2026",
+        "description": "Download 3 Patti World APK for Android. Play Teen Patti, Dragon vs Tiger, Rummy. Real cash rewards via JazzCash and EasyPaisa in Pakistan.",
+        "inLanguage": "en-US",
+        "isPartOf": { "@id": "https://3pattiworldapp.com.pk/#website" },
+        "about": { "@id": "https://3pattiworldapp.com.pk/#organization" },
+        "primaryImageOfPage": { "@id": "https://3pattiworldapp.com.pk/#app-icon" },
+        "image": { "@id": "https://3pattiworldapp.com.pk/#app-icon" }
       },
       {
         "@type": "SoftwareApplication",
         "name": "3 Patti World",
         "operatingSystem": "Android 4.1+",
         "applicationCategory": "GameApplication",
-        "image": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp",
+        "image": { "@id": "https://3pattiworldapp.com.pk/#app-icon" },
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "ratingCount": "300000" },
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "PKR" },
         "downloadUrl": "https://3pattiworldapp.com.pk/download-3-patti-world",
@@ -170,14 +188,20 @@ export default function Home() {
           </div>
 
           <div className="hidden md:block md:w-1/2 md:mt-8">
-            <div className="relative ml-auto" style={{ width: '320px', height: '320px', maxWidth: '100%' }}>
-              <Image src="/3-patti-world.webp" alt="3 Patti World App Icon – Download Teen Patti APK Pakistan" width={320} height={320} className="object-contain drop-shadow-2xl" priority={true} fetchPriority="high" quality={90} sizes="320px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-            </div>
+            <figure className="ml-auto text-center" style={{ width: '320px', maxWidth: '100%' }}>
+              <div style={{ width: '320px', height: '320px' }}>
+                <Image src="/3-patti-world.webp" alt="3 Patti World – Official Teen Patti APK Download Pakistan 2026" title="3 Patti World" width={320} height={320} className="object-contain drop-shadow-2xl" priority={true} fetchPriority="high" quality={90} sizes="320px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              </div>
+              <figcaption className="text-gray-400 text-xs mt-2">3 Patti World – Official Teen Patti APK for Pakistan</figcaption>
+            </figure>
           </div>
           <div className="mt-8 md:hidden">
-            <div className="relative mx-auto" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
-              <Image src="/3-patti-world.webp" alt="3 Patti World App Icon – Download Teen Patti APK Pakistan" width={280} height={280} className="object-contain drop-shadow-2xl" priority={true} fetchPriority="high" quality={90} sizes="280px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-            </div>
+            <figure className="mx-auto text-center" style={{ width: '280px', maxWidth: '100%' }}>
+              <div style={{ width: '280px', height: '280px' }}>
+                <Image src="/3-patti-world.webp" alt="3 Patti World – Official Teen Patti APK Download Pakistan 2026" title="3 Patti World" width={280} height={280} className="object-contain drop-shadow-2xl" priority={true} fetchPriority="high" quality={90} sizes="280px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              </div>
+              <figcaption className="text-gray-400 text-xs mt-2">3 Patti World – Official Teen Patti APK for Pakistan</figcaption>
+            </figure>
           </div>
         </div>
       </section>
