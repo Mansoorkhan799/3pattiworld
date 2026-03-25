@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: '/3-patti-world-logo.webp', type: 'image/webp', sizes: '192x192' },
-      { url: '/3-patti-world.webp', type: 'image/webp', sizes: '512x512' }
+      { url: '/3-patti-world.webp', type: 'image/webp', sizes: '1000x1000' }
     ],
     apple: [
       { url: '/3-patti-world-logo.webp', sizes: '180x180' }
@@ -123,7 +123,7 @@ export default function RootLayout({
         <meta name="geo.region" content="PK" />
         <meta name="geo.placename" content="Pakistan" />
         <link rel="icon" href="/3-patti-world-logo.webp" type="image/webp" sizes="192x192" />
-        <link rel="icon" href="/3-patti-world.webp" type="image/webp" sizes="512x512" />
+        <link rel="icon" href="/3-patti-world.webp" type="image/webp" sizes="1000x1000" />
         <link rel="shortcut icon" href="/3-patti-world-logo.webp" type="image/webp" />
         <link rel="apple-touch-icon" href="/3-patti-world-logo.webp" sizes="180x180" />
         <meta property="og:image" content="https://3pattiworldapp.com.pk/3-patti-world-logo.webp" />

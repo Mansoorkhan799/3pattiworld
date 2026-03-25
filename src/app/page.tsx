@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     images: [
       { url: 'https://3pattiworldapp.com.pk/feature/og-image.webp', width: 1200, height: 630, alt: '3 Patti World - Teen Patti Earning Game' },
       { url: 'https://3pattiworldapp.com.pk/feature/og-image-square.webp', width: 800, height: 800, alt: '3 Patti World - Teen Patti Earning Game' },
-      { url: 'https://3pattiworldapp.com.pk/3-patti-world.webp', width: 512, height: 512, alt: '3 Patti World App Icon – Download Teen Patti APK Pakistan' }
+      { url: 'https://3pattiworldapp.com.pk/3-patti-world.webp', width: 1000, height: 1000, alt: '3 Patti World App Icon – Download Teen Patti APK Pakistan' }
     ],
     type: 'website'
   },
@@ -69,8 +69,8 @@ export default function Home() {
         "name": "3 Patti World App Icon – Download Teen Patti APK Pakistan",
         "description": "Official app icon for 3 Patti World – Pakistan's top Teen Patti gaming platform. Download free APK for Android. Real cash rewards via JazzCash and EasyPaisa.",
         "caption": "3 Patti World App Icon – Free Teen Patti APK for Pakistan",
-        "width": 512,
-        "height": 512,
+        "width": 1000,
+        "height": 1000,
         "encodingFormat": "image/webp",
         "inLanguage": "en-US",
         "representativeOfPage": true,
