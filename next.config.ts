@@ -5,6 +5,14 @@ import type { NextConfig } from "next";
  * Redirects old URLs to 3 Patti World routes
  */
 const nextConfig: NextConfig = {
+  poweredByHeader: false,
+  compress: true,
+  images: {
+    formats: ["image/avif", "image/webp"],
+    minimumCacheTTL: 31536000,
+    deviceSizes: [640, 750, 828, 1080, 1200],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 320],
+  },
   async redirects() {
     return [
       { source: "/download-card-rummy", destination: "/download-3-patti-world", permanent: true },

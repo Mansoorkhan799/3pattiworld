@@ -126,8 +126,7 @@ export default function RootLayout({
         <link rel="icon" href="/3-patti-world.webp" type="image/webp" sizes="1000x1000" />
         <link rel="shortcut icon" href="/3-patti-world-logo.webp" type="image/webp" />
         <link rel="apple-touch-icon" href="/3-patti-world-logo.webp" sizes="180x180" />
-        <meta property="og:image" content="https://3pattiworldapp.com.pk/3-patti-world-logo.webp" />
-        
+
         {/* Preconnect to external domains for faster loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
@@ -179,7 +178,7 @@ export default function RootLayout({
         <ScrollToTopWrapper />
         <WebVitalsTracker />
         
-        {/* Structured data for Organization (GEO/AEO: geo + areaServed) */}
+        {/* Organization schema – sitewide signal for Google */}
         <Script
           id="organization-schema"
           type="application/ld+json"
@@ -187,9 +186,15 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
+              "@id": "https://3pattiworldapp.com.pk/#organization",
               "name": "3 Patti World",
               "url": "https://3pattiworldapp.com.pk",
-              "logo": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp",
+                "width": 192,
+                "height": 192
+              },
               "description": "3 Patti World is Pakistan's premier Teen Patti gaming platform with real cash rewards. Download APK, play Teen Patti, Rummy, Dragon vs Tiger. JazzCash and EasyPaisa deposits and withdrawals.",
               "areaServed": { "@type": "Country", "name": "Pakistan", "alternateName": "PK" },
               "contactPoint": {
@@ -203,31 +208,6 @@ export default function RootLayout({
                 "https://facebook.com/3pattiworldapp",
                 "https://twitter.com/3pattiworldapp"
               ]
-            })
-          }}
-        />
-        
-        {/* Structured data for SoftwareApplication */}
-        <Script
-          id="app-schema"
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "SoftwareApplication",
-              "name": "3 Patti World",
-              "operatingSystem": "Android",
-              "applicationCategory": "GameApplication",
-              "offers": {
-                "@type": "Offer",
-                "price": "0",
-                "priceCurrency": "PKR"
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.5",
-                "ratingCount": "500000"
-              }
             })
           }}
         />

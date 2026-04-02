@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 import BlogPostSchema from '@/components/BlogPostSchema';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata: Metadata = {
   title: 'Dragon vs Tiger, Andar Bahar & More: Best High-Payout Games in 3 Patti World App 2026',
@@ -35,6 +36,7 @@ export default function BlogHighPayoutGames() {
         slug="dragon-vs-tiger-andar-bahar-high-payout-games"
         datePublished="2026-01-11"
       />
+      <BreadcrumbSchema items={[{name: "Home", url: "https://3pattiworldapp.com.pk"}, {name: "Blog", url: "https://3pattiworldapp.com.pk/blog"}, {name: "Dragon vs Tiger & Andar Bahar High-Payout Games", url: "https://3pattiworldapp.com.pk/blog/dragon-vs-tiger-andar-bahar-high-payout-games"}]} />
       <article className="container mx-auto px-4 py-12 max-w-4xl">
         <nav className="mb-8 text-sm text-gray-400">
           <Link href="/" className="hover:text-[#FFA500]">Home</Link>

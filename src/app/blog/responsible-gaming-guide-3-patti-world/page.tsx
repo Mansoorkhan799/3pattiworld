@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import BlogPostSchema from '@/components/BlogPostSchema';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata: Metadata = {
   title: 'Responsible Gaming Guide: How to Enjoy 3 Patti World Without Addiction or Big Losses 2026',
@@ -34,6 +35,7 @@ export default function BlogResponsibleGamingGuide() {
         slug="responsible-gaming-guide-3-patti-world"
         datePublished="2026-01-11"
       />
+      <BreadcrumbSchema items={[{name: "Home", url: "https://3pattiworldapp.com.pk"}, {name: "Blog", url: "https://3pattiworldapp.com.pk/blog"}, {name: "Responsible Gaming Guide - 3 Patti World", url: "https://3pattiworldapp.com.pk/blog/responsible-gaming-guide-3-patti-world"}]} />
       <article className="container mx-auto px-4 py-12 max-w-4xl">
         <nav className="mb-8 text-sm text-gray-400">
           <Link href="/" className="hover:text-[#FFA500]">Home</Link>

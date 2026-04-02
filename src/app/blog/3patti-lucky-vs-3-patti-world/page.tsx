@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import BlogPostSchema from '@/components/BlogPostSchema';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -35,6 +36,7 @@ export default function Blog3PattiLuckyVsCardRummy() {
         slug="3patti-lucky-vs-3-patti-world"
         datePublished="2026-01-11"
       />
+      <BreadcrumbSchema items={[{name: "Home", url: "https://3pattiworldapp.com.pk"}, {name: "Blog", url: "https://3pattiworldapp.com.pk/blog"}, {name: "3Patti Lucky vs 3 Patti World", url: "https://3pattiworldapp.com.pk/blog/3patti-lucky-vs-3-patti-world"}]} />
       <article className="container mx-auto px-4 py-12 max-w-4xl">
         <nav className="mb-8 text-sm text-gray-400">
           <Link href="/" className="hover:text-[#FFA500]">Home</Link>

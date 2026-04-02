@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 import BlogPostSchema from '@/components/BlogPostSchema';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata: Metadata = {
   title: 'IPS Exceed Issue 3 Patti World: How to Fix (2026 Guide)',
@@ -38,6 +39,7 @@ export default function IPSExceedPage() {
         slug="ips-exceed-issue-3-patti-world-how-to-fix"
         datePublished="2026-02-20"
       />
+      <BreadcrumbSchema items={[{name: "Home", url: "https://3pattiworldapp.com.pk"}, {name: "Blog", url: "https://3pattiworldapp.com.pk/blog"}, {name: "IPS Exceed Error - How to Fix", url: "https://3pattiworldapp.com.pk/blog/ips-exceed-issue-3-patti-world-how-to-fix"}]} />
       <div className="min-h-screen bg-[#060A20]">
         <div className="container mx-auto px-4 py-12">
           <div className="mb-6">

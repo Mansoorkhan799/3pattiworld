@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 import Image from 'next/image';
 import BlogPostSchema from '@/components/BlogPostSchema';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata: Metadata = {
   title: 'Is 3 Patti World Real or Fake to Earn Money? - Complete Guide 2026',
@@ -85,6 +86,7 @@ export default function CardRummyRealOrFakePage() {
         datePublished="2026-01-03"
         breadcrumbOnly
       />
+      <BreadcrumbSchema items={[{name: "Home", url: "https://3pattiworldapp.com.pk"}, {name: "Blog", url: "https://3pattiworldapp.com.pk/blog"}, {name: "Is 3 Patti World Real or Fake?", url: "https://3pattiworldapp.com.pk/blog/is-3-patti-world-real-or-fake"}]} />
       <article className="py-12 px-4 md:px-8 max-w-4xl mx-auto">
       {/* Schema.org JSON-LD */}
       <div suppressHydrationWarning style={{ display: "contents" }}>

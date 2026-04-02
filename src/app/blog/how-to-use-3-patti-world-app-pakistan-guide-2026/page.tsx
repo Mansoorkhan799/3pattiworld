@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Script from 'next/script';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 import BlogPostSchema from '@/components/BlogPostSchema';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata: Metadata = {
   title: 'How to Use 3 Patti World App in Pakistan: Complete Beginner\'s Guide 2026',
@@ -36,6 +37,7 @@ export default function BlogHowToUseCardRummyGuide() {
         slug="how-to-use-3-patti-world-app-pakistan-guide-2026"
         datePublished="2026-01-11"
       />
+      <BreadcrumbSchema items={[{name: "Home", url: "https://3pattiworldapp.com.pk"}, {name: "Blog", url: "https://3pattiworldapp.com.pk/blog"}, {name: "How to Use 3 Patti World App in Pakistan", url: "https://3pattiworldapp.com.pk/blog/how-to-use-3-patti-world-app-pakistan-guide-2026"}]} />
       <article className="container mx-auto px-4 py-12 max-w-4xl">
         <nav className="mb-8 text-sm text-gray-400">
           <Link href="/" className="hover:text-[#FFA500]">Home</Link>

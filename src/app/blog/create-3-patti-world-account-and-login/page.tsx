@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 import Script from 'next/script';
 import BlogPostSchema from '@/components/BlogPostSchema';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata: Metadata = {
   title: 'How to Create a 3 Patti World Account and Login? - Step by Step Guide',
@@ -39,6 +40,7 @@ export default function CreateAccountLogin() {
         slug="create-3-patti-world-account-and-login"
         datePublished="2026-01-20"
       />
+      <BreadcrumbSchema items={[{name: "Home", url: "https://3pattiworldapp.com.pk"}, {name: "Blog", url: "https://3pattiworldapp.com.pk/blog"}, {name: "Create 3 Patti World Account & Login", url: "https://3pattiworldapp.com.pk/blog/create-3-patti-world-account-and-login"}]} />
       <div className="min-h-screen bg-[#060A20]">
         <div className="container mx-auto px-4 py-12">
           <div className="mb-6">

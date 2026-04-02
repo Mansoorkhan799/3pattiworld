@@ -5,11 +5,8 @@ import Script from 'next/script';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: {
-    default: "3 Patti World Pakistan v1.199 Free Download Official APK",
-    template: "%s | 3 Patti World"
-  },
-  description: "3 Patti World 2026 - Pakistan's Most Trusted 3 Patti Gaming Platform. Download Teen Patti World APK for Android. Play with friends, earn real cash, daily rewards. JazzCash & EasyPaisa withdrawals.",
+  title: "3 Patti World Pakistan v1.199 Free Download Official APK",
+  description: "Download 3 Patti World APK – Pakistan's top Teen Patti platform. Play Teen Patti, Rummy, Dragon vs Tiger. Real cash via JazzCash & EasyPaisa.",
   keywords: [
     "3 Patti World",
     "Teen Patti World",

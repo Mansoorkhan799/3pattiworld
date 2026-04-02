@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 import Script from 'next/script';
 import BlogPostSchema from '@/components/BlogPostSchema';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata: Metadata = {
   title: 'Tips to Win Big in 3 Patti World - Expert Strategies & Tricks 2026',
@@ -39,6 +40,7 @@ export default function TipsToWinBig() {
         slug="tips-to-win-big-in-3-patti-world"
         datePublished="2026-01-20"
       />
+      <BreadcrumbSchema items={[{name: "Home", url: "https://3pattiworldapp.com.pk"}, {name: "Blog", url: "https://3pattiworldapp.com.pk/blog"}, {name: "Tips to Win Big in 3 Patti World", url: "https://3pattiworldapp.com.pk/blog/tips-to-win-big-in-3-patti-world"}]} />
       <div className="min-h-screen bg-[#060A20]">
         <div className="container mx-auto px-4 py-12">
           <div className="mb-6">

@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 import BlogPostSchema from '@/components/BlogPostSchema';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata: Metadata = {
   title: '3Patti Gold vs 3 Patti World: Which Game Is Better for Earning Real Cash? 2026',
@@ -35,6 +36,7 @@ export default function Blog3PattiGoldVsCardRummy() {
         slug="3patti-gold-vs-3-patti-world"
         datePublished="2026-01-11"
       />
+      <BreadcrumbSchema items={[{name: "Home", url: "https://3pattiworldapp.com.pk"}, {name: "Blog", url: "https://3pattiworldapp.com.pk/blog"}, {name: "3Patti Gold vs 3 Patti World", url: "https://3pattiworldapp.com.pk/blog/3patti-gold-vs-3-patti-world"}]} />
       <article className="container mx-auto px-4 py-12 max-w-4xl">
         <nav className="mb-8 text-sm text-gray-400">
           <Link href="/" className="hover:text-[#FFA500]">Home</Link>

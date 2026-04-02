@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 import BlogPostSchema from '@/components/BlogPostSchema';
+import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata: Metadata = {
   title: '3 Patti World Latest Version New Features and 2026 Updates',
@@ -38,6 +39,7 @@ export default function LatestVersionPage() {
         slug="3patti-world-latest-version-new-features-2026-updates"
         datePublished="2026-02-20"
       />
+      <BreadcrumbSchema items={[{name: "Home", url: "https://3pattiworldapp.com.pk"}, {name: "Blog", url: "https://3pattiworldapp.com.pk/blog"}, {name: "3 Patti World Latest Version 2026", url: "https://3pattiworldapp.com.pk/blog/3patti-world-latest-version-new-features-2026-updates"}]} />
       <div className="min-h-screen bg-[#060A20]">
         <div className="container mx-auto px-4 py-12">
           <div className="mb-6">
