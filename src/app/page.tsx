@@ -5,7 +5,7 @@ import Script from 'next/script';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "3 Patti World Pakistan v1.199 Free Download Official APK",
+  title: "3 Patti World Pakistan v1.168 Free Download Official APK",
   description: "Download 3 Patti World APK – Pakistan's top Teen Patti platform. Play Teen Patti, Rummy, Dragon vs Tiger. Real cash via JazzCash & EasyPaisa.",
   keywords: [
     "3 Patti World",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "3 Patti World 2026"
   ],
   openGraph: {
-    title: '3 Patti World Pakistan v1.199 Free Download Official APK',
+    title: '3 Patti World Pakistan v1.168 Free Download Official APK',
     description: "Pakistan's Most Trusted 3 Patti Gaming Platform 2026. Download APK, earn real cash, daily rewards. JazzCash & EasyPaisa withdrawals.",
     images: [
       { url: 'https://3pattiworldapp.com.pk/feature/og-image.webp', width: 1200, height: 630, alt: '3 Patti World - Teen Patti Earning Game' },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '3 Patti World Pakistan v1.199 Free Download Official APK',
+    title: '3 Patti World Pakistan v1.168 Free Download Official APK',
     description: "Pakistan's Most Trusted 3 Patti Gaming Platform 2026.",
     images: ['https://3pattiworldapp.com.pk/feature/og-image.webp']
   }
@@ -105,7 +105,7 @@ export default function Home() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "ratingCount": "300000" },
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "PKR" },
         "downloadUrl": "https://3pattiworldapp.com.pk/download-3-patti-world",
-        "softwareVersion": "V1.199(1)",
+        "softwareVersion": "V1.168(1)",
         "fileSize": "49MB",
         "description": "Play Teen Patti, Dragon vs Tiger, Rummy, Poker, Slots, and more. Earn real money with JazzCash & EasyPaisa."
       },
@@ -219,7 +219,7 @@ export default function Home() {
                 <tr className="bg-[#06091F]/50"><td className="py-4 px-6 text-left font-medium text-white">Developer</td><td className="py-4 px-6 text-left text-white">3Patti World dev</td></tr>
                 <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 text-left font-medium text-white">Category</td><td className="py-4 px-6 text-left text-white">Cards, Game</td></tr>
                 <tr className="bg-[#06091F]/50"><td className="py-4 px-6 text-left font-medium text-white">Size</td><td className="py-4 px-6 text-left text-white">49MB</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 text-left font-medium text-white">Latest Version</td><td className="py-4 px-6 text-left text-white">V1.199(1)</td></tr>
+                <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 text-left font-medium text-white">Latest Version</td><td className="py-4 px-6 text-left text-white">V1.168(1)</td></tr>
                 <tr className="bg-[#06091F]/50"><td className="py-4 px-6 text-left font-medium text-white">Required OS</td><td className="py-4 px-6 text-left text-white">Android 5.0+</td></tr>
                 <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 text-left font-medium text-white">Update</td><td className="py-4 px-6 text-left text-white">5th January 2026</td></tr>
                 <tr className="bg-[#06091F]/50"><td className="py-4 px-6 text-left font-medium text-white">Downloads</td><td className="py-4 px-6 text-left text-white">600k+</td></tr>

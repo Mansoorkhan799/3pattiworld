@@ -6,7 +6,7 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
 export const metadata: Metadata = {
   title: '3 Patti World Latest Version New Features and 2026 Updates',
-  description: 'Discover the latest 3 Patti World version v1.152 - new features, 2026 updates, UI improvements, performance fixes, and what\'s new for Pakistan players.',
+  description: 'Discover the latest 3 Patti World version v1.168 - new features, 2026 updates, UI improvements, performance fixes, and what\'s new for Pakistan players.',
   keywords: ['3 Patti World latest version', '3 Patti World 2026 updates', '3 Patti World new features', '3 Patti World APK update', 'Teen Patti World 2026'],
   robots: {
     index: true,
@@ -35,7 +35,7 @@ export default function LatestVersionPage() {
     <>
       <BlogPostSchema
         title="3 Patti World Latest Version New Features and 2026 Updates"
-        description="Discover the latest 3 Patti World version v1.152 - new features, 2026 updates, UI improvements, and what's new for Pakistan players."
+        description="Discover the latest 3 Patti World version v1.168 - new features, 2026 updates, UI improvements, and what's new for Pakistan players."
         slug="3patti-world-latest-version-new-features-2026-updates"
         datePublished="2026-02-20"
       />
@@ -59,12 +59,12 @@ export default function LatestVersionPage() {
             <div className="prose prose-lg max-w-none">
               <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
                 <p className="text-lg text-gray-300 leading-relaxed mb-0">
-                  <Link href="/" className="text-accent hover:underline font-semibold">3 Patti World</Link> continues to evolve in 2026 with the latest version v1.152(1). This update brings new features, performance improvements, and enhanced gameplay for Pakistan players. Here&apos;s everything you need to know about the latest 3 Patti World version.
+                  <Link href="/" className="text-accent hover:underline font-semibold">3 Patti World</Link> continues to evolve in 2026 with the latest version v1.168(1). This update brings new features, performance improvements, and enhanced gameplay for Pakistan players. Here&apos;s everything you need to know about the latest 3 Patti World version.
                 </p>
               </div>
 
               <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
-                <h2 className="text-3xl font-bold mb-8 text-white">What&apos;s New in 3 Patti World v1.152</h2>
+                <h2 className="text-3xl font-bold mb-8 text-white">What&apos;s New in 3 Patti World v1.168</h2>
                 <div className="space-y-6">
                   <div className="bg-[#0A1029] rounded-xl p-6 border-l-4 border-accent">
                     <h3 className="text-xl font-bold mb-3 text-accent">Enhanced Game Performance</h3>
@@ -120,7 +120,7 @@ export default function LatestVersionPage() {
 
               <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 text-center">
                 <h2 className="text-3xl font-bold mb-4 text-white">Get the Latest Version Today</h2>
-                <p className="text-white text-lg mb-8 max-w-2xl mx-auto">Update to 3 Patti World v1.152 and experience the newest features. Download now for free!</p>
+                <p className="text-white text-lg mb-8 max-w-2xl mx-auto">Update to 3 Patti World v1.168 and experience the newest features. Download now for free!</p>
                 <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#0A1029] transition-all shadow-2xl">
                   DOWNLOAD LATEST VERSION
                 </a>

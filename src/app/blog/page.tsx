@@ -240,7 +240,7 @@ export default function Blog() {
         {/* Latest Version New Features */}
         <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
           <h2 className="text-2xl font-bold mb-4 text-white">3 Patti World Latest Version: New Features and 2026 Updates</h2>
-          <p className="text-gray-300 mb-4">Discover the latest 3 Patti World v1.152 – new features, performance improvements, and 2026 updates for Pakistan players.</p>
+          <p className="text-gray-300 mb-4">Discover the latest 3 Patti World v1.168 – new features, performance improvements, and 2026 updates for Pakistan players.</p>
           <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
             <span>📅 February 2026</span>
             <span>•</span>

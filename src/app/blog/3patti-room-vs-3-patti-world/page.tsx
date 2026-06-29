@@ -364,7 +364,7 @@ export default function Blog3PattiRoomVsCardRummy() {
               rel="noopener noreferrer"
               className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"
             >
-              Download 3 Patti World APK v1.152(1)
+              Download 3 Patti World APK v1.168(1)
             </a>
           </div>
         </div>

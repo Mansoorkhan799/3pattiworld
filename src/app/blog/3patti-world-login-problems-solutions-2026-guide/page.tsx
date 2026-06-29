@@ -106,7 +106,7 @@ export default function LoginProblemsPage() {
                     <p className="text-gray-300 leading-relaxed mb-4">If the app closes when you tap Login:</p>
                     <ul className="list-disc pl-6 space-y-2 text-gray-300">
                       <li>Clear app cache: Settings → Apps → 3 Patti World → Clear Cache</li>
-                      <li>Update to the latest version – see <Link href="/blog/3patti-world-latest-version-new-features-2026-updates" className="text-accent hover:underline">what&apos;s new in v1.152</Link> or download from our <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">official page</a></li>
+                      <li>Update to the latest version – see <Link href="/blog/3patti-world-latest-version-new-features-2026-updates" className="text-accent hover:underline">what&apos;s new in v1.168</Link> or download from our <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">official page</a></li>
                       <li>Ensure you have at least 500MB free storage</li>
                     </ul>
                   </div>
