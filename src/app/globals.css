@@ -16,6 +16,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-family: var(--font-poppins), Poppins, system-ui, sans-serif;
 }
 
 /* Prevent CLS by ensuring images don't shift layout */
@@ -75,7 +76,7 @@ section {
 }
 
 .download-btn:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
 }
 
 .download-btn:hover .download-icon {

@@ -4,6 +4,8 @@ import { DOWNLOAD_APP_URL } from '@/lib/constants';
 import BlogPostSchema from '@/components/BlogPostSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
+import DownloadButton from '@/components/DownloadButton';
+
 export const metadata: Metadata = {
   title: '3 Patti World Latest Version New Features and 2026 Updates',
   description: 'Discover the latest 3 Patti World version v1.168 - new features, 2026 updates, UI improvements, performance fixes, and what\'s new for Pakistan players.',
@@ -121,9 +123,7 @@ export default function LatestVersionPage() {
               <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 text-center">
                 <h2 className="text-3xl font-bold mb-4 text-white">Get the Latest Version Today</h2>
                 <p className="text-white text-lg mb-8 max-w-2xl mx-auto">Update to 3 Patti World v1.168 and experience the newest features. Download now for free!</p>
-                <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#0A1029] transition-all shadow-2xl">
-                  DOWNLOAD LATEST VERSION
-                </a>
+                <DownloadButton />
               </div>
             </div>
           </div>

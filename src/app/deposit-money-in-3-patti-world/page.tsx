@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 
+import DownloadButton from '@/components/DownloadButton';
+
 export const metadata: Metadata = {
   title: 'How to Deposit Money in 3 Patti World? | Quick & Safe Payment Guide 2026',
   description: 'Learn how to deposit money in 3 Patti World using JazzCash and EasyPaisa. Follow our step-by-step guide for quick, safe, and secure deposits.',
@@ -47,14 +49,7 @@ export default function DepositMoneyPage() {
             <p className="text-lg md:text-xl text-gray-300 mb-8">
               Quick, Safe & Easy Payment Methods with JazzCash and EasyPaisa
             </p>
-            <a
-              href={DOWNLOAD_APP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-accent text-primary px-8 py-4 rounded-full text-lg font-bold hover:bg-accent/90 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
-            >
-              Download & Deposit Now
-            </a>
+            <DownloadButton />
           </div>
         </div>
       </section>
@@ -304,14 +299,7 @@ export default function DepositMoneyPage() {
             <p className="text-lg text-gray-300 mb-8">
               Download 3 Patti World now and deposit money to start earning real cash!
             </p>
-            <a
-              href={DOWNLOAD_APP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-accent text-primary px-8 py-4 rounded-full text-lg font-bold hover:bg-accent/90 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
-            >
-              Download 3 Patti World Now
-            </a>
+            <DownloadButton />
           </div>
         </div>
       </section>

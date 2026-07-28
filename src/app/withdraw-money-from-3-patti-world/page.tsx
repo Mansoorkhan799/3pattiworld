@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 
+import DownloadButton from '@/components/DownloadButton';
+
 export const metadata: Metadata = {
   title: 'How to Withdraw Money from 3 Patti World? | Fast & Secure Withdrawal Guide 2026',
   description: 'Learn how to withdraw money from 3 Patti World using JazzCash, EasyPaisa, and Bank Transfer. Follow our step-by-step guide for quick and secure withdrawals.',
@@ -47,14 +49,7 @@ export default function WithdrawMoneyPage() {
             <p className="text-lg md:text-xl text-gray-300 mb-8">
               Fast, Secure & Easy Cash Out with JazzCash, EasyPaisa & Bank Transfer
             </p>
-            <a
-              href={DOWNLOAD_APP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-accent text-primary px-8 py-4 rounded-full text-lg font-bold hover:bg-accent/90 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
-            >
-              Download & Start Earning
-            </a>
+            <DownloadButton />
           </div>
         </div>
       </section>
@@ -334,14 +329,7 @@ export default function WithdrawMoneyPage() {
             <p className="text-lg text-gray-300 mb-8">
               Download 3 Patti World now and start withdrawing your earnings securely!
             </p>
-            <a
-              href={DOWNLOAD_APP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-accent text-primary px-8 py-4 rounded-full text-lg font-bold hover:bg-accent/90 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
-            >
-              Download 3 Patti World Now
-            </a>
+            <DownloadButton />
           </div>
         </div>
       </section>

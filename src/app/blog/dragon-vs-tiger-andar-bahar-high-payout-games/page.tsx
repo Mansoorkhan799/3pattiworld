@@ -1,8 +1,10 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { DOWNLOAD_APP_URL } from '@/lib/constants';
+
 import BlogPostSchema from '@/components/BlogPostSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+
+import DownloadButton from '@/components/DownloadButton';
 
 export const metadata: Metadata = {
   title: 'Dragon vs Tiger, Andar Bahar & More: Best High-Payout Games in 3 Patti World App 2026',
@@ -378,14 +380,7 @@ export default function BlogHighPayoutGames() {
           </p>
 
           <div className="mt-12 text-center">
-            <a 
-              href={DOWNLOAD_APP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"
-            >
-              Download 3 Patti World - Start Playing High-Payout Games
-            </a>
+            <DownloadButton />
           </div>
         </div>
 

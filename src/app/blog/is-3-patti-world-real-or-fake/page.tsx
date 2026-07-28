@@ -1,9 +1,11 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { DOWNLOAD_APP_URL } from '@/lib/constants';
+
 import Image from 'next/image';
 import BlogPostSchema from '@/components/BlogPostSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+
+import DownloadButton from '@/components/DownloadButton';
 
 export const metadata: Metadata = {
   title: 'Is 3 Patti World Real or Fake to Earn Money? - Complete Guide 2026',
@@ -320,17 +322,7 @@ export default function CardRummyRealOrFakePage() {
             
             {/* CTA Button */}
             <div className="mt-6 text-center">
-              <a 
-                href={DOWNLOAD_APP_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center bg-[#0ea5e9] hover:bg-[#0284c7] text-white font-bold py-3 px-8 rounded-full transition-all shadow-lg hover:shadow-xl"
-              >
-                <span>Download Official 3 Patti World</span>
-                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-                </svg>
-              </a>
+              <DownloadButton />
             </div>
           </div>
         </section>
@@ -390,10 +382,10 @@ export default function CardRummyRealOrFakePage() {
           <div className="bg-secondary rounded-xl p-6 md:p-8">
             <h3 className="text-2xl font-bold mb-6 text-[#FFA500]">Related Articles</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors block">
+              <Link href="/download-3-patti-world" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors block">
                 <h4 className="text-white font-semibold mb-2">📥 Download 3 Patti World APK</h4>
                 <p className="text-gray-400 text-sm">Get the latest version of 3 Patti World for Android</p>
-              </a>
+              </Link>
               <Link href="/blog/create-3-patti-world-account-and-login" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/70 transition-colors">
                 <h4 className="text-white font-semibold mb-2">🔐 Account & Login Guide</h4>
                 <p className="text-gray-400 text-sm">Learn how to create and secure your account</p>

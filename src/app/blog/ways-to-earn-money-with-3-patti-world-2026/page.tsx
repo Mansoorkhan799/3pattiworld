@@ -1,8 +1,10 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { DOWNLOAD_APP_URL } from '@/lib/constants';
+
 import BlogPostSchema from '@/components/BlogPostSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+
+import DownloadButton from '@/components/DownloadButton';
 
 export const metadata: Metadata = {
   title: 'Ways to Earn Money with 3 Patti World in 2026',
@@ -140,9 +142,7 @@ export default function WaysToEarnMoneyPage() {
               <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 text-center">
                 <h2 className="text-3xl font-bold mb-4 text-white">Start Earning Today</h2>
                 <p className="text-white text-lg mb-8 max-w-2xl mx-auto">Download 3 Patti World and start earning through games, referrals, and bonuses. Real cash, real payouts.</p>
-                <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#0A1029] transition-all shadow-2xl">
-                  DOWNLOAD 3 PATTI WORLD
-                </a>
+                <DownloadButton />
               </div>
             </div>
           </div>

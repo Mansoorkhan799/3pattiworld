@@ -4,6 +4,8 @@ import { DOWNLOAD_APP_URL } from '@/lib/constants';
 import Script from 'next/script';
 import { Metadata } from 'next';
 
+import DownloadButton from '@/components/DownloadButton';
+
 export const metadata: Metadata = {
   title: "3 Patti World Pakistan v1.168 Free Download Official APK",
   description: "Download 3 Patti World APK – Pakistan's top Teen Patti platform. Play Teen Patti, Rummy, Dragon vs Tiger. Real cash via JazzCash & EasyPaisa.",
@@ -161,12 +163,7 @@ export default function Home() {
             </p>
 
             <div className="flex justify-center my-8">
-              <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="relative flex items-center px-8 py-4 text-white font-semibold text-lg rounded-full border-2 border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all group">
-                <span>DOWNLOAD NOW</span>
-                <div className="ml-3 bg-[#f97316] rounded-full p-2 group-hover:scale-110 transition-transform">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-                </div>
-              </a>
+              <DownloadButton />
             </div>
 
             <div className="flex flex-row gap-4 justify-center mt-8 mb-4" style={{ minHeight: '120px' }}>
@@ -464,9 +461,7 @@ export default function Home() {
             <li>Click on it to launch the app and start playing the games that you want.</li>
           </ol>
           <div className="flex justify-center">
-            <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-8 py-4 bg-[#0ea5e9] hover:bg-[#0ea5e9]/90 text-white font-bold rounded-full transition-all">
-              DOWNLOAD NOW
-            </a>
+            <DownloadButton />
           </div>
         </div>
       </section>

@@ -5,6 +5,8 @@ import Script from 'next/script';
 import BlogPostSchema from '@/components/BlogPostSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
+import DownloadButton from '@/components/DownloadButton';
+
 export const metadata: Metadata = {
   title: 'How to Create a 3 Patti World Account and Login? - Step by Step Guide',
   description: 'Learn how to create your 3 Patti World account and login with our step-by-step guide. Get started playing games and earning rewards in minutes.',
@@ -250,14 +252,7 @@ export default function CreateAccountLogin() {
                 <h2 className="text-3xl font-bold mb-4 text-white">Ready to Start Playing?</h2>
                 <p className="text-white text-lg mb-8 max-w-2xl mx-auto">Now that you know how to create an account and login to 3 Patti World, you're ready to start playing Teen Patti, Rummy, and other card games to earn real money. Download the app today!</p>
                 
-                <a 
-                  href={DOWNLOAD_APP_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#0A1029] transition-all shadow-2xl hover:shadow-3xl transform hover:scale-105"
-                >
-                  DOWNLOAD NOW
-                </a>
+                <DownloadButton />
               </div>
             </div>
           </div>

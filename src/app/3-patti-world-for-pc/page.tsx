@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 
+import DownloadButton from '@/components/DownloadButton';
+
 export const metadata: Metadata = {
   title: '3 Patti World for PC Download Latest Version Free 2026',
   description: 'Download 3 Patti World for PC using Android Emulator. Play Teen Patti, Rummy, Dragon Tiger on bigger screen. Better performance and smooth gameplay on Windows.',
@@ -237,19 +239,7 @@ export default function CardRummyForPCPage() {
 
           {/* Download Button */}
           <div className="flex justify-center mt-10">
-            <a 
-              href={DOWNLOAD_APP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#0ea5e9] hover:bg-[#0284c7] text-white font-bold py-4 px-12 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
-            >
-              <span className="text-lg">DOWNLOAD NOW</span>
-              <div className="ml-3 bg-[#f97316] rounded-full p-2">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-                </svg>
-              </div>
-            </a>
+            <DownloadButton size="lg" />
           </div>
         </div>
       </section>
@@ -452,19 +442,7 @@ export default function CardRummyForPCPage() {
           <p className="text-xl text-white mb-8 opacity-90">
             Download 3 Patti World and install it using your favorite emulator!
           </p>
-          <a 
-            href={DOWNLOAD_APP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white text-[#0ea5e9] hover:bg-gray-100 font-bold py-4 px-12 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
-          >
-            <span className="text-lg">DOWNLOAD FOR PC</span>
-            <div className="ml-3 bg-[#f97316] rounded-full p-2">
-              <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-              </svg>
-            </div>
-          </a>
+          <DownloadButton size="lg" />
         </div>
       </section>
 

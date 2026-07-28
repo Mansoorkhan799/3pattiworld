@@ -5,6 +5,8 @@ import Script from 'next/script';
 import BlogPostSchema from '@/components/BlogPostSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
+import DownloadButton from '@/components/DownloadButton';
+
 export const metadata: Metadata = {
   title: 'Tips to Win Big in 3 Patti World - Expert Strategies & Tricks 2026',
   description: 'Discover expert strategies and proven tips to maximize your winnings in 3 Patti World. Learn how to win big in Teen Patti, Rummy, and other card games.',
@@ -279,14 +281,7 @@ export default function TipsToWinBig() {
                 <h2 className="text-3xl font-bold mb-4 text-white">Ready to Win Big?</h2>
                 <p className="text-white text-lg mb-8 max-w-2xl mx-auto">Apply these expert tips and strategies to maximize your winnings in 3 Patti World. Download the app now and start playing smarter!</p>
                 
-                <a 
-                  href={DOWNLOAD_APP_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#0A1029] transition-all shadow-2xl hover:shadow-3xl transform hover:scale-105"
-                >
-                  DOWNLOAD 3 PATTI WORLD NOW
-                </a>
+                <DownloadButton />
               </div>
             </div>
           </div>

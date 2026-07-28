@@ -2,7 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import BlogPostSchema from '@/components/BlogPostSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
-import { DOWNLOAD_APP_URL } from '@/lib/constants';
+
+import DownloadButton from '@/components/DownloadButton';
 
 export const metadata: Metadata = {
   title: '3 Patti World App Review 2026: Features, Pros, Cons, and Payout Speed',
@@ -405,14 +406,7 @@ export default function BlogCardRummyAppReview() {
           </p>
 
           <div className="mt-12 text-center">
-            <a 
-              href={DOWNLOAD_APP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"
-            >
-              Download 3 Patti World APK v1.168(1)
-            </a>
+            <DownloadButton />
           </div>
         </div>
 

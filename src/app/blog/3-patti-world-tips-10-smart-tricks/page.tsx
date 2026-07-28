@@ -1,8 +1,10 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { DOWNLOAD_APP_URL } from '@/lib/constants';
+
 import BlogPostSchema from '@/components/BlogPostSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+
+import DownloadButton from '@/components/DownloadButton';
 
 export const metadata: Metadata = {
   title: '3 Patti World Tips: 10 Smart Tricks to Play Safely and Win More 2026',
@@ -434,14 +436,7 @@ export default function BlogCardRummyTips() {
           </p>
 
           <div className="mt-12 text-center">
-            <a 
-              href={DOWNLOAD_APP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"
-            >
-              Download 3 Patti World - Start Applying These Tips
-            </a>
+            <DownloadButton />
           </div>
         </div>
 

@@ -1,8 +1,10 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { DOWNLOAD_APP_URL } from '@/lib/constants';
+
 import BlogPostSchema from '@/components/BlogPostSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
+
+import DownloadButton from '@/components/DownloadButton';
 
 export const metadata: Metadata = {
   title: 'IPS Exceed Issue 3 Patti World: How to Fix (2026 Guide)',
@@ -139,9 +141,7 @@ export default function IPSExceedPage() {
               <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 text-center">
                 <h2 className="text-3xl font-bold mb-4 text-white">Ready to Play Again?</h2>
                 <p className="text-white text-lg mb-8 max-w-2xl mx-auto">Once the IPS block clears, you can login and enjoy Teen Patti, Rummy, and more. Ensure you have the latest app version.</p>
-                <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-accent font-bold py-4 px-8 rounded-full hover:bg-[#0A1029] transition-all shadow-2xl">
-                  DOWNLOAD 3 PATTI WORLD
-                </a>
+                <DownloadButton />
               </div>
             </div>
           </div>

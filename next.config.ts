@@ -2,17 +2,34 @@ import type { NextConfig } from "next";
 
 /**
  * 3 Patti World - Next.js Configuration
- * Redirects old URLs to 3 Patti World routes
+ * Single config for Next.js 16 (Turbopack default)
  */
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  reactStrictMode: true,
   compress: true,
+
+  // Silence Next 16 Turbopack + webpack warning; keep webpack for --webpack builds
+  turbopack: {},
+
+  compiler: {
+    removeConsole: process.env.NODE_ENV === "production",
+  },
+
   images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "slotspk.com.pk",
+      },
+    ],
     formats: ["image/avif", "image/webp"],
     minimumCacheTTL: 31536000,
-    deviceSizes: [640, 750, 828, 1080, 1200],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 320],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 320, 384],
+    qualities: [75, 80, 90, 100],
   },
+
   async redirects() {
     return [
       { source: "/download-card-rummy", destination: "/download-3-patti-world", permanent: true },
@@ -34,18 +51,91 @@ const nextConfig: NextConfig = {
       { source: "/blog/3patti-room-vs-card-rummy", destination: "/blog/3patti-room-vs-3-patti-world", permanent: true },
     ];
   },
+
+  async rewrites() {
+    return [
+      {
+        source: "/.well-known/:path*",
+        destination: "/.well-known/:path*",
+      },
+      {
+        source: "/3-patti-blue-logo.webp",
+        destination: "/3-patti-world-logo.webp",
+      },
+      {
+        source: "/favicon.ico",
+        destination: "/3-patti-world-logo.webp",
+      },
+    ];
+  },
+
   async headers() {
     return [
       {
-        source: "/(.*)",
+        source: "/:path*",
         headers: [
           { key: "X-Frame-Options", value: "SAMEORIGIN" },
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
           { key: "X-XSS-Protection", value: "1; mode=block" },
+          { key: "X-DNS-Prefetch-Control", value: "on" },
+          {
+            key: "Strict-Transport-Security",
+            value: "max-age=63072000; includeSubDomains; preload",
+          },
+        ],
+      },
+      // Long-cache only hashed static assets (not HTML pages, not /_next/static override in a way that breaks Turbopack/dev)
+      {
+        source: "/css/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
+      {
+        source: "/favicon.ico",
+        headers: [
+          { key: "X-Robots-Tag", value: "noindex" },
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
         ],
       },
     ];
+  },
+
+  // Used when running with `next dev --webpack` / `next build --webpack`
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+      };
+      config.target = ["web", "es2022"];
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        "../build/polyfills/polyfill-module": false,
+        "next/dist/build/polyfills/polyfill-module": false,
+      };
+    }
+    return config;
+  },
+
+  experimental: {
+    optimizeCss: true,
+    inlineCss: true,
+    scrollRestoration: true,
+    optimizePackageImports: ["react-icons"],
+  },
+
+  modularizeImports: {
+    "react-icons": {
+      transform: "react-icons/{{member}}",
+    },
   },
 };
 

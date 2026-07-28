@@ -5,6 +5,8 @@ import { DOWNLOAD_APP_URL } from '@/lib/constants';
 import BlogPostSchema from '@/components/BlogPostSchema';
 import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 
+import DownloadButton from '@/components/DownloadButton';
+
 export const metadata: Metadata = {
   title: 'How to Use 3 Patti World App in Pakistan: Complete Beginner\'s Guide 2026',
   description: 'Complete 3 Patti World app guide 2026 for Pakistan: Download, registration, deposit, withdrawal, gameplay & earning tips. Step-by-step tutorial for beginners!',
@@ -606,14 +608,7 @@ export default function BlogHowToUseCardRummyGuide() {
           </p>
 
           <div className="mt-12 text-center">
-            <a 
-              href={DOWNLOAD_APP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg"
-            >
-              Download 3 Patti World APK v1.168(1) - Start Your Journey
-            </a>
+            <DownloadButton />
           </div>
         </div>
 
