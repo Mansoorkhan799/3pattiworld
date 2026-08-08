@@ -32,6 +32,7 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
+      { source: "/3-patti-world-logo.webp", destination: "/3-patti-world.webp", permanent: true },
       { source: "/download-card-rummy", destination: "/download-3-patti-world", permanent: true },
       { source: "/deposit-money-in-card-rummy", destination: "/deposit-money-in-3-patti-world", permanent: true },
       { source: "/withdraw-money-from-card-rummy", destination: "/withdraw-money-from-3-patti-world", permanent: true },
