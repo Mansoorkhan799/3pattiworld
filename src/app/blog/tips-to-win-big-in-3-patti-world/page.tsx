@@ -309,7 +309,7 @@ export default function TipsToWinBig() {
               "name": "3 Patti World",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp"
+                "url": "https://3pattiworldapp.com.pk/3-patti-world.webp"
               }
             },
             "mainEntityOfPage": {

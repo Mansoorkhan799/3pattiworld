@@ -56,7 +56,7 @@ export default function Home() {
         "@id": "https://3pattiworldapp.com.pk/#organization",
         "name": "3 Patti World",
         "url": "https://3pattiworldapp.com.pk/",
-        "logo": { "@type": "ImageObject", "url": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp", "width": 512, "height": 512 },
+        "logo": { "@type": "ImageObject", "url": "https://3pattiworldapp.com.pk/3-patti-world.webp", "width": 1000, "height": 1000 },
         "contactPoint": { "@type": "ContactPoint", "email": "support@3pattiworldapp.com.pk", "contactType": "Customer Support", "areaServed": { "@type": "Country", "name": "Pakistan" } },
         "areaServed": { "@type": "Country", "name": "Pakistan", "alternateName": "PK" }
       },

@@ -60,11 +60,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/3-patti-blue-logo.webp",
-        destination: "/3-patti-world-logo.webp",
-      },
-      {
-        source: "/favicon.ico",
-        destination: "/3-patti-world-logo.webp",
+        destination: "/3-patti-world.webp",
       },
     ];
   },

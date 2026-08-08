@@ -20,7 +20,7 @@ export default function BlogPostSchema({
   slug,
   datePublished,
   dateModified,
-  image = `${BASE}/3-patti-world-logo.webp`,
+  image = `${BASE}/3-patti-world.webp`,
   breadcrumbOnly = false,
 }: BlogPostSchemaProps) {
   const url = `${BASE}/blog/${slug}`;
@@ -43,7 +43,7 @@ export default function BlogPostSchema({
     publisher: {
       "@type": "Organization",
       name: "3 Patti World",
-      logo: { "@type": "ImageObject", url: `${BASE}/3-patti-world-logo.webp` },
+      logo: { "@type": "ImageObject", url: `${BASE}/3-patti-world.webp` },
     },
     datePublished,
     dateModified: dateModified || datePublished,

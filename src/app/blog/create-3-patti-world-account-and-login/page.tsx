@@ -273,7 +273,7 @@ export default function CreateAccountLogin() {
                 "datePublished": "2026-01-20T00:00:00Z",
                 "dateModified": new Date().toISOString(),
                 "author": { "@type": "Organization", "name": "3 Patti World Team", "url": "https://3pattiworldapp.com.pk" },
-                "publisher": { "@type": "Organization", "name": "3 Patti World", "logo": { "@type": "ImageObject", "url": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp" } },
+                "publisher": { "@type": "Organization", "name": "3 Patti World", "logo": { "@type": "ImageObject", "url": "https://3pattiworldapp.com.pk/3-patti-world.webp" } },
                 "mainEntityOfPage": { "@type": "WebPage", "@id": "https://3pattiworldapp.com.pk/blog/create-3-patti-world-account-and-login" },
                 "inLanguage": "en-US",
                 "about": { "@type": "Thing", "name": "3 Patti World", "url": "https://3pattiworldapp.com.pk" }

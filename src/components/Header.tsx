@@ -12,7 +12,7 @@ export default function Header() {
         <Link href="/" className="flex items-center">
           <div className="relative h-10 w-10 mr-2">
             <Image
-              src="/3-patti-world-logo.webp"
+              src="/3-patti-world.webp"
               alt="3 Patti World Logo"
               width={40}
               height={40}

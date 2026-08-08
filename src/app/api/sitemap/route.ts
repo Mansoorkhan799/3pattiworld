@@ -25,12 +25,7 @@ export async function GET() {
       priority: 1.0,
       images: [
         {
-          loc: '/3-patti-world-logo.webp',
-          title: '3 Patti World Logo',
-          caption: 'The official logo of 3 Patti World gaming platform'
-        },
-        {
-          loc: '/3-patti-world-logo.webp',
+          loc: '/3-patti-world.webp',
           title: '3 Patti World Hero Image',
           caption: '3 Patti World gaming platform showcase'
         }
@@ -43,7 +38,7 @@ export async function GET() {
       priority: 0.9,
       images: [
         {
-          loc: '/3-patti-world-logo.webp',
+          loc: '/3-patti-world.webp',
           title: 'Download 3 Patti World',
           caption: 'Download 3 Patti World APK for Android'
         }
@@ -68,7 +63,7 @@ export async function GET() {
       priority: 0.9,
       images: [
         {
-          loc: '/3-patti-world-logo.webp',
+          loc: '/3-patti-world.webp',
           title: '3 Patti World for PC',
           caption: 'Play 3 Patti World on PC using Android Emulator'
         }
@@ -81,7 +76,7 @@ export async function GET() {
       priority: 0.7,
       images: [
         {
-          loc: '/3-patti-world-logo.webp',
+          loc: '/3-patti-world.webp',
           title: 'About 3 Patti World',
           caption: 'Learn about 3 Patti World gaming platform'
         }
@@ -94,7 +89,7 @@ export async function GET() {
       priority: 0.8,
       images: [
         {
-          loc: '/3-patti-world-logo.webp',
+          loc: '/3-patti-world.webp',
           title: '3 Patti World Blog',
           caption: 'Guides and tutorials for 3 Patti World gaming platform'
         }

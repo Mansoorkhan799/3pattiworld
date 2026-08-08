@@ -206,7 +206,7 @@ export default function MobileNavigation() {
             <Link href="/" className="flex items-center gap-3" onClick={close}>
               <div className="relative w-9 h-9 flex-shrink-0 rounded-lg overflow-hidden">
                 <Image
-                  src="/3-patti-world-logo.webp"
+                  src="/3-patti-world.webp"
                   alt="3 Patti World Logo"
                   fill
                   sizes="36px"

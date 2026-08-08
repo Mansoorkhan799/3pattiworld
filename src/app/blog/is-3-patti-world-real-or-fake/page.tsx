@@ -49,7 +49,7 @@ export default function CardRummyRealOrFakePage() {
     "@type": "BlogPosting",
     "headline": "Is 3 Patti World Real or Fake to Earn Money? - Complete Guide 2026",
     "description": "Discover if 3 Patti World app is real or fake. Learn about legitimacy, payment methods, safety tips, and how to identify fake apps.",
-    "image": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp",
+    "image": "https://3pattiworldapp.com.pk/3-patti-world.webp",
     "author": {
       "@type": "Organization",
       "name": "3 Patti World",
@@ -60,7 +60,7 @@ export default function CardRummyRealOrFakePage() {
       "name": "3 Patti World",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp"
+        "url": "https://3pattiworldapp.com.pk/3-patti-world.webp"
       }
     },
     "datePublished": "2026-01-03",
@@ -122,7 +122,7 @@ export default function CardRummyRealOrFakePage() {
         {/* Featured Image */}
         <div className="relative w-full h-64 md:h-96 rounded-xl overflow-hidden mb-8">
           <Image
-            src="/3-patti-world-logo.webp"
+            src="/3-patti-world.webp"
             alt="3 Patti World Real or Fake"
             fill
             className="object-cover"

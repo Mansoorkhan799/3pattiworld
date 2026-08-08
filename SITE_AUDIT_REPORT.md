@@ -25,7 +25,7 @@ The site has been successfully rebranded to 3 Patti World. This audit identifies
 
 ### 3. **Images**
 - All images use 3-patti-world-*.webp paths
-- Logo: `/3-patti-world-logo.webp`
+- Logo: `/3-patti-world.webp`
 - Screenshots: bonuses, game, deposit, withdraw, refer-and-earn, create-account, pakistan
 
 ### 4. **Technical SEO**
@@ -77,7 +77,7 @@ The site has been successfully rebranded to 3 Patti World. This audit identifies
 | Item | Status |
 |------|--------|
 | next.config.ts redirects | ✅ 17 redirects configured |
-| next.config.js logo rewrite | ✅ Points to 3-patti-world-logo.webp |
+| next.config.js logo rewrite | ✅ Points to 3-patti-world.webp |
 | public/robots.txt | ✅ Updated |
 | public/sitemap.xml | ✅ Updated |
 | public/image-sitemap.xml | ✅ Updated |

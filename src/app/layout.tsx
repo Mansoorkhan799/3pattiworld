@@ -60,15 +60,13 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/3-patti-world-logo.webp', type: 'image/webp', sizes: '192x192' },
+      { url: '/favicon.ico', sizes: 'any' },
       { url: '/3-patti-world.webp', type: 'image/webp', sizes: '1000x1000' }
     ],
     apple: [
-      { url: '/3-patti-world-logo.webp', sizes: '180x180' }
+      { url: '/3-patti-world.webp', sizes: '180x180' }
     ],
-    shortcut: [
-      { url: '/3-patti-world-logo.webp', type: 'image/webp' }
-    ]
+    shortcut: '/favicon.ico'
   },
   verification: {
     google: "8a7c21f6e90a89ef",
@@ -130,10 +128,10 @@ export default function RootLayout({
         {/* GEO: geographic targeting for Pakistan (AEO/GEO) */}
         <meta name="geo.region" content="PK" />
         <meta name="geo.placename" content="Pakistan" />
-        <link rel="icon" href="/3-patti-world-logo.webp" type="image/webp" sizes="192x192" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/3-patti-world.webp" type="image/webp" sizes="1000x1000" />
-        <link rel="shortcut icon" href="/3-patti-world-logo.webp" type="image/webp" />
-        <link rel="apple-touch-icon" href="/3-patti-world-logo.webp" sizes="180x180" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/3-patti-world.webp" sizes="180x180" />
 
         {/* Preconnect to external domains for faster loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
@@ -199,9 +197,9 @@ export default function RootLayout({
               "url": "https://3pattiworldapp.com.pk",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp",
-                "width": 192,
-                "height": 192
+                "url": "https://3pattiworldapp.com.pk/3-patti-world.webp",
+                "width": 1000,
+                "height": 1000
               },
               "description": "3 Patti World is Pakistan's premier Teen Patti gaming platform with real cash rewards. Download APK, play Teen Patti, Rummy, Dragon vs Tiger. JazzCash and EasyPaisa deposits and withdrawals.",
               "areaServed": { "@type": "Country", "name": "Pakistan", "alternateName": "PK" },

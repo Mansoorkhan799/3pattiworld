@@ -47,7 +47,7 @@ export default function CardRummyForPCPage() {
     "@type": "TechArticle",
     "headline": "3 Patti World for PC Download Latest Version Free 2026",
     "description": "Complete guide to download and play 3 Patti World on PC using Android emulator. Learn about system requirements, best emulators, and features.",
-    "image": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp",
+    "image": "https://3pattiworldapp.com.pk/3-patti-world.webp",
     "author": {
       "@type": "Organization",
       "name": "3 Patti World",
@@ -58,7 +58,7 @@ export default function CardRummyForPCPage() {
       "name": "3 Patti World",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp"
+        "url": "https://3pattiworldapp.com.pk/3-patti-world.webp"
       }
     },
     "datePublished": "2026-01-03",
@@ -89,7 +89,7 @@ export default function CardRummyForPCPage() {
       {/* Hero Section */}
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+          <h1 className="text-3xl md:text-5xl font-bold mb-6">
             <span className="text-[#FFA500]">3 Patti World for PC</span>
             <br />
             <span className="text-white">Download Latest Version</span>
@@ -106,7 +106,7 @@ export default function CardRummyForPCPage() {
         <div className="flex justify-center mb-12">
           <div className="relative" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
             <Image
-              src="/3-patti-world-logo.webp"
+              src="/3-patti-world.webp"
               alt="3 Patti World for PC"
               width={280}
               height={280}

@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://3pattiworldapp.com.pk/3-patti-world-logo.webp",
+        url: "https://3pattiworldapp.com.pk/3-patti-world.webp",
         width: 1200,
         height: 630,
         alt: "Download 3 Patti World APK",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: '3 Patti World Pakistan v1.168 Free Download Official APK',
     description: 'Download 3 Patti World APK free. Play Teen Patti, Rummy & more. Earn real cash with secure payments. 500K+ downloads!',
-    images: ["https://3pattiworldapp.com.pk/3-patti-world-logo.webp"],
+    images: ["https://3pattiworldapp.com.pk/3-patti-world.webp"],
   },
 };
 
@@ -83,7 +83,7 @@ export default function DownloadPage() {
       "https://3pattiworldapp.com.pk/3-patti-world-game-pakistan.webp",
       "https://3pattiworldapp.com.pk/3-patti-world-deposit-money.webp"
     ],
-    "image": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp",
+    "image": "https://3pattiworldapp.com.pk/3-patti-world.webp",
     "author": {
       "@type": "Organization",
       "name": "3 Patti World",
@@ -104,7 +104,7 @@ export default function DownloadPage() {
       {/* Hero Section */}
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+          <h1 className="text-3xl md:text-5xl font-bold mb-6">
             <span className="text-white">Download </span>
             <span className="text-[#FFA500]">3 Patti World Game</span>
             <span className="text-white"> Free APK</span>
@@ -132,7 +132,7 @@ export default function DownloadPage() {
         <div className="flex justify-center mb-12">
           <div className="relative" style={{ width: '320px', height: '320px', maxWidth: '100%' }}>
             <Image
-              src="/3-patti-world-logo.webp"
+              src="/3-patti-world.webp"
               alt="3 Patti World Logo"
               width={320}
               height={320}

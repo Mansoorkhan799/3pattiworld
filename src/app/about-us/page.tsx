@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://3pattiworldapp.com.pk/3-patti-world-logo.webp",
+        url: "https://3pattiworldapp.com.pk/3-patti-world.webp",
         width: 1200,
         height: 630,
         alt: "About 3 Patti World - Premier Card Gaming Platform",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: 'About 3 Patti World - Pakistan\'s Premier Card Gaming Platform',
     description: 'Learn about 3 Patti World, our history, mission, and vision for creating the best card gaming platform in Pakistan with real cash rewards.',
-    images: ["https://3pattiworldapp.com.pk/3-patti-world-logo.webp"],
+    images: ["https://3pattiworldapp.com.pk/3-patti-world.webp"],
   },
 };
 
@@ -62,7 +62,7 @@ export default function AboutPage() {
                 <Link href="/" className="block">
                   <div className="relative w-[280px] h-[280px] md:w-[320px] md:h-[320px] mx-auto md:mx-0 rounded-lg overflow-hidden bg-[#0A1029]">
                     <Image 
-                      src="/3-patti-world-logo.webp" 
+                      src="/3-patti-world.webp" 
                       alt="3 Patti World Logo" 
                       width={320}
                       height={320}
@@ -122,7 +122,7 @@ export default function AboutPage() {
               "name": "3 Patti World",
               "alternateName": "3 Patti World",
               "url": "https://3pattiworldapp.com.pk",
-              "logo": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp",
+              "logo": "https://3pattiworldapp.com.pk/3-patti-world.webp",
               "description": "3 Patti World is Pakistan's premier Teen Patti gaming platform with real cash rewards.",
               "foundingDate": "2024",
               "foundingLocation": {

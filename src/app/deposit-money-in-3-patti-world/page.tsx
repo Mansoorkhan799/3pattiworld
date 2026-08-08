@@ -44,12 +44,12 @@ export default function DepositMoneyPage() {
               />
             </div>
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              How to Deposit Money in 3 Patti World?
+              How to Deposit Money in <span className="text-[#FFA500]">3 Patti World</span>?
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8">
               Quick, Safe & Easy Payment Methods with JazzCash and EasyPaisa
             </p>
-            <DownloadButton />
+            <DownloadButton label="DEPOSIT NOW" />
           </div>
         </div>
       </section>
@@ -299,7 +299,7 @@ export default function DepositMoneyPage() {
             <p className="text-lg text-gray-300 mb-8">
               Download 3 Patti World now and deposit money to start earning real cash!
             </p>
-            <DownloadButton />
+            <DownloadButton label="DEPOSIT NOW" />
           </div>
         </div>
       </section>
@@ -320,7 +320,7 @@ export default function DepositMoneyPage() {
                 "inLanguage": "en-US",
                 "about": { "@type": "Thing", "name": "3 Patti World", "url": "https://3pattiworldapp.com.pk" },
                 "mainEntity": { "@id": "https://3pattiworldapp.com.pk/deposit-money-in-3-patti-world#howto" },
-                "primaryImageOfPage": { "@type": "ImageObject", "url": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp" }
+                "primaryImageOfPage": { "@type": "ImageObject", "url": "https://3pattiworldapp.com.pk/3-patti-world.webp" }
               },
               {
                 "@id": "https://3pattiworldapp.com.pk/deposit-money-in-3-patti-world#howto",

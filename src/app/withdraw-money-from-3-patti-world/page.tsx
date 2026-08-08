@@ -44,12 +44,12 @@ export default function WithdrawMoneyPage() {
               />
             </div>
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              How to Withdraw Money from 3 Patti World?
+              How to Withdraw Money from <span className="text-[#FFA500]">3 Patti World</span>?
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8">
               Fast, Secure & Easy Cash Out with JazzCash, EasyPaisa & Bank Transfer
             </p>
-            <DownloadButton />
+            <DownloadButton label="WITHDRAW NOW" />
           </div>
         </div>
       </section>
@@ -329,7 +329,7 @@ export default function WithdrawMoneyPage() {
             <p className="text-lg text-gray-300 mb-8">
               Download 3 Patti World now and start withdrawing your earnings securely!
             </p>
-            <DownloadButton />
+            <DownloadButton label="WITHDRAW NOW" />
           </div>
         </div>
       </section>
@@ -350,7 +350,7 @@ export default function WithdrawMoneyPage() {
                 "inLanguage": "en-US",
                 "about": { "@type": "Thing", "name": "3 Patti World", "url": "https://3pattiworldapp.com.pk" },
                 "mainEntity": { "@id": "https://3pattiworldapp.com.pk/withdraw-money-from-3-patti-world#howto" },
-                "primaryImageOfPage": { "@type": "ImageObject", "url": "https://3pattiworldapp.com.pk/3-patti-world-logo.webp" }
+                "primaryImageOfPage": { "@type": "ImageObject", "url": "https://3pattiworldapp.com.pk/3-patti-world.webp" }
               },
               {
                 "@id": "https://3pattiworldapp.com.pk/withdraw-money-from-3-patti-world#howto",

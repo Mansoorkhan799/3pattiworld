@@ -27,7 +27,7 @@ export default function HowToSchema({
   steps,
   url,
   totalTime,
-  image = `${BASE}/3-patti-world-logo.webp`,
+  image = `${BASE}/3-patti-world.webp`,
 }: HowToSchemaProps) {
   const howTo = {
     "@context": "https://schema.org",
