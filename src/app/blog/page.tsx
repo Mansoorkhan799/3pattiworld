@@ -183,12 +183,12 @@ export default function Blog() {
 
         {/* 3Patti Blue Comparison */}
         <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
-          <h2 className="text-2xl font-bold mb-4 text-white">3Patti Blue vs 3 Patti World: Which Game Is Better for Earning Real Cash?</h2>
-          <p className="text-gray-300 mb-4">Complete comparison: Features, bonuses, withdrawal speed, game variety & earning potential. Find out which app pays better!</p>
+          <h2 className="text-2xl font-bold mb-4 text-white">3Patti Blue vs 3 Patti World: Which Has More to Play?</h2>
+          <p className="text-gray-300 mb-4">How does 3Patti Blue&apos;s game selection stack up against 3 Patti World&apos;s Teen Patti, 10 Cards, Ludo, Tiger vs Dragon and Mines lineup?</p>
           <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
-            <span>📅 January 2026</span>
+            <span>📅 August 2026</span>
             <span>•</span>
-            <span>8 min read</span>
+            <span>5 min read</span>
           </div>
           <Link href="/blog/3patti-blue-vs-3-patti-world" className="text-accent hover:underline font-semibold">
             Read More →
@@ -197,12 +197,12 @@ export default function Blog() {
 
         {/* 3Patti Gold Comparison */}
         <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
-          <h2 className="text-2xl font-bold mb-4 text-white">3Patti Gold vs 3 Patti World: Which Game Is Better for Earning Real Cash?</h2>
-          <p className="text-gray-300 mb-4">Detailed comparison: Bonuses, games, withdrawal speed & earning analysis. Discover which app is better for Pakistan players!</p>
+          <h2 className="text-2xl font-bold mb-4 text-white">3Patti Gold vs 3 Patti World: Which Is Easier to Actually Use?</h2>
+          <p className="text-gray-300 mb-4">Urdu support, interface simplicity, and setup friction compared for everyday Pakistani users.</p>
           <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
-            <span>📅 January 2026</span>
+            <span>📅 August 2026</span>
             <span>•</span>
-            <span>9 min read</span>
+            <span>5 min read</span>
           </div>
           <Link href="/blog/3patti-gold-vs-3-patti-world" className="text-accent hover:underline font-semibold">
             Read More →
@@ -211,12 +211,12 @@ export default function Blog() {
 
         {/* 3Patti Lucky Comparison */}
         <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
-          <h2 className="text-2xl font-bold mb-4 text-white">3Patti Lucky vs 3 Patti World: Which Game Is Better for Earning Real Cash?</h2>
-          <p className="text-gray-300 mb-4">Detailed comparison: Games, bonuses, payout speed & earning analysis. Find the best real money app for Pakistan!</p>
+          <h2 className="text-2xl font-bold mb-4 text-white">3Patti Lucky vs 3 Patti World: Comparing Bonuses and VIP Rewards</h2>
+          <p className="text-gray-300 mb-4">Welcome bonuses, referral rewards, and VIP tiers — what to check before you claim any offer.</p>
           <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
-            <span>📅 January 2026</span>
+            <span>📅 August 2026</span>
             <span>•</span>
-            <span>10 min read</span>
+            <span>5 min read</span>
           </div>
           <Link href="/blog/3patti-lucky-vs-3-patti-world" className="text-accent hover:underline font-semibold">
             Read More →
@@ -225,12 +225,12 @@ export default function Blog() {
 
         {/* 3Patti Room Comparison */}
         <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
-          <h2 className="text-2xl font-bold mb-4 text-white">3Patti Room vs 3 Patti World: Which Game Is Better for Earning Real Cash?</h2>
-          <p className="text-gray-300 mb-4">Comprehensive comparison: Features, bonuses, withdrawal speed & real earning potential for Pakistan players!</p>
+          <h2 className="text-2xl font-bold mb-4 text-white">3Patti Room vs 3 Patti World: A Safety-First Comparison</h2>
+          <p className="text-gray-300 mb-4">How to check you&apos;re downloading from a genuine source before installing either app.</p>
           <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
-            <span>📅 January 2026</span>
+            <span>📅 August 2026</span>
             <span>•</span>
-            <span>11 min read</span>
+            <span>5 min read</span>
           </div>
           <Link href="/blog/3patti-room-vs-3-patti-world" className="text-accent hover:underline font-semibold">
             Read More →
@@ -267,12 +267,12 @@ export default function Blog() {
 
         {/* IPS Exceed How to Fix */}
         <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
-          <h2 className="text-2xl font-bold mb-4 text-white">IPS Exceed Issue 3 Patti World: How to Fix</h2>
-          <p className="text-gray-300 mb-4">Fix IPS exceed or IP limit exceeded error. Quick solutions: wait, use mobile data, restart router. Get back to playing fast.</p>
+          <h2 className="text-2xl font-bold mb-4 text-white">IP Exceed Error in 3 Patti World: Why It Happens and How to Fix It</h2>
+          <p className="text-gray-300 mb-4">What triggers the IP Exceed message, six fixes to try in order, and how to stop it from coming back.</p>
           <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
-            <span>📅 February 2026</span>
+            <span>📅 August 2026</span>
             <span>•</span>
-            <span>5 min read</span>
+            <span>6 min read</span>
           </div>
           <Link href="/blog/ips-exceed-issue-3-patti-world-how-to-fix" className="text-accent hover:underline font-semibold">
             Read More →
