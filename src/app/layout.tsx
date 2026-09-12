@@ -68,9 +68,6 @@ export const metadata: Metadata = {
     ],
     shortcut: '/favicon.ico'
   },
-  verification: {
-    google: "8a7c21f6e90a89ef",
-  },
   alternates: {
     canonical: "https://3pattiworldapp.com.pk",
   },
