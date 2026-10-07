@@ -186,18 +186,21 @@ export default function Home() {
             <p className="text-gray-400 text-sm text-center italic">*Available for Android devices only</p>
           </div>
 
-          <div className="hidden md:block md:w-1/2 md:mt-8">
-            <figure className="ml-auto text-center" style={{ width: '320px', maxWidth: '100%' }}>
-              <div style={{ width: '320px', height: '320px' }}>
-                <Image src="/3-patti-world.webp" alt="3 Patti World – Official Teen Patti APK Download Pakistan 2026" title="3 Patti World" width={320} height={320} className="object-contain drop-shadow-2xl" priority={true} fetchPriority="high" quality={90} sizes="320px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-              </div>
-              <figcaption className="text-gray-400 text-xs mt-2">3 Patti World – Official Teen Patti APK for Pakistan</figcaption>
-            </figure>
-          </div>
-          <div className="mt-8 md:hidden">
-            <figure className="mx-auto text-center" style={{ width: '280px', maxWidth: '100%' }}>
-              <div style={{ width: '280px', height: '280px' }}>
-                <Image src="/3-patti-world.webp" alt="3 Patti World – Official Teen Patti APK Download Pakistan 2026" title="3 Patti World" width={280} height={280} className="object-contain drop-shadow-2xl" priority={true} fetchPriority="high" quality={90} sizes="280px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+          <div className="w-full md:w-1/2 mt-8">
+            <figure className="mx-auto md:ml-auto md:mr-0 text-center w-[280px] md:w-[320px] max-w-full">
+              <div className="relative w-[280px] h-[280px] md:w-[320px] md:h-[320px] max-w-full">
+                <Image
+                  src="/3-patti-world.webp"
+                  alt="3 Patti World – Official Teen Patti APK Download Pakistan 2026"
+                  title="3 Patti World"
+                  width={320}
+                  height={320}
+                  className="object-contain drop-shadow-2xl w-full h-full"
+                  priority
+                  fetchPriority="high"
+                  quality={90}
+                  sizes="(max-width: 768px) 280px, 320px"
+                />
               </div>
               <figcaption className="text-gray-400 text-xs mt-2">3 Patti World – Official Teen Patti APK for Pakistan</figcaption>
             </figure>

@@ -1,20 +1,9 @@
-import js from '@eslint/js';
-import { FlatCompat } from '@eslint/eslintrc';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import nextVitals from 'eslint-config-next/core-web-vitals';
 import typescriptPlugin from '@typescript-eslint/eslint-plugin';
 import typescriptParser from '@typescript-eslint/parser';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-  recommendedConfig: js.configs.recommended,
-});
-
-export default [
-  ...compat.extends('next/core-web-vitals'),
+const eslintConfig = [
+  ...nextVitals,
   {
     files: ['**/*.{ts,tsx}'],
     languageOptions: {
@@ -28,7 +17,8 @@ export default [
     },
     rules: {
       'react/no-unescaped-entities': 'off',
-      '@typescript-eslint/no-unused-vars': ['warn', { 
+      'react-hooks/set-state-in-effect': 'off',
+      '@typescript-eslint/no-unused-vars': ['warn', {
         argsIgnorePattern: '^_',
         varsIgnorePattern: '^_',
       }],
@@ -36,3 +26,5 @@ export default [
     },
   },
 ];
+
+export default eslintConfig;
